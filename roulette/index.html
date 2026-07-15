@@ -1,1 +1,478 @@
 
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>랜덤 룰렛</title>
+  <style>
+    :root {
+      --bg: #f4f6fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #4f46e5;
+      --primary-hover: #4338ca;
+      --border: #e5e7eb;
+      --danger: #dc2626;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #e0e7ff 0, transparent 35%),
+        radial-gradient(circle at bottom right, #fce7f3 0, transparent 35%),
+        var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .app {
+      width: min(1050px, 100%);
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(255,255,255,0.7);
+      box-shadow: 0 20px 60px rgba(31, 41, 55, 0.12);
+      border-radius: 24px;
+      padding: 28px;
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 46px);
+      text-align: center;
+    }
+
+    .subtitle {
+      margin: 0 0 28px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 1.15fr) minmax(280px, 0.85fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .wheel-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .wheel-wrap {
+      position: relative;
+      width: min(520px, 82vw);
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+    }
+
+    .pointer {
+      position: absolute;
+      top: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 22px solid transparent;
+      border-right: 22px solid transparent;
+      border-top: 48px solid #ef4444;
+      z-index: 5;
+      filter: drop-shadow(0 4px 5px rgba(0,0,0,0.25));
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      box-shadow:
+        0 12px 35px rgba(31, 41, 55, 0.22),
+        inset 0 0 0 10px #fff;
+      background: white;
+    }
+
+    .center-dot {
+      position: absolute;
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: white;
+      border: 8px solid #111827;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.22);
+      z-index: 4;
+    }
+
+    button {
+      border: 0;
+      border-radius: 12px;
+      padding: 13px 18px;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+      transition: transform 0.15s ease, background 0.15s ease, opacity 0.15s ease;
+    }
+
+    button:hover:not(:disabled) {
+      transform: translateY(-1px);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+    }
+
+    .spin-btn {
+      width: min(320px, 100%);
+      background: var(--primary);
+      color: white;
+      font-size: 20px;
+      padding: 16px 22px;
+      box-shadow: 0 8px 20px rgba(79, 70, 229, 0.28);
+    }
+
+    .spin-btn:hover:not(:disabled) {
+      background: var(--primary-hover);
+    }
+
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .panel h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    input {
+      flex: 1;
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 13px 14px;
+      font: inherit;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+    }
+
+    .add-btn {
+      background: #111827;
+      color: white;
+      white-space: nowrap;
+    }
+
+    .items {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+      max-height: 310px;
+      overflow-y: auto;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 11px 12px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    .item span {
+      word-break: break-word;
+    }
+
+    .delete-btn {
+      background: transparent;
+      color: var(--danger);
+      padding: 6px 8px;
+      font-size: 14px;
+    }
+
+    .result {
+      margin-top: 18px;
+      min-height: 78px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      border-radius: 14px;
+      background: #eef2ff;
+      padding: 14px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .hint {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 820px) {
+      .app {
+        padding: 20px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .panel {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>🎯 랜덤 룰렛</h1>
+    <p class="subtitle">항목을 넣고 버튼을 눌러 랜덤으로 하나를 선택하세요.</p>
+
+    <section class="layout">
+      <div class="wheel-area">
+        <div class="wheel-wrap">
+          <div class="pointer" aria-hidden="true"></div>
+          <canvas id="wheel" width="700" height="700" aria-label="룰렛"></canvas>
+          <div class="center-dot" aria-hidden="true"></div>
+        </div>
+        <button id="spinBtn" class="spin-btn">룰렛 돌리기</button>
+      </div>
+
+      <aside class="panel">
+        <h2>룰렛 항목</h2>
+        <div class="input-row">
+          <input id="itemInput" type="text" maxlength="30" placeholder="예: 치킨" />
+          <button id="addBtn" class="add-btn">추가</button>
+        </div>
+
+        <ul id="itemList" class="items"></ul>
+
+        <div id="result" class="result">결과가 여기에 표시됩니다.</div>
+        <p class="hint">
+          최소 2개 이상의 항목이 필요합니다. 항목은 브라우저에 자동 저장됩니다.
+        </p>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const canvas = document.getElementById("wheel");
+    const ctx = canvas.getContext("2d");
+    const spinBtn = document.getElementById("spinBtn");
+    const addBtn = document.getElementById("addBtn");
+    const itemInput = document.getElementById("itemInput");
+    const itemList = document.getElementById("itemList");
+    const resultBox = document.getElementById("result");
+
+    const colors = [
+      "#6366f1", "#ec4899", "#14b8a6", "#f59e0b",
+      "#8b5cf6", "#ef4444", "#06b6d4", "#84cc16",
+      "#f97316", "#3b82f6"
+    ];
+
+    let items = JSON.parse(localStorage.getItem("rouletteItems")) || [
+      "치킨", "피자", "햄버거", "떡볶이", "초밥", "파스타"
+    ];
+
+    let rotation = 0;
+    let spinning = false;
+
+    function saveItems() {
+      localStorage.setItem("rouletteItems", JSON.stringify(items));
+    }
+
+    function drawWheel() {
+      const size = canvas.width;
+      const center = size / 2;
+      const radius = center - 18;
+
+      ctx.clearRect(0, 0, size, size);
+
+      if (items.length === 0) {
+        ctx.beginPath();
+        ctx.arc(center, center, radius, 0, Math.PI * 2);
+        ctx.fillStyle = "#e5e7eb";
+        ctx.fill();
+
+        ctx.fillStyle = "#6b7280";
+        ctx.font = "700 34px system-ui";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText("항목을 추가하세요", center, center);
+        return;
+      }
+
+      const slice = (Math.PI * 2) / items.length;
+
+      items.forEach((item, index) => {
+        const start = rotation + index * slice - Math.PI / 2;
+        const end = start + slice;
+
+        ctx.beginPath();
+        ctx.moveTo(center, center);
+        ctx.arc(center, center, radius, start, end);
+        ctx.closePath();
+        ctx.fillStyle = colors[index % colors.length];
+        ctx.fill();
+
+        ctx.strokeStyle = "rgba(255,255,255,0.85)";
+        ctx.lineWidth = 5;
+        ctx.stroke();
+
+        ctx.save();
+        ctx.translate(center, center);
+        ctx.rotate(start + slice / 2);
+
+        ctx.fillStyle = "#ffffff";
+        ctx.font = `700 ${Math.max(20, Math.min(34, 270 / items.length + 16))}px system-ui`;
+        ctx.textAlign = "right";
+        ctx.textBaseline = "middle";
+        ctx.shadowColor = "rgba(0,0,0,0.25)";
+        ctx.shadowBlur = 4;
+
+        const label = item.length > 12 ? item.slice(0, 11) + "…" : item;
+        ctx.fillText(label, radius - 36, 0);
+        ctx.restore();
+      });
+
+      ctx.beginPath();
+      ctx.arc(center, center, radius, 0, Math.PI * 2);
+      ctx.strokeStyle = "#111827";
+      ctx.lineWidth = 10;
+      ctx.stroke();
+    }
+
+    function renderItems() {
+      itemList.innerHTML = "";
+
+      items.forEach((item, index) => {
+        const li = document.createElement("li");
+        li.className = "item";
+
+        const text = document.createElement("span");
+        text.textContent = item;
+
+        const button = document.createElement("button");
+        button.className = "delete-btn";
+        button.textContent = "삭제";
+        button.disabled = spinning;
+        button.addEventListener("click", () => {
+          items.splice(index, 1);
+          saveItems();
+          renderItems();
+          drawWheel();
+          resultBox.textContent = "결과가 여기에 표시됩니다.";
+        });
+
+        li.append(text, button);
+        itemList.appendChild(li);
+      });
+
+      spinBtn.disabled = items.length < 2 || spinning;
+    }
+
+    function addItem() {
+      const value = itemInput.value.trim();
+      if (!value) return;
+
+      items.push(value);
+      itemInput.value = "";
+      saveItems();
+      renderItems();
+      drawWheel();
+      itemInput.focus();
+    }
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function spin() {
+      if (spinning || items.length < 2) return;
+
+      spinning = true;
+      spinBtn.disabled = true;
+      addBtn.disabled = true;
+      itemInput.disabled = true;
+      resultBox.textContent = "룰렛이 돌아가는 중...";
+
+      const slice = (Math.PI * 2) / items.length;
+      const winnerIndex = Math.floor(Math.random() * items.length);
+
+      const currentNormalized = ((rotation % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2);
+      const targetNormalized =
+        ((-winnerIndex * slice - slice / 2) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2);
+
+      let delta = targetNormalized - currentNormalized;
+      if (delta < 0) delta += Math.PI * 2;
+
+      const extraSpins = 6 + Math.floor(Math.random() * 3);
+      const startRotation = rotation;
+      const targetRotation = rotation + extraSpins * Math.PI * 2 + delta;
+      const duration = 4200;
+      const startTime = performance.now();
+
+      function animate(now) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        rotation = startRotation + (targetRotation - startRotation) * easeOutCubic(progress);
+        drawWheel();
+
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          rotation = targetRotation % (Math.PI * 2);
+          drawWheel();
+          spinning = false;
+          addBtn.disabled = false;
+          itemInput.disabled = false;
+          resultBox.textContent = `🎉 당첨: ${items[winnerIndex]}`;
+          renderItems();
+        }
+      }
+
+      requestAnimationFrame(animate);
+    }
+
+    addBtn.addEventListener("click", addItem);
+    spinBtn.addEventListener("click", spin);
+
+    itemInput.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") addItem();
+    });
+
+    renderItems();
+    drawWheel();
+  </script>
+</body>
+</html>
