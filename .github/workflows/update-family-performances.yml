@@ -1,0 +1,62 @@
+name: Update family performance data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # KST 07:10, 13:10, 19:10 - 신규 공연과 변경을 하루 세 번 확인
+    - cron: "10 22,4,10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: family-performance-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate configuration
+        run: python -m json.tool family/config.json >/dev/null
+      - name: Sync official performance data
+        env:
+          KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
+          SYNC_DAYS_BACK: "45"
+          SYNC_DAYS_FORWARD: "365"
+          SYNC_PAGE_SIZE: "100"
+          MIN_SUCCESS_RATIO: "0.80"
+        run: python family/scripts/sync_performances.py
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool family/data/performances.json >/dev/null
+          python -m json.tool family/data/venues.json >/dev/null
+          python -m json.tool family/data/sync-meta.json >/dev/null
+          python -m json.tool family/data/alerts.json >/dev/null
+      - name: Commit verified changes
+        run: |
+          if git diff --quiet -- family/data; then
+            echo "No verified data changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add family/data
+          git commit -m "data: refresh verified family performances"
+          git push
+      - name: Notify sync failure
+        if: failure()
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -n "$WEBHOOK" ]; then
+            curl -fsS -H 'Content-Type: application/json' -d '{"content":"⚠️ 가족 공연 데이터 갱신에 실패했습니다. GitHub Actions를 확인하세요."}' "$WEBHOOK"
+          fi
