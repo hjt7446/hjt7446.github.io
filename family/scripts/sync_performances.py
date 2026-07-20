@@ -19,17 +19,19 @@ HISTORY_PATH, ALERTS_PATH, META_PATH = DATA / "change-history.json", DATA / "ale
 CONFIG_PATH = ROOT / "config.json"
 BASE = "https://www.kopis.or.kr/openApi/restful"
 KEY = os.environ.get("KOPIS_API_KEY", "").strip()
-DAYS_BACK = int(os.environ.get("SYNC_DAYS_BACK", "45"))
-DAYS_FORWARD = int(os.environ.get("SYNC_DAYS_FORWARD", "365"))
+DAYS_BACK = int(os.environ.get("SYNC_DAYS_BACK", "14"))
+DAYS_FORWARD = int(os.environ.get("SYNC_DAYS_FORWARD", "180"))
 PAGE_SIZE = min(int(os.environ.get("SYNC_PAGE_SIZE", "100")), 100)
-MAX_PAGES = int(os.environ.get("SYNC_MAX_PAGES", "100"))
-DELAY = float(os.environ.get("SYNC_REQUEST_DELAY", "0.12"))
-TIMEOUT = int(os.environ.get("SYNC_TIMEOUT", "30"))
+MAX_PAGES = int(os.environ.get("SYNC_MAX_PAGES", "20"))
+DELAY = float(os.environ.get("SYNC_REQUEST_DELAY", "0.05"))
+TIMEOUT = int(os.environ.get("SYNC_TIMEOUT", "15"))
 MIN_SUCCESS_RATIO = float(os.environ.get("MIN_SUCCESS_RATIO", "0.80"))
 USER_AGENT = "family-performance-finder/2.0 (+https://hjt7446.github.io/)"
 KST = timezone(timedelta(hours=9))
 VOLATILE = {"lastCheckedAt", "confidence", "freshness", "changeSummary"}
 COMPARE_FIELDS = ["title","venueId","startDate","endDate","genre","runtime","age","price","cast","poster","bookingUrls","sourceStatus"]
+CAPITAL_REGIONS = {"서울": "11", "인천": "28", "경기": "41"}
+TARGET_REGION_NAMES = set(CAPITAL_REGIONS)
 
 def now_iso() -> str: return datetime.now(KST).isoformat(timespec="seconds")
 def load(path: Path, default: Any):
@@ -114,14 +116,35 @@ def confidence(perf: dict[str,Any], venue: dict[str,Any]) -> dict[str,Any]:
     return {"score":score,"level":level,"checks":checks}
 
 def fetch_list():
-    start=date.today()-timedelta(days=DAYS_BACK); end=date.today()+timedelta(days=DAYS_FORWARD); rows=[]
-    for page in range(1,MAX_PAGES+1):
-        items=request_xml("pblprfr",{"stdate":start.strftime("%Y%m%d"),"eddate":end.strftime("%Y%m%d"),"cpage":page,"rows":PAGE_SIZE}).findall(".//db")
-        if not items: break
-        rows += [{c.tag:(c.text or "").strip() for c in x} for x in items]
-        print(f"[sync] page {page}: {len(items)}")
-        if len(items)<PAGE_SIZE: break
-        time.sleep(DELAY)
+    start=date.today()-timedelta(days=DAYS_BACK)
+    end=date.today()+timedelta(days=DAYS_FORWARD)
+    rows=[]
+    seen=set()
+    print(f"[sync] target=서울/인천/경기 range={start}..{end}", flush=True)
+    for region_name, region_code in CAPITAL_REGIONS.items():
+        for page in range(1,MAX_PAGES+1):
+            params={
+                "stdate":start.strftime("%Y%m%d"),
+                "eddate":end.strftime("%Y%m%d"),
+                "cpage":page,
+                "rows":PAGE_SIZE,
+                "signgucode":region_code,
+            }
+            items=request_xml("pblprfr",params).findall(".//db")
+            if not items:
+                break
+            added=0
+            for item in items:
+                row={c.tag:(c.text or "").strip() for c in item}
+                pid=row.get("mt20id")
+                if pid and pid not in seen:
+                    seen.add(pid)
+                    rows.append(row)
+                    added+=1
+            print(f"[sync] {region_name} page {page}: received={len(items)} added={added} total={len(rows)}", flush=True)
+            if len(items)<PAGE_SIZE:
+                break
+            time.sleep(DELAY)
     return rows
 
 def fetch_detail(pid):
@@ -166,14 +189,16 @@ def main():
         results.append(base)
         if prev and diff:
             evt={"performanceId":pid,"title":title,"detectedAt":stamp,"changes":diff}; changes.append(evt); history.append(evt)
-        if i%25==0: print(f"[sync] details {i}/{len(rows)}")
+        if i%20==0: print(f"[sync] details {i}/{len(rows)} successes={len(results)} failures={failures}", flush=True)
         time.sleep(DELAY)
     ratio=len(results)/max(len(rows),1)
     if ratio<MIN_SUCCESS_RATIO: raise SystemExit(f"Success ratio {ratio:.1%} below threshold; previous data preserved")
     # 목록에서 사라졌더라도 아직 미래/진행 공연이면 이전 데이터를 보존하고 stale 표시
     result_ids={x["id"] for x in results}
     for p in old_list:
-        if p.get("id") not in result_ids and p.get("endDate","") >= date.today().isoformat():
+        old_venue=old_venues.get(p.get("venueId"),{})
+        old_region=(old_venue.get("city") or "").replace("특별시","").replace("광역시","").replace("도","")
+        if p.get("id") not in result_ids and p.get("endDate","") >= date.today().isoformat() and old_region in TARGET_REGION_NAMES:
             q=dict(p); q["freshness"]="이번 수집에서 미확인"; q["confidence"]={**q.get("confidence",{}),"level":"확인 필요"}; results.append(q)
     results.sort(key=lambda p:(p.get("startDate",""),p.get("title","")))
     watch=[x.lower() for x in config.get("watchKeywords",[])]
@@ -182,9 +207,11 @@ def main():
         matched=[k for k in watch if k in p.get("title","").lower()]
         if matched: alerts.append({"type":"WATCH_MATCH","performanceId":p["id"],"title":p["title"],"keywords":matched,"date":p["startDate"],"detectedAt":p["firstSeenAt"],"message":f"관심 작품 발견: {p['title']}"})
     for c in changes[-200:]: alerts.append({"type":"CHANGED","performanceId":c["performanceId"],"title":c["title"],"detectedAt":c["detectedAt"],"message":"공연 정보가 변경되었습니다.","changes":[x["field"] for x in c["changes"]]})
-    write_atomic(P_PATH,results); write_atomic(V_PATH,sorted(venues.values(),key=lambda v:(v.get("city",""),v.get("name",""))))
+    used_venue_ids={p.get("venueId") for p in results}
+    kept_venues=[v for key,v in venues.items() if key in used_venue_ids]
+    write_atomic(P_PATH,results); write_atomic(V_PATH,sorted(kept_venues,key=lambda v:(v.get("city",""),v.get("name",""))))
     write_atomic(HISTORY_PATH,history[-1000:]); write_atomic(ALERTS_PATH,sorted(alerts,key=lambda x:x.get("detectedAt",""),reverse=True)[:300])
-    write_atomic(META_PATH,{"updatedAt":stamp,"status":"ok","source":"KOPIS official API","performanceCount":len(results),"venueCount":len(venues),"changedCount":len(changes),"failedCount":failures,"successRatio":round(ratio,4),"range":{"daysBack":DAYS_BACK,"daysForward":DAYS_FORWARD},"dataNotes":["예매 오픈일은 공식 데이터에 없으면 표시하지 않음","예매 링크와 관람연령이 없는 공연은 확인 필요로 표시"]})
-    print(f"[sync] done performances={len(results)} changes={len(changes)} failures={failures}")
+    write_atomic(META_PATH,{"updatedAt":stamp,"status":"ok","source":"KOPIS official API","performanceCount":len(results),"venueCount":len(kept_venues),"changedCount":len(changes),"failedCount":failures,"successRatio":round(ratio,4),"range":{"daysBack":DAYS_BACK,"daysForward":DAYS_FORWARD},"regions":list(CAPITAL_REGIONS.keys()),"dataNotes":["예매 오픈일은 공식 데이터에 없으면 표시하지 않음","예매 링크와 관람연령이 없는 공연은 확인 필요로 표시"]})
+    print(f"[sync] done performances={len(results)} venues={len(kept_venues)} changes={len(changes)} failures={failures}", flush=True)
 
 if __name__=="__main__": main()

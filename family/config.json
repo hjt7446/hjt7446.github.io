@@ -1,11 +1,27 @@
 {
   "siteName": "우리 가족 공연찾기",
   "familyProfiles": [
-    {"name": "아이", "age": 6}
+    {
+      "name": "아이",
+      "age": 6
+    }
   ],
-  "watchKeywords": ["알파블록스", "넘버블록스", "블루이", "핑크퐁", "가족뮤지컬", "어린이뮤지컬"],
-  "preferredRegions": ["서울", "경기", "인천"],
+  "watchKeywords": [
+    "알파블록스",
+    "넘버블록스",
+    "블루이",
+    "핑크퐁",
+    "가족뮤지컬",
+    "어린이뮤지컬"
+  ],
+  "preferredRegions": [
+    "서울",
+    "인천",
+    "경기"
+  ],
   "endingSoonDays": 7,
   "newDays": 7,
-  "staleHours": 30
+  "staleHours": 30,
+  "homeRegion": "인천",
+  "regionLabel": "수도권"
 }
