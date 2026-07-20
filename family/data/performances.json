@@ -1,0 +1,8 @@
+[
+  {"id":"p-alpha","title":"알파블록스 라이브","venueId":"v-sejong","startDate":"2026-07-25","endDate":"2026-08-02","createdAt":"2026-07-17","updatedAt":"2026-07-19","ticketOpenDate":"2026-07-25","ticketSaleStatus":"AUTO","description":"아이들이 사랑하는 알파블록스를 무대에서 만나는 가족 공연","emoji":"🔢"},
+  {"id":"p-midsummer","title":"한여름 밤의 꿈","venueId":"v-artcenter","startDate":"2026-07-20","endDate":"2026-07-27","createdAt":"2026-07-02","updatedAt":"2026-07-15","ticketOpenDate":"2026-07-10","ticketSaleStatus":"ON_SALE","description":"셰익스피어의 낭만 희극을 현대적으로 재해석한 무대","emoji":"🌙"},
+  {"id":"p-ocean","title":"오션 심포니","venueId":"v-busan","startDate":"2026-07-23","endDate":"2026-07-23","createdAt":"2026-07-18","updatedAt":"2026-07-18","ticketOpenDate":"2026-07-22","ticketSaleStatus":"AUTO","description":"바다를 주제로 펼쳐지는 여름밤 오케스트라 콘서트","emoji":"🌊"},
+  {"id":"p-carmen","title":"오페라 카르멘","venueId":"v-daegu","startDate":"2026-08-01","endDate":"2026-08-04","createdAt":"2026-06-29","updatedAt":"2026-07-18","ticketOpenDate":"2026-07-21","ticketSaleStatus":"AUTO","description":"비제의 명작 오페라 카르멘 전막 공연","emoji":"🌹"},
+  {"id":"p-jazz","title":"서울 재즈 나이트","venueId":"v-sejong","startDate":"2026-07-22","endDate":"2026-07-22","createdAt":"2026-07-01","updatedAt":"2026-07-10","ticketOpenDate":"2026-06-20","ticketSaleStatus":"SOLD_OUT","description":"국내 정상급 재즈 뮤지션들의 특별한 여름 공연","emoji":"🎷"},
+  {"id":"p-kids","title":"마법의 숲 탐험대","venueId":"v-artcenter","startDate":"2026-07-26","endDate":"2026-08-09","createdAt":"2026-07-16","updatedAt":"2026-07-16","ticketOpenDate":"2026-07-24","ticketSaleStatus":"AUTO","description":"온 가족이 함께 떠나는 참여형 판타지 뮤지컬","emoji":"🧚"}
+]

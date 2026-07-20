@@ -1,0 +1,6 @@
+[
+  {"id":"v-sejong","name":"세종문화회관 대극장","address":"서울특별시 종로구 세종대로 175","city":"서울","region":"종로구","latitude":37.57259,"longitude":126.97572,"homepage":"https://www.sejongpac.or.kr","parking":"공연 관람객 할인 적용","phone":"02-399-1000"},
+  {"id":"v-artcenter","name":"예술의전당 오페라극장","address":"서울특별시 서초구 남부순환로 2406","city":"서울","region":"서초구","latitude":37.47812,"longitude":127.01118,"homepage":"https://www.sac.or.kr","parking":"유료 주차장 운영","phone":"1668-1352"},
+  {"id":"v-busan","name":"부산문화회관 대극장","address":"부산광역시 남구 유엔평화로76번길 1","city":"부산","region":"남구","latitude":35.12735,"longitude":129.09308,"homepage":"https://www.bscc.or.kr","parking":"공연 관람객 주차 가능","phone":"051-607-6000"},
+  {"id":"v-daegu","name":"대구오페라하우스","address":"대구광역시 북구 호암로 15","city":"대구","region":"북구","latitude":35.88479,"longitude":128.59218,"homepage":"https://www.daeguoperahouse.org","parking":"지하 및 야외 주차장","phone":"053-430-7400"}
+]
