@@ -2,10 +2,12 @@
   "siteName": "우리 가족 공연찾기",
   "familyProfiles": [
     {
-      "name": "아이",
-      "age": 6
+      "name": "첫째",
+      "birthYear": 2022
     }
   ],
+  "maxAudienceAge": 8,
+  "excludeUnknownAge": true,
   "watchKeywords": [
     "알파블록스",
     "넘버블록스",
