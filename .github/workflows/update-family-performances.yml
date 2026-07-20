@@ -40,7 +40,7 @@ jobs:
         env:
           KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
           SYNC_DAYS_BACK: "14"
-          SYNC_DAYS_FORWARD: "180"
+          SYNC_DAYS_FORWARD: "90"
           SYNC_PAGE_SIZE: "100"
           SYNC_MAX_PAGES: "20"
           SYNC_REQUEST_DELAY: "0.05"
