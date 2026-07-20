@@ -1,5 +1,205 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296366",
+    "title": "강현정 피아노 독주회",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296257",
+    "title": "서명현 피아노 독주회",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295992",
+    "title": "FOR YUZU",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295921",
+    "title": "예원 챔버 오케스트라 정기 연주회",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295598",
+    "title": "제5회 사단법인 지영희류 해금산조 보존회 정기연주회: 師弟之情 (사제지정)",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295390",
+    "title": "솔크의 열다섯 번째 이야기: a SONG of HOPE for CHAD (차드에 희망을 노래하다)",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295352",
+    "title": "먼데이프로젝트 시즌9, 천진우 단독 포크 콘서트: 월요일은 개 같은 날이라서 월요일일까",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295152",
+    "title": "먼데이프로젝트X숲세권 MONDAY: SOOP, 모허 단독 콘서트",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294490",
+    "title": "인디빌리지 Vol.1 에로틱웜즈익스히비션의 어지러운 마을",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294061",
+    "title": "우석훈 코미디 단편선 [대학로]",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293527",
+    "title": "조지 할리오노 팬 콘서트: Q & A with friends",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293269",
+    "title": "죽음에 관하여",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293183",
+    "title": "박주영 피아노 독주회",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF292944",
+    "title": "김지혜 바이올린 독주회: 그리그 바이올린 소나타 전곡 연주",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291423",
+    "title": "제1181회 하우스콘서트, July Festival: Debussy Piano 3, 말하기 전에",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291420",
+    "title": "제1180회 하우스콘서트, July Festival: Artist in Focus 3, 문지영",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296446",
+    "title": "제3회 대한민국 대학연극제, Once On This Island",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294471",
+    "title": "팡팡 벌룬 일루전 [하남]",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294367",
+    "title": "제24회 경기인형극제 수원, 여우 까마귀 그리고 사자",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF290425",
+    "title": "피터팬 [성남]",
+    "detectedAt": "2026-07-21T08:10:56+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
