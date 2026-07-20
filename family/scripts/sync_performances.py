@@ -205,7 +205,21 @@ def main():
     alerts=[]
     for p in results:
         matched=[k for k in watch if k in p.get("title","").lower()]
-        if matched: alerts.append({"type":"WATCH_MATCH","performanceId":p["id"],"title":p["title"],"keywords":matched,"date":p["startDate"],"detectedAt":p["firstSeenAt"],"message":f"관심 작품 발견: {p['title']}"})
+        if matched:
+    alerts.append({
+        "type": "WATCH_MATCH",
+        "performanceId": p.get("id", ""),
+        "title": p.get("title", "제목 없음"),
+        "keywords": matched,
+        "date": p.get("startDate", ""),
+        "detectedAt": (
+            p.get("firstSeenAt")
+            or p.get("createdAt")
+            or p.get("updatedAt")
+            or stamp
+        ),
+        "message": f"관심 작품 발견: {p.get('title', '제목 없음')}",
+    })
     for c in changes[-200:]: alerts.append({"type":"CHANGED","performanceId":c["performanceId"],"title":c["title"],"detectedAt":c["detectedAt"],"message":"공연 정보가 변경되었습니다.","changes":[x["field"] for x in c["changes"]]})
     used_venue_ids={p.get("venueId") for p in results}
     kept_venues=[v for key,v in venues.items() if key in used_venue_ids]
