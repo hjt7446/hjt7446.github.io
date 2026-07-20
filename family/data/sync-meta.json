@@ -1,11 +1,14 @@
 {
-  "updatedAt": "2026-07-20T17:05:53+09:00",
+  "updatedAt": "2026-07-20T18:45:26+09:00",
   "status": "ok",
   "source": "KOPIS official API",
-  "performanceCount": 1592,
-  "venueCount": 500,
+  "performanceCount": 1277,
+  "venueCount": 387,
   "changedCount": 0,
   "failedCount": 0,
+  "ageSkippedCount": 336,
+  "maxAudienceAge": 8,
+  "excludeUnknownAge": true,
   "successRatio": 1.0,
   "range": {
     "daysBack": 14,
@@ -17,7 +20,9 @@
     "경기"
   ],
   "dataNotes": [
-    "예매 오픈일은 공식 데이터에 없으면 표시하지 않음",
-    "예매 링크와 관람연령이 없는 공연은 확인 필요로 표시"
+    "최소 관람 가능 연령이 8세 이하인 공연만 수록",
+    "관람 연령 정보가 없는 공연은 제외",
+    "성인 및 청소년 관람불가 공연은 제외",
+    "예매 오픈일은 공식 데이터에 없으면 표시하지 않음"
   ]
 }

@@ -42,16 +42,5 @@
     "date": "2026-08-08",
     "detectedAt": "2026-07-20T17:05:53+09:00",
     "message": "관심 작품 발견: 핑크퐁 클래식 나라: 뚜띠를 찾아서 [광명]"
-  },
-  {
-    "type": "WATCH_MATCH",
-    "performanceId": "p-alpha",
-    "title": "알파블록스 라이브",
-    "keywords": [
-      "알파블록스"
-    ],
-    "date": "2026-07-25",
-    "detectedAt": "2026-07-17",
-    "message": "관심 작품 발견: 알파블록스 라이브"
   }
 ]
