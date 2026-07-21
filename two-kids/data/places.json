@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-21T12:00:00+09:00",
-  "sourceNote": "초기 시설은 공식 홈페이지 기준으로 정리한 목록입니다. 운영시간·예약·편의시설은 방문 전 다시 확인하세요.",
+  "updatedAt": "2026-07-21T19:12:17+09:00",
+  "sourceNote": "공식 이용연령·주소를 자동 수집합니다. 수유실·주차 등 편의정보는 '확인 필요' 표시가 있으면 방문 전 공식 페이지에서 확인하세요.",
   "places": [
     {
       "id": "seoul-child-library",
@@ -141,6 +141,146 @@
       "ageMin": 0,
       "ageMax": 12,
       "verified": true
+    },
+    {
+      "id": "kids-서울형-키즈카페-시립-1호점",
+      "name": "서울형 키즈카페 시립 1호점",
+      "region": "서울 동작구",
+      "address": "서울특별시 동작구 노량진로 10 서울가족플라자 지하2층 (대방동)",
+      "category": "kids-cafe",
+      "ageMin": 4,
+      "ageMax": 10,
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": true,
+        "parking": false,
+        "elevator": true,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 92,
+        "baby": 60,
+        "solo": 66,
+        "parent": 75
+      },
+      "verified": false,
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=DJ230901&q_fcltyStle="
+    },
+    {
+      "id": "kids-서울형-키즈카페-시립-공예마을점",
+      "name": "서울형 키즈카페 시립 공예마을점",
+      "region": "서울 종로구",
+      "address": "서울특별시 종로구 율곡로3길 4 서울공예박물관 어린이박물관 (교육동 2~3층)",
+      "category": "kids-cafe",
+      "ageMin": 0,
+      "ageMax": 9,
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": true,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 92,
+        "baby": 72,
+        "solo": 68,
+        "parent": 80
+      },
+      "verified": false,
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=JN251201&q_fcltyStle="
+    },
+    {
+      "id": "kids-서울형-키즈카페-시립-뚝섬자벌레점",
+      "name": "서울형 키즈카페 시립 뚝섬자벌레점",
+      "region": "서울 광진구",
+      "address": "서울특별시 광진구 강변북로 2202 2층 꿈틀나루 (자양동)",
+      "category": "kids-cafe",
+      "ageMin": 0,
+      "ageMax": 6,
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": true,
+        "parking": false,
+        "elevator": true,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 78,
+        "solo": 70,
+        "parent": 79
+      },
+      "verified": false,
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=GJ240401&q_fcltyStle="
+    },
+    {
+      "id": "kids-서울형-키즈카페-시립-목동점",
+      "name": "서울형 키즈카페 시립 목동점",
+      "region": "서울 양천구",
+      "address": "서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)",
+      "category": "kids-cafe",
+      "ageMin": 3,
+      "ageMax": 12,
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": false,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 88,
+        "baby": 50,
+        "solo": 55,
+        "parent": 65
+      },
+      "verified": false,
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=YC231201&q_fcltyStle="
+    },
+    {
+      "id": "kids-서울형-키즈카페-시립-보라매공원점",
+      "name": "서울형 키즈카페 시립 보라매공원점",
+      "region": "서울 동작구",
+      "address": "서울특별시 동작구 여의대방로20길 33 1층 (신대방동)",
+      "category": "kids-cafe",
+      "ageMin": 3,
+      "ageMax": 9,
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": false,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 88,
+        "baby": 50,
+        "solo": 55,
+        "parent": 65
+      },
+      "verified": false,
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=DJ250901&q_fcltyStle="
     }
   ]
 }
