@@ -1,12 +1,381 @@
 {
-  "updatedAt": "2026-07-21T12:00:00+09:00",
+  "updatedAt": "2026-07-21T18:23:06+09:00",
   "sourceNote": "초기 화면 확인용 샘플입니다. 방문 전 공식 페이지에서 최신 정보를 확인하세요.",
   "places": [
-    {"id":"seoul-kids-cafe-sample-1","name":"서울형 키즈카페 예시 시설","region":"서울","address":"시설별 주소 확인","category":"kids-cafe","stayMinutes":120,"features":{"indoor":true,"stroller":true,"nursingRoom":false,"diaperTable":true,"parking":false,"elevator":true,"reservationFree":false,"free":true},"scores":{"first":94,"baby":72,"solo":70,"parent":78},"url":"https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do"},
-    {"id":"seoul-child-library","name":"서울특별시교육청 어린이도서관","region":"서울","address":"종로구 사직로9길 7","category":"library","stayMinutes":120,"features":{"indoor":true,"stroller":true,"nursingRoom":true,"diaperTable":true,"parking":false,"elevator":true,"reservationFree":true,"free":true},"scores":{"first":76,"baby":92,"solo":91,"parent":88},"url":"https://childlib.sen.go.kr/childlib/index.do"},
-    {"id":"national-child-library","name":"국립어린이청소년도서관","region":"서울","address":"강남구 테헤란로7길 21","category":"library","stayMinutes":150,"features":{"indoor":true,"stroller":true,"nursingRoom":true,"diaperTable":true,"parking":true,"elevator":true,"reservationFree":true,"free":true},"scores":{"first":82,"baby":91,"solo":87,"parent":90},"url":"https://www.nlcy.go.kr/"},
-    {"id":"seoul-imagination","name":"서울상상나라","region":"서울","address":"광진구 능동로 216","category":"museum","stayMinutes":180,"features":{"indoor":true,"stroller":true,"nursingRoom":true,"diaperTable":true,"parking":true,"elevator":true,"reservationFree":false,"free":false},"scores":{"first":96,"baby":85,"solo":72,"parent":86},"url":"https://www.seoulchildrensmuseum.org/"},
-    {"id":"national-child-museum","name":"국립중앙박물관 어린이박물관","region":"서울","address":"용산구 서빙고로 137","category":"museum","stayMinutes":150,"features":{"indoor":true,"stroller":true,"nursingRoom":true,"diaperTable":true,"parking":true,"elevator":true,"reservationFree":false,"free":true},"scores":{"first":91,"baby":89,"solo":80,"parent":92},"url":"https://www.museum.go.kr/site/child/home"},
-    {"id":"seoul-history-child","name":"서울역사박물관 어린이 공간","region":"서울","address":"종로구 새문안로 55","category":"museum","stayMinutes":110,"features":{"indoor":true,"stroller":true,"nursingRoom":true,"diaperTable":true,"parking":true,"elevator":true,"reservationFree":true,"free":true},"scores":{"first":80,"baby":90,"solo":88,"parent":90},"url":"https://museum.seoul.go.kr/"}
+    {
+      "id": "seoul-child-library",
+      "name": "서울특별시교육청 어린이도서관",
+      "region": "서울",
+      "address": "종로구 사직로9길 7",
+      "category": "library",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": false,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 76,
+        "baby": 92,
+        "solo": 91,
+        "parent": 88
+      },
+      "url": "https://childlib.sen.go.kr/childlib/index.do"
+    },
+    {
+      "id": "national-child-library",
+      "name": "국립어린이청소년도서관",
+      "region": "서울",
+      "address": "강남구 테헤란로7길 21",
+      "category": "library",
+      "stayMinutes": 150,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 82,
+        "baby": 91,
+        "solo": 87,
+        "parent": 90
+      },
+      "url": "https://www.nlcy.go.kr/"
+    },
+    {
+      "id": "seoul-imagination",
+      "name": "서울상상나라",
+      "region": "서울",
+      "address": "광진구 능동로 216",
+      "category": "museum",
+      "stayMinutes": 180,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": false,
+        "free": false
+      },
+      "scores": {
+        "first": 96,
+        "baby": 85,
+        "solo": 72,
+        "parent": 86
+      },
+      "url": "https://www.seoulchildrensmuseum.org/"
+    },
+    {
+      "id": "national-child-museum",
+      "name": "국립중앙박물관 어린이박물관",
+      "region": "서울",
+      "address": "용산구 서빙고로 137",
+      "category": "museum",
+      "stayMinutes": 150,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 91,
+        "baby": 89,
+        "solo": 80,
+        "parent": 92
+      },
+      "url": "https://www.museum.go.kr/site/child/home"
+    },
+    {
+      "id": "seoul-history-child",
+      "name": "서울역사박물관 어린이 공간",
+      "region": "서울",
+      "address": "종로구 새문안로 55",
+      "category": "museum",
+      "stayMinutes": 110,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 80,
+        "baby": 90,
+        "solo": 88,
+        "parent": 90
+      },
+      "url": "https://museum.seoul.go.kr/"
+    },
+    {
+      "id": "kids-서울형-키즈카페",
+      "name": "서울형 키즈카페",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do#none;"
+    },
+    {
+      "id": "kids-서울형-키즈카페-소개",
+      "name": "서울형 키즈카페 소개",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/dolbomMENU5/dolbomMENU5_1.jsp"
+    },
+    {
+      "id": "kids-여기저기-서울형-키즈카페-소개",
+      "name": "여기저기 서울형 키즈카페 소개",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do#none;"
+    },
+    {
+      "id": "kids-서울형-키즈카페-예약",
+      "name": "서울형 키즈카페 예약",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do"
+    },
+    {
+      "id": "kids-서울형-키즈카페-프로그램-예약",
+      "name": "서울형 키즈카페 프로그램 예약",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafeProgrm/BD_selectKidsCafeProgrmList.do"
+    },
+    {
+      "id": "kids-서울형키즈카페머니-사용처",
+      "name": "서울형키즈카페머니 사용처",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/dolbomMENU5/dolbomMENU5_3.jsp"
+    },
+    {
+      "id": "kids-서울형키즈카페",
+      "name": "서울형키즈카페",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do#none;"
+    },
+    {
+      "id": "kids-서울형키즈카페-소식",
+      "name": "서울형키즈카페 소식",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "https://umppa.seoul.go.kr/icare/user/bbs/BD_selectBbsList.do?q_bbsCode=1028&q_gubun=all"
+    },
+    {
+      "id": "kids-일반형-키즈카페",
+      "name": "일반형 키즈카페",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "javascript:tabChange(2001);"
+    },
+    {
+      "id": "kids-new-여기저기-키즈카페",
+      "name": "New 여기저기 키즈카페",
+      "region": "서울",
+      "address": "공식 상세 페이지 확인",
+      "category": "kids-cafe",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": false,
+        "diaperTable": false,
+        "parking": false,
+        "elevator": false,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 90,
+        "baby": 65,
+        "solo": 62,
+        "parent": 72
+      },
+      "url": "javascript:tabChange(2002);"
+    }
   ]
 }
