@@ -1,0 +1,31 @@
+name: Update two-kids place data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 21 * * 1,4" # KST 화/금 06:20
+permissions:
+  contents: write
+concurrency:
+  group: two-kids-place-sync
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r two-kids/scripts/requirements.txt
+      - run: python two-kids/scripts/crawl_places.py
+      - run: python -m json.tool two-kids/data/places.json >/dev/null
+      - name: Commit verified changes
+        run: |
+          if git diff --quiet -- two-kids/data; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add two-kids/data
+          git commit -m "data: refresh two-kids places"
+          git pull --rebase origin "${{ github.event.repository.default_branch }}"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
