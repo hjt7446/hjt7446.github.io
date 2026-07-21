@@ -2,10 +2,12 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
+
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1"
   >
+
   <meta
     name="description"
     content="아이와 함께 볼 공연을 놓치지 않도록 공식 정보를 모아 보여주는 가족 공연 찾기"
@@ -48,7 +50,7 @@
         <input
           id="searchInput"
           type="search"
-          placeholder="알파블록스, 어린이 뮤지컬, 공연장"
+          placeholder="공연명, 장르, 공연장 검색"
         >
 
         <select id="regionFilter">
@@ -57,11 +59,14 @@
 
         <select id="ageFilter">
           <option value="">모든 연령</option>
-          <option value="family">아이 관람 가능</option>
+          <option value="family">전체 관람가·8세 이하</option>
           <option value="verified">연령 확인됨</option>
         </select>
 
-        <input id="dateFilter" type="date">
+        <input
+          id="dateFilter"
+          type="date"
+        >
       </div>
     </section>
 
@@ -75,7 +80,10 @@
         <p id="watchKeywords"></p>
       </div>
 
-      <div id="watchList" class="card-grid"></div>
+      <div
+        id="watchList"
+        class="card-grid"
+      ></div>
     </section>
 
     <section id="family" class="section">
@@ -86,11 +94,14 @@
         </div>
 
         <p>
-          전체 관람가 또는 8세 이하 관람이 확인된 가족·어린이 공연
+          전체 관람가 또는 8세 이하로 표시된 가족·어린이 공연
         </p>
       </div>
 
-      <div id="familyList" class="card-grid"></div>
+      <div
+        id="familyList"
+        class="card-grid"
+      ></div>
     </section>
 
     <section id="all" class="section">
@@ -103,7 +114,10 @@
         <p id="resultCount"></p>
       </div>
 
-      <div id="allList" class="card-grid"></div>
+      <div
+        id="allList"
+        class="card-grid"
+      ></div>
     </section>
   </main>
 
@@ -121,10 +135,15 @@
 
   <footer>
     <span id="footerMeta"></span>
+
     <br>
+
     정보는 예매 전 공식 예매처에서 최종 확인하세요.
   </footer>
 
-  <script type="module" src="app.js"></script>
+  <script
+    type="module"
+    src="app.js"
+  ></script>
 </body>
 </html>
