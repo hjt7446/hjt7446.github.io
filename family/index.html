@@ -1,210 +1,130 @@
 <!doctype html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <meta
+    name="description"
+    content="아이와 함께 볼 공연을 놓치지 않도록 공식 정보를 모아 보여주는 가족 공연 찾기"
+  >
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    >
+  <title>우리 가족 공연찾기</title>
 
-    <meta
-      name="description"
-      content="아이와 함께 볼 공연을 놓치지 않도록 공식 정보를 모아 보여주는 가족 공연 찾기"
-    >
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <title>우리 가족 공연찾기</title>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      우리 가족 공연찾기
+    </a>
 
-    <link
-      rel="stylesheet"
-      href="styles.css"
-    >
-  </head>
+    <nav>
+      <a href="#watch">관심 작품</a>
+      <a href="#family">아이와 함께</a>
+      <a href="#all">전체 공연</a>
+    </nav>
+  </header>
 
-  <body>
-    <header class="site-header">
-      <a
-        class="brand"
-        href="#top"
-      >
-        우리 가족 공연찾기
-      </a>
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">
+        좋은 공연, 이번에는 놓치지 않도록
+      </p>
 
-      <nav>
-        <a href="#watch">관심작품</a>
-        <a href="#family">아이와 함께</a>
-        <a href="#all">전체공연</a>
-      </nav>
-    </header>
+      <h1>
+        아이와 볼 공연을<br>
+        정확한 정보로 한눈에.
+      </h1>
 
-    <main id="top">
-      <section class="hero">
-        <p class="eyebrow">
-          좋은 공연, 이번에는 놓치지 않도록
-        </p>
+      <div id="dataStatus" class="data-status">
+        데이터 확인 중…
+      </div>
 
-        <h1>
-          아이와 볼 공연을
-          <br>
-          정확한 정보로 한눈에.
-        </h1>
-
-        <div
-          id="dataStatus"
-          class="data-status"
+      <div class="filters">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="알파블록스, 어린이 뮤지컬, 공연장"
         >
-          데이터 확인 중…
+
+        <select id="regionFilter">
+          <option value="">전체 지역</option>
+        </select>
+
+        <select id="ageFilter">
+          <option value="">모든 연령</option>
+          <option value="family">아이 관람 가능</option>
+          <option value="verified">연령 확인됨</option>
+        </select>
+
+        <input id="dateFilter" type="date">
+      </div>
+    </section>
+
+    <section id="watch" class="section highlight">
+      <div class="section-head">
+        <div>
+          <span>⭐</span>
+          <h2>관심 작품</h2>
         </div>
 
-        <div class="filters">
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="알파블록스, 어린이 뮤지컬, 공연장"
-          >
+        <p id="watchKeywords"></p>
+      </div>
 
-          <select id="regionFilter">
-            <option value="">전체 지역</option>
-          </select>
+      <div id="watchList" class="card-grid"></div>
+    </section>
 
-          <select id="ageFilter">
-            <option value="">모든 연령</option>
-
-            <option value="family">
-              전체 관람가·8세 이하
-            </option>
-
-            <option value="verified">
-              연령 확인됨
-            </option>
-          </select>
-
-          <input
-            id="dateFilter"
-            type="date"
-          >
-        </div>
-      </section>
-
-      <section
-        id="watch"
-        class="section highlight"
-      >
-        <div class="section-head">
-          <div>
-            <span>🔔</span>
-            <h2>관심 작품 발견</h2>
-          </div>
-
-          <p id="watchKeywords"></p>
+    <section id="family" class="section">
+      <div class="section-head">
+        <div>
+          <span>👨‍👩‍👧‍👦</span>
+          <h2>아이와 함께</h2>
         </div>
 
-        <div
-          id="watchList"
-          class="card-grid"
-        ></div>
-      </section>
+        <p>
+          전체 관람가 또는 8세 이하 관람이 확인된 가족·어린이 공연
+        </p>
+      </div>
 
-      <section
-        id="family"
-        class="section"
-      >
-        <div class="section-head">
-          <div>
-            <span>👨‍👩‍👧</span>
-            <h2>아이와 함께 보기</h2>
-          </div>
+      <div id="familyList" class="card-grid"></div>
+    </section>
 
-          <p>
-            전체 관람가 또는 8세 이하로 표시된 가족·어린이 공연
-          </p>
+    <section id="all" class="section">
+      <div class="section-head">
+        <div>
+          <span>🎭</span>
+          <h2 id="resultTitle">전체 공연</h2>
         </div>
 
-        <div
-          id="familyList"
-          class="card-grid"
-        ></div>
-      </section>
+        <p id="resultCount"></p>
+      </div>
 
-      <section class="section alt">
-        <div class="section-head">
-          <div>
-            <span>✨</span>
-            <h2>새로 발견·변경된 공연</h2>
-          </div>
+      <div id="allList" class="card-grid"></div>
+    </section>
+  </main>
 
-          <p>
-            실제 데이터가 달라진 경우만 NEW 표시
-          </p>
-        </div>
+  <dialog id="detailDialog">
+    <button
+      class="dialog-close"
+      type="button"
+      aria-label="닫기"
+    >
+      ×
+    </button>
 
-        <div
-          id="newList"
-          class="card-grid"
-        ></div>
-      </section>
+    <div id="detailContent"></div>
+  </dialog>
 
-      <section class="section">
-        <div class="section-head">
-          <div>
-            <span>📅</span>
-            <h2>이번 주 공연</h2>
-          </div>
+  <footer>
+    <span id="footerMeta"></span>
+    <br>
+    정보는 예매 전 공식 예매처에서 최종 확인하세요.
+  </footer>
 
-          <p>
-            이번 주에 시작하거나 진행 중
-          </p>
-        </div>
-
-        <div
-          id="weekList"
-          class="card-grid"
-        ></div>
-      </section>
-
-      <section
-        id="all"
-        class="section"
-      >
-        <div class="section-head">
-          <div>
-            <span>🎭</span>
-            <h2>전체 공연</h2>
-          </div>
-
-          <p id="resultCount"></p>
-        </div>
-
-        <div
-          id="allList"
-          class="card-grid"
-        ></div>
-      </section>
-    </main>
-
-    <dialog id="detailDialog">
-      <button
-        class="dialog-close"
-        type="button"
-        aria-label="닫기"
-      >
-        ×
-      </button>
-
-      <div id="detailContent"></div>
-    </dialog>
-
-    <footer>
-      <span id="footerMeta"></span>
-
-      <br>
-
-      정보는 예매 전 공식 예매처에서 최종 확인하세요.
-    </footer>
-
-    <script
-      type="module"
-      src="app.js"
-    ></script>
-  </body>
+  <script type="module" src="app.js"></script>
+</body>
 </html>
