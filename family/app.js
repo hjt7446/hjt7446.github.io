@@ -92,8 +92,7 @@ const recent = value => {
 
   return (
     date &&
-    (TODAY - date) / DAY <=
-      Number(config.newDays || 7)
+    (TODAY - date) / DAY <= Number(config.newDays || 7)
   );
 };
 
@@ -108,9 +107,7 @@ function ticketStatus(performance) {
     return '종료';
   }
 
-  if (
-    performance.ticketSaleStatus === 'SOLD_OUT'
-  ) {
+  if (performance.ticketSaleStatus === 'SOLD_OUT') {
     return '매진';
   }
 
@@ -126,6 +123,7 @@ function ticketStatus(performance) {
 
 function badges(performance) {
   const output = [];
+
   const startDate = parse(performance.startDate);
   const endDate = parse(performance.endDate);
 
@@ -162,17 +160,12 @@ function badges(performance) {
     ticketStatus(performance) === '예매예정'
   ) {
     output.push([
-      `예매 D-${days(
-        performance.ticketOpenDate
-      )}`,
+      `예매 D-${days(performance.ticketOpenDate)}`,
       'ticket'
     ]);
   }
 
-  if (
-    performance.confidence?.level ===
-    '확인 필요'
-  ) {
+  if (performance.confidence?.level === '확인 필요') {
     output.push([
       '정보 확인 필요',
       'warn'
@@ -182,30 +175,18 @@ function badges(performance) {
   return output.slice(0, 3);
 }
 
-/**
- * 아이와 함께 보기 기준
+/*
+ * 아이와 함께 표시 기준
  *
- * 포함:
- * - 전체 관람가
- * - 전 연령
- * - 모든 연령
- * - 연령 제한 없음
- * - 8세 이하
- * - 7세 이하
- *
- * 제외:
- * - 7세 이상
- * - 8세 이상
- * - 12세 이상
- * - 관람 연령 미확인
+ * 1. 가족추천후보 태그가 있음
+ * 2. 관람연령이 확인됨
+ * 3. 전체 관람가이거나 8세 이하 관람 가능
  */
 function familyFit(performance) {
   const ageInfo = performance.ageInfo || {};
 
   if (
-    !performance.familyTags?.includes(
-      '가족추천후보'
-    )
+    !performance.familyTags?.includes('가족추천후보')
   ) {
     return false;
   }
@@ -233,35 +214,38 @@ function familyFit(performance) {
     return true;
   }
 
-  /*
-   * "7세 이상", "8세 이상"처럼
-   * 최소 연령을 지정한 공연은 제외합니다.
-   */
-  if (
-    /(\d+)세이상|만(\d+)세이상|(\d+)개월이상/.test(
-      label
-    )
-  ) {
-    return false;
-  }
-
-  /*
-   * "8세 이하", "만 7세 이하"처럼
-   * 최대 연령을 지정한 공연만 포함합니다.
-   */
-  const underAgeMatch = label.match(
-    /(?:만)?(\d+)세이하/
+  const minimumAgeMatch = label.match(
+    /(?:만)?(\d+)세이상/
   );
 
-  if (underAgeMatch) {
-    const maximumAge = Number(
-      underAgeMatch[1]
-    );
+  if (minimumAgeMatch) {
+    const minimumAge = Number(minimumAgeMatch[1]);
 
     return (
-      Number.isFinite(maximumAge) &&
-      maximumAge <= 8
+      Number.isFinite(minimumAge) &&
+      minimumAge <= 8
     );
+  }
+
+  const monthMatch = label.match(
+    /(\d+)개월이상/
+  );
+
+  if (monthMatch) {
+    const minimumMonths = Number(monthMatch[1]);
+
+    return (
+      Number.isFinite(minimumMonths) &&
+      minimumMonths <= 96
+    );
+  }
+
+  if (
+    Number.isFinite(minAge) &&
+    minAge >= 0 &&
+    minAge <= 8
+  ) {
+    return true;
   }
 
   return false;
@@ -286,7 +270,7 @@ function confidence(performance) {
       신뢰도
       ${esc(
         confidenceData.level ||
-          '확인 필요'
+        '확인 필요'
       )}
       ${confidenceData.score ?? '-'}
     </span>
@@ -307,19 +291,12 @@ function card(performance) {
     `
     : '<span class="emoji">🎭</span>';
 
-  const startDate = parse(
-    performance.startDate
-  );
-
-  const endDate = parse(
-    performance.endDate
-  );
+  const startDate = parse(performance.startDate);
+  const endDate = parse(performance.endDate);
 
   const dateText =
     startDate && endDate
-      ? `${fmt.format(
-          startDate
-        )}–${fmt.format(endDate)}`
+      ? `${fmt.format(startDate)}–${fmt.format(endDate)}`
       : '공연 기간 확인 필요';
 
   return `
@@ -351,9 +328,7 @@ function card(performance) {
 
         <div class="meta">
           <span>
-            ${esc(
-              normalizedRegion(venue)
-            )}
+            ${esc(normalizedRegion(venue))}
             ${esc(venue.region || '')}
           </span>
 
@@ -363,16 +338,14 @@ function card(performance) {
         <p class="age">
           ${esc(
             performance.ageInfo?.label ||
-              performance.age ||
-              '관람연령 확인 필요'
+            performance.age ||
+            '관람연령 확인 필요'
           )}
         </p>
 
         <div class="card-foot">
           <b>
-            ${esc(
-              ticketStatus(performance)
-            )}
+            ${esc(ticketStatus(performance))}
           </b>
 
           ${confidence(performance)}
@@ -399,11 +372,56 @@ function render(selector, list) {
 }
 
 function active(performance) {
-  const endDate = parse(
-    performance.endDate
-  );
+  const endDate = parse(performance.endDate);
 
   return endDate && endDate >= TODAY;
+}
+
+/*
+ * 검색 전:
+ * 관심 작품 → 아이와 함께 → 전체 공연
+ *
+ * 검색 중:
+ * 관심 작품 → 검색된 공연 → 아이와 함께
+ */
+function updateSectionOrder(isSearching) {
+  const watchSection = $('#watch');
+  const familySection = $('#family');
+  const allSection = $('#all');
+
+  if (
+    !watchSection ||
+    !familySection ||
+    !allSection
+  ) {
+    return;
+  }
+
+  if (isSearching) {
+    watchSection.insertAdjacentElement(
+      'afterend',
+      allSection
+    );
+  } else {
+    familySection.insertAdjacentElement(
+      'afterend',
+      allSection
+    );
+  }
+}
+
+function updateNavigation(isSearching) {
+  const allLink = document.querySelector(
+    'nav a[href="#all"]'
+  );
+
+  if (!allLink) {
+    return;
+  }
+
+  allLink.textContent = isSearching
+    ? '검색된 공연'
+    : '전체 공연';
 }
 
 function applyFilters() {
@@ -419,19 +437,22 @@ function applyFilters() {
   const ageFilter =
     $('#ageFilter').value;
 
-  const selectedDate =
+  const selectedDateValue =
     $('#dateFilter').value;
+
+  const selectedDate =
+    parse(selectedDateValue);
 
   filtered = performances.filter(
     performance => {
-      const venue =
-        venueOf(performance);
+      const venue = venueOf(performance);
 
       const searchableText = `
         ${performance.title || ''}
         ${performance.genre || ''}
         ${performance.description || ''}
         ${venue.name || ''}
+        ${venue.address || ''}
       `.toLowerCase();
 
       const queryMatches =
@@ -450,9 +471,6 @@ function applyFilters() {
             : !performance.ageInfo?.unknown
         );
 
-      const selected =
-        parse(selectedDate);
-
       const startDate =
         parse(performance.startDate);
 
@@ -460,13 +478,13 @@ function applyFilters() {
         parse(performance.endDate);
 
       const dateMatches =
-        !selectedDate ||
+        !selectedDateValue ||
         (
-          selected &&
+          selectedDate &&
           startDate &&
           endDate &&
-          startDate <= selected &&
-          endDate >= selected
+          startDate <= selectedDate &&
+          endDate >= selectedDate
         );
 
       return (
@@ -479,10 +497,16 @@ function applyFilters() {
     }
   );
 
+  const isSearching =
+    searchValue.length > 0;
+
   $('#resultTitle').textContent =
-    query
+    isSearching
       ? '검색된 공연'
       : '전체 공연';
+
+  updateSectionOrder(isSearching);
+  updateNavigation(isSearching);
 
   render('#allList', filtered);
 
@@ -490,7 +514,7 @@ function applyFilters() {
     `${filtered.length}개 공연`;
 }
 
-function links(performance) {
+function links(performance, venue) {
   const bookingLinks = (
     performance.bookingUrls || []
   )
@@ -508,22 +532,58 @@ function links(performance) {
     )
     .join('');
 
+  const mapLinks = venue.address
+    ? `
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+          venue.address
+        )}"
+      >
+        Google 지도
+      </a>
+
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://map.kakao.com/link/search/${encodeURIComponent(
+          venue.address
+        )}"
+      >
+        카카오맵
+      </a>
+
+      <a
+        target="_blank"
+        rel="noopener"
+        href="https://map.naver.com/p/search/${encodeURIComponent(
+          venue.address
+        )}"
+      >
+        네이버 지도
+      </a>
+    `
+    : '';
+
   const sourceLink =
     performance.sourceUrl
       ? `
         <a
           target="_blank"
           rel="noopener"
-          href="${esc(
-            performance.sourceUrl
-          )}"
+          href="${esc(performance.sourceUrl)}"
         >
           KOPIS 원문
         </a>
       `
       : '';
 
-  return bookingLinks + sourceLink;
+  return (
+    bookingLinks +
+    mapLinks +
+    sourceLink
+  );
 }
 
 function openDetail(id) {
@@ -561,9 +621,7 @@ function openDetail(id) {
       </h2>
 
       <p>
-        ${esc(
-          performance.description || ''
-        )}
+        ${esc(performance.description || '')}
       </p>
     </div>
 
@@ -575,12 +633,12 @@ function openDetail(id) {
           <p>
             ${esc(
               performance.startDate ||
-                '확인 필요'
+              '확인 필요'
             )}
             ~
             ${esc(
               performance.endDate ||
-                '확인 필요'
+              '확인 필요'
             )}
           </p>
         </div>
@@ -591,7 +649,8 @@ function openDetail(id) {
           <p>
             ${esc(
               performance.ageInfo?.label ||
-                '확인 필요'
+              performance.age ||
+              '확인 필요'
             )}
           </p>
         </div>
@@ -601,12 +660,15 @@ function openDetail(id) {
 
           <p>
             ${esc(
-              venue.name || '미정'
+              venue.name ||
+              '미정'
             )}
+
             <br>
+
             ${esc(
               venue.address ||
-                '주소 확인 필요'
+              '주소 확인 필요'
             )}
           </p>
         </div>
@@ -617,12 +679,14 @@ function openDetail(id) {
           <p>
             ${esc(
               performance.price ||
-                '가격 확인 필요'
+              '가격 확인 필요'
             )}
+
             <br>
+
             ${esc(
               performance.runtime ||
-                '공연시간 확인 필요'
+              '공연시간 확인 필요'
             )}
           </p>
         </div>
@@ -635,11 +699,7 @@ function openDetail(id) {
 
         <ul>
           <li>
-            ${
-              checks.officialSource
-                ? '✓'
-                : '!'
-            }
+            ${checks.officialSource ? '✓' : '!'}
             공식 KOPIS 출처
           </li>
 
@@ -654,11 +714,7 @@ function openDetail(id) {
           </li>
 
           <li>
-            ${
-              checks.booking
-                ? '✓'
-                : '!'
-            }
+            ${checks.booking ? '✓' : '!'}
             예매 링크
             ${
               checks.booking
@@ -671,14 +727,14 @@ function openDetail(id) {
             마지막 확인:
             ${esc(
               performance.lastCheckedAt ||
-                '-'
+              '-'
             )}
           </li>
         </ul>
       </section>
 
       <div class="map-links">
-        ${links(performance)}
+        ${links(performance, venue)}
       </div>
     </div>
   `;
@@ -688,10 +744,7 @@ function openDetail(id) {
   $('#detailDialog').showModal();
 }
 
-function injectLd(
-  performance,
-  venue
-) {
+function injectLd(performance, venue) {
   $('#eventJsonLd')?.remove();
 
   const script =
@@ -701,28 +754,37 @@ function injectLd(
   script.type = 'application/ld+json';
 
   script.textContent = JSON.stringify({
-    '@context':
-      'https://schema.org',
+    '@context': 'https://schema.org',
     '@type': 'Event',
     name: performance.title,
     startDate: performance.startDate,
     endDate: performance.endDate,
+
     image: performance.poster
       ? [performance.poster]
       : undefined,
+
     location: {
       '@type': 'Place',
       name: venue.name,
-      address: venue.address
+      address: venue.address,
+
+      geo: venue.latitude
+        ? {
+            '@type': 'GeoCoordinates',
+            latitude: venue.latitude,
+            longitude: venue.longitude
+          }
+        : undefined
     },
+
     offers: (
       performance.bookingUrls || []
     )[0]
       ? {
           '@type': 'Offer',
           url:
-            performance.bookingUrls[0]
-              .url
+            performance.bookingUrls[0].url
         }
       : undefined
   });
@@ -730,10 +792,7 @@ function injectLd(
   document.head.appendChild(script);
 }
 
-async function fetchJson(
-  url,
-  fallback
-) {
+async function fetchJson(url, fallback) {
   const response = await fetch(url, {
     cache: 'no-store'
   });
@@ -754,22 +813,10 @@ async function init() {
     alerts
   ] = await Promise.all([
     fetchJson('config.json', {}),
-    fetchJson(
-      'data/venues.json',
-      []
-    ),
-    fetchJson(
-      'data/performances.json',
-      []
-    ),
-    fetchJson(
-      'data/sync-meta.json',
-      {}
-    ),
-    fetchJson(
-      'data/alerts.json',
-      []
-    )
+    fetchJson('data/venues.json', []),
+    fetchJson('data/performances.json', []),
+    fetchJson('data/sync-meta.json', {}),
+    fetchJson('data/alerts.json', [])
   ]);
 
   filtered =
@@ -789,7 +836,7 @@ async function init() {
     <b>
       ${esc(
         meta.source ||
-          '공식 데이터'
+        '공식 데이터'
       )}
     </b>
 
@@ -801,17 +848,13 @@ async function init() {
     · 마지막 확인
     ${
       updated
-        ? updated.toLocaleString(
-            'ko-KR'
-          )
+        ? updated.toLocaleString('ko-KR')
         : '알 수 없음'
     }
 
     ${
       elapsedHours >
-      Number(
-        config.staleHours || 30
-      )
+      Number(config.staleHours || 30)
         ? '<strong>⚠ 갱신 지연</strong>'
         : '<span>정상 갱신</span>'
     }
@@ -834,15 +877,14 @@ async function init() {
     '인천',
     '경기'
   ].forEach(region => {
-    $('#regionFilter')
-      .insertAdjacentHTML(
-        'beforeend',
-        `
-          <option value="${region}">
-            ${region}
-          </option>
-        `
-      );
+    $('#regionFilter').insertAdjacentHTML(
+      'beforeend',
+      `
+        <option value="${region}">
+          ${region}
+        </option>
+      `
+    );
   });
 
   const watchIds = new Set(
@@ -861,9 +903,7 @@ async function init() {
     performances
       .filter(
         performance =>
-          watchIds.has(
-            performance.id
-          ) &&
+          watchIds.has(performance.id) &&
           active(performance)
       )
       .slice(0, 12);
@@ -918,21 +958,29 @@ async function init() {
     );
   });
 
-  $('.dialog-close')
-    .addEventListener(
-      'click',
-      () => {
+  $('.dialog-close').addEventListener(
+    'click',
+    () => {
+      $('#detailDialog').close();
+    }
+  );
+
+  $('#detailDialog').addEventListener(
+    'click',
+    event => {
+      if (
+        event.target === $('#detailDialog')
+      ) {
         $('#detailDialog').close();
       }
-    );
+    }
+  );
 
   document.addEventListener(
     'click',
     event => {
       const cardElement =
-        event.target.closest(
-          '[data-id]'
-        );
+        event.target.closest('[data-id]');
 
       if (cardElement) {
         openDetail(
@@ -947,9 +995,7 @@ async function init() {
     event => {
       if (
         event.key === 'Enter' &&
-        event.target.matches(
-          '[data-id]'
-        )
+        event.target.matches('[data-id]')
       ) {
         openDetail(
           event.target.dataset.id
