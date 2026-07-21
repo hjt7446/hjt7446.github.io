@@ -238,5 +238,293 @@
         "after": "공연중"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF296257",
+    "title": "서명현 피아노 독주회",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295992",
+    "title": "FOR YUZU",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295921",
+    "title": "예원 챔버 오케스트라 정기 연주회",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295728",
+    "title": "영산: 도자기편경 이야기",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295598",
+    "title": "제5회 사단법인 지영희류 해금산조 보존회 정기연주회: 師弟之情 (사제지정)",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295152",
+    "title": "먼데이프로젝트X숲세권 MONDAY: SOOP, 모허 단독 콘서트",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294985",
+    "title": "코다 [서울 성북]",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294490",
+    "title": "인디빌리지 Vol.1 에로틱웜즈익스히비션의 어지러운 마을",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293850",
+    "title": "현준희 바이올린 독주회: A Sentimental Night Ⅱ, 심연",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293183",
+    "title": "박주영 피아노 독주회",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF292759",
+    "title": "인: 우리컬처, KBS교향악단 70주년 특별연주회 with 손민수, 임윤찬",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF291424",
+    "title": "제1182회 하우스콘서트, July Festival: Debussy & Ravel Ensemble 3, Quartet Horizons",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF291423",
+    "title": "제1181회 하우스콘서트, July Festival: Debussy Piano 3, 말하기 전에",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF291234",
+    "title": "여우락 페스티벌, 김수인 X 리치맨과 그루브나이스: 장마",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF290350",
+    "title": "투란도트 (07.22, 23, 25)",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF289249",
+    "title": "여섯 번째 희곡열전, 선욱현 전: 카모마일과 비빔면",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286403",
+    "title": "푸르지오아트홀 수요초대석 31, 기타리스트 김진택 with CMS ROUND-TABL",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293966",
+    "title": "회상 시리즈 Ⅰ, 정화된 밤 [인천]",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF290732",
+    "title": "청라 브런치 콘서트, 이금희와 함께 하는 힐링브런치 콘서트: 모짜르트",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296446",
+    "title": "제3회 대한민국 대학연극제, Once On This Island",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295452",
+    "title": "제46회 의정부 시립무용단 정기 공연 [의정부]",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294715",
+    "title": "어린이 놀이터: 극장 [파주]",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF292163",
+    "title": "남양주문화재단 마티네 콘서트 시리즈, 11시 클래식 수다 with 입과손 스튜디오 [남양주] (7월)",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF287890",
+    "title": "성남아트리움 모닝 콘서트, 소리꾼 김준수",
+    "detectedAt": "2026-07-22T08:07:06+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
   }
 ]
