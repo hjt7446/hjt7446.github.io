@@ -31,10 +31,14 @@ const parse = value => {
   }
 
   const date = new Date(
-    value.length === 10 ? `${value}T00:00:00+09:00` : value
+    value.length === 10
+      ? `${value}T00:00:00+09:00`
+      : value
   );
 
-  return Number.isNaN(date.getTime()) ? null : date;
+  return Number.isNaN(date.getTime())
+    ? null
+    : date;
 };
 
 const fmt = new Intl.DateTimeFormat('ko-KR', {
@@ -43,12 +47,16 @@ const fmt = new Intl.DateTimeFormat('ko-KR', {
 });
 
 const venueOf = performance =>
-  venues.find(venue => venue.id === performance.venueId) || {};
+  venues.find(
+    venue => venue.id === performance.venueId
+  ) || {};
 
 function normalizedRegion(venue) {
-  const text = `${venue.city || ''} ${venue.region || ''} ${
-    venue.address || ''
-  }`;
+  const text = `
+    ${venue.city || ''}
+    ${venue.region || ''}
+    ${venue.address || ''}
+  `;
 
   if (/서울/.test(text)) {
     return '서울';
@@ -84,7 +92,8 @@ const recent = value => {
 
   return (
     date &&
-    (TODAY - date) / DAY <= Number(config.newDays || 7)
+    (TODAY - date) / DAY <=
+      Number(config.newDays || 7)
   );
 };
 
@@ -99,7 +108,9 @@ function ticketStatus(performance) {
     return '종료';
   }
 
-  if (performance.ticketSaleStatus === 'SOLD_OUT') {
+  if (
+    performance.ticketSaleStatus === 'SOLD_OUT'
+  ) {
     return '매진';
   }
 
@@ -118,20 +129,30 @@ function badges(performance) {
   const startDate = parse(performance.startDate);
   const endDate = parse(performance.endDate);
 
-  if (recent(performance.firstSeenAt) || recent(performance.updatedAt)) {
+  if (
+    recent(performance.firstSeenAt) ||
+    recent(performance.updatedAt)
+  ) {
     output.push(['NEW', 'new']);
   }
 
-  if (startDate && startDate.getTime() === TODAY.getTime()) {
+  if (
+    startDate &&
+    startDate.getTime() === TODAY.getTime()
+  ) {
     output.push(['오늘 시작', 'urgent']);
   }
 
-  if (endDate && endDate.getTime() === TODAY.getTime()) {
+  if (
+    endDate &&
+    endDate.getTime() === TODAY.getTime()
+  ) {
     output.push(['오늘 종료', 'urgent']);
   } else if (
     endDate &&
     endDate > TODAY &&
-    (endDate - TODAY) / DAY <= Number(config.endingSoonDays || 7)
+    (endDate - TODAY) / DAY <=
+      Number(config.endingSoonDays || 7)
   ) {
     output.push(['곧 종료', 'urgent']);
   }
@@ -141,27 +162,36 @@ function badges(performance) {
     ticketStatus(performance) === '예매예정'
   ) {
     output.push([
-      `예매 D-${days(performance.ticketOpenDate)}`,
+      `예매 D-${days(
+        performance.ticketOpenDate
+      )}`,
       'ticket'
     ]);
   }
 
-  if (performance.confidence?.level === '확인 필요') {
-    output.push(['정보 확인 필요', 'warn']);
+  if (
+    performance.confidence?.level ===
+    '확인 필요'
+  ) {
+    output.push([
+      '정보 확인 필요',
+      'warn'
+    ]);
   }
 
   return output.slice(0, 3);
 }
 
 /**
- * 아이와 함께 보기 필터
+ * 아이와 함께 보기 기준
  *
  * 포함:
  * - 전체 관람가
  * - 전 연령
  * - 모든 연령
+ * - 연령 제한 없음
  * - 8세 이하
- * - 7세 이하 등
+ * - 7세 이하
  *
  * 제외:
  * - 7세 이상
@@ -172,7 +202,11 @@ function badges(performance) {
 function familyFit(performance) {
   const ageInfo = performance.ageInfo || {};
 
-  if (!performance.familyTags?.includes('가족추천후보')) {
+  if (
+    !performance.familyTags?.includes(
+      '가족추천후보'
+    )
+  ) {
     return false;
   }
 
@@ -180,7 +214,10 @@ function familyFit(performance) {
     return false;
   }
 
-  const label = `${ageInfo.label || ''} ${performance.age || ''}`
+  const label = `
+    ${ageInfo.label || ''}
+    ${performance.age || ''}
+  `
     .replace(/\s+/g, '')
     .toLowerCase();
 
@@ -188,47 +225,69 @@ function familyFit(performance) {
 
   const isAllAges =
     minAge === 0 ||
-    /전체관람가|전연령|모든연령|연령제한없음|누구나관람/.test(label);
+    /전체관람가|전연령|모든연령|연령제한없음|누구나관람/.test(
+      label
+    );
 
   if (isAllAges) {
     return true;
   }
 
   /*
-   * "7세 이상", "8세 이상"처럼 최소 연령을 지정한 공연은 제외합니다.
+   * "7세 이상", "8세 이상"처럼
+   * 최소 연령을 지정한 공연은 제외합니다.
    */
-  if (/(\d+)세이상|만(\d+)세이상|(\d+)개월이상/.test(label)) {
+  if (
+    /(\d+)세이상|만(\d+)세이상|(\d+)개월이상/.test(
+      label
+    )
+  ) {
     return false;
   }
 
   /*
-   * "8세 이하", "만 7세 이하"처럼 최대 연령을 지정한 공연만 포함합니다.
+   * "8세 이하", "만 7세 이하"처럼
+   * 최대 연령을 지정한 공연만 포함합니다.
    */
-  const underAgeMatch = label.match(/(?:만)?(\d+)세이하/);
+  const underAgeMatch = label.match(
+    /(?:만)?(\d+)세이하/
+  );
 
   if (underAgeMatch) {
-    const maximumAge = Number(underAgeMatch[1]);
+    const maximumAge = Number(
+      underAgeMatch[1]
+    );
 
-    return Number.isFinite(maximumAge) && maximumAge <= 8;
+    return (
+      Number.isFinite(maximumAge) &&
+      maximumAge <= 8
+    );
   }
 
   return false;
 }
 
 function confidence(performance) {
-  const confidenceData = performance.confidence || {};
+  const confidenceData =
+    performance.confidence || {};
 
   let className = 'low';
 
   if (confidenceData.level === '높음') {
     className = 'high';
-  } else if (confidenceData.level === '보통') {
+  } else if (
+    confidenceData.level === '보통'
+  ) {
     className = 'mid';
   }
 
   return `
     <span class="confidence ${className}">
-      신뢰도 ${esc(confidenceData.level || '확인 필요')}
+      신뢰도
+      ${esc(
+        confidenceData.level ||
+          '확인 필요'
+      )}
       ${confidenceData.score ?? '-'}
     </span>
   `;
@@ -248,12 +307,19 @@ function card(performance) {
     `
     : '<span class="emoji">🎭</span>';
 
-  const startDate = parse(performance.startDate);
-  const endDate = parse(performance.endDate);
+  const startDate = parse(
+    performance.startDate
+  );
+
+  const endDate = parse(
+    performance.endDate
+  );
 
   const dateText =
     startDate && endDate
-      ? `${fmt.format(startDate)}–${fmt.format(endDate)}`
+      ? `${fmt.format(
+          startDate
+        )}–${fmt.format(endDate)}`
       : '공연 기간 확인 필요';
 
   return `
@@ -268,19 +334,26 @@ function card(performance) {
         <div class="badges">
           ${badges(performance)
             .map(
-              ([text, className]) =>
-                `<span class="badge ${className}">${esc(text)}</span>`
+              ([text, className]) => `
+                <span class="badge ${className}">
+                  ${esc(text)}
+                </span>
+              `
             )
             .join('')}
         </div>
       </div>
 
       <div class="card-body">
-        <h3>${esc(performance.title)}</h3>
+        <h3>
+          ${esc(performance.title)}
+        </h3>
 
         <div class="meta">
           <span>
-            ${esc(normalizedRegion(venue))}
+            ${esc(
+              normalizedRegion(venue)
+            )}
             ${esc(venue.region || '')}
           </span>
 
@@ -296,7 +369,12 @@ function card(performance) {
         </p>
 
         <div class="card-foot">
-          <b>${esc(ticketStatus(performance))}</b>
+          <b>
+            ${esc(
+              ticketStatus(performance)
+            )}
+          </b>
+
           ${confidence(performance)}
         </div>
       </div>
@@ -313,86 +391,109 @@ function render(selector, list) {
 
   element.innerHTML = list.length
     ? list.map(card).join('')
-    : '<div class="empty">조건에 맞는 공연이 없습니다.</div>';
-}
-
-function thisWeek(performance) {
-  const dayOfWeek = (TODAY.getDay() + 6) % 7;
-  const weekStart = new Date(TODAY.getTime() - dayOfWeek * DAY);
-  const weekEnd = new Date(weekStart.getTime() + 6 * DAY);
-
-  const startDate = parse(performance.startDate);
-  const endDate = parse(performance.endDate);
-
-  return (
-    startDate &&
-    endDate &&
-    startDate <= weekEnd &&
-    endDate >= weekStart
-  );
+    : `
+      <div class="empty">
+        조건에 맞는 공연이 없습니다.
+      </div>
+    `;
 }
 
 function active(performance) {
-  const endDate = parse(performance.endDate);
+  const endDate = parse(
+    performance.endDate
+  );
 
   return endDate && endDate >= TODAY;
 }
 
 function applyFilters() {
-  const query = $('#searchInput').value.trim().toLowerCase();
-  const region = $('#regionFilter').value;
-  const ageFilter = $('#ageFilter').value;
-  const selectedDate = $('#dateFilter').value;
+  const searchValue =
+    $('#searchInput').value.trim();
 
-  filtered = performances.filter(performance => {
-    const venue = venueOf(performance);
+  const query =
+    searchValue.toLowerCase();
 
-    const searchableText = `
-      ${performance.title || ''}
-      ${performance.genre || ''}
-      ${performance.description || ''}
-      ${venue.name || ''}
-    `.toLowerCase();
+  const region =
+    $('#regionFilter').value;
 
-    const queryMatches =
-      !query || searchableText.includes(query);
+  const ageFilter =
+    $('#ageFilter').value;
 
-    const regionMatches =
-      !region || normalizedRegion(venue) === region;
+  const selectedDate =
+    $('#dateFilter').value;
 
-    const ageMatches =
-      !ageFilter ||
-      (ageFilter === 'family'
-        ? familyFit(performance)
-        : !performance.ageInfo?.unknown);
+  filtered = performances.filter(
+    performance => {
+      const venue =
+        venueOf(performance);
 
-    const selected = parse(selectedDate);
-    const startDate = parse(performance.startDate);
-    const endDate = parse(performance.endDate);
+      const searchableText = `
+        ${performance.title || ''}
+        ${performance.genre || ''}
+        ${performance.description || ''}
+        ${venue.name || ''}
+      `.toLowerCase();
 
-    const dateMatches =
-      !selectedDate ||
-      (selected &&
-        startDate &&
-        endDate &&
-        startDate <= selected &&
-        endDate >= selected);
+      const queryMatches =
+        !query ||
+        searchableText.includes(query);
 
-    return (
-      active(performance) &&
-      queryMatches &&
-      regionMatches &&
-      ageMatches &&
-      dateMatches
-    );
-  });
+      const regionMatches =
+        !region ||
+        normalizedRegion(venue) === region;
+
+      const ageMatches =
+        !ageFilter ||
+        (
+          ageFilter === 'family'
+            ? familyFit(performance)
+            : !performance.ageInfo?.unknown
+        );
+
+      const selected =
+        parse(selectedDate);
+
+      const startDate =
+        parse(performance.startDate);
+
+      const endDate =
+        parse(performance.endDate);
+
+      const dateMatches =
+        !selectedDate ||
+        (
+          selected &&
+          startDate &&
+          endDate &&
+          startDate <= selected &&
+          endDate >= selected
+        );
+
+      return (
+        active(performance) &&
+        queryMatches &&
+        regionMatches &&
+        ageMatches &&
+        dateMatches
+      );
+    }
+  );
+
+  $('#resultTitle').textContent =
+    query
+      ? '검색된 공연'
+      : '전체 공연';
 
   render('#allList', filtered);
-  $('#resultCount').textContent = `${filtered.length}개 공연`;
+
+  $('#resultCount').textContent =
+    `${filtered.length}개 공연`;
 }
 
 function links(performance) {
-  const bookingLinks = (performance.bookingUrls || [])
+  const bookingLinks = (
+    performance.bookingUrls || []
+  )
     .filter(item => item?.url)
     .map(
       item => `
@@ -407,79 +508,122 @@ function links(performance) {
     )
     .join('');
 
-  const sourceLink = performance.sourceUrl
-    ? `
-      <a
-        target="_blank"
-        rel="noopener"
-        href="${esc(performance.sourceUrl)}"
-      >
-        KOPIS 원문
-      </a>
-    `
-    : '';
+  const sourceLink =
+    performance.sourceUrl
+      ? `
+        <a
+          target="_blank"
+          rel="noopener"
+          href="${esc(
+            performance.sourceUrl
+          )}"
+        >
+          KOPIS 원문
+        </a>
+      `
+      : '';
 
   return bookingLinks + sourceLink;
 }
 
 function openDetail(id) {
-  const performance = performances.find(item => item.id === id);
+  const performance =
+    performances.find(
+      item => item.id === id
+    );
 
   if (!performance) {
     return;
   }
 
-  const venue = venueOf(performance);
-  const checks = performance.confidence?.checks || {};
+  const venue =
+    venueOf(performance);
+
+  const checks =
+    performance.confidence?.checks || {};
 
   $('#detailContent').innerHTML = `
     <div class="detail-hero">
       <div class="badges">
         ${badges(performance)
           .map(
-            ([text, className]) =>
-              `<span class="badge ${className}">${esc(text)}</span>`
+            ([text, className]) => `
+              <span class="badge ${className}">
+                ${esc(text)}
+              </span>
+            `
           )
           .join('')}
       </div>
 
-      <h2>${esc(performance.title)}</h2>
-      <p>${esc(performance.description || '')}</p>
+      <h2>
+        ${esc(performance.title)}
+      </h2>
+
+      <p>
+        ${esc(
+          performance.description || ''
+        )}
+      </p>
     </div>
 
     <div class="detail-body">
       <div class="detail-grid">
         <div class="info-box">
           <b>공연 기간</b>
+
           <p>
-            ${esc(performance.startDate || '확인 필요')}
+            ${esc(
+              performance.startDate ||
+                '확인 필요'
+            )}
             ~
-            ${esc(performance.endDate || '확인 필요')}
+            ${esc(
+              performance.endDate ||
+                '확인 필요'
+            )}
           </p>
         </div>
 
         <div class="info-box">
           <b>관람 연령</b>
+
           <p>
-            ${esc(performance.ageInfo?.label || '확인 필요')}
+            ${esc(
+              performance.ageInfo?.label ||
+                '확인 필요'
+            )}
           </p>
         </div>
 
         <div class="info-box">
           <b>공연장</b>
+
           <p>
-            ${esc(venue.name || '미정')}
+            ${esc(
+              venue.name || '미정'
+            )}
             <br>
-            ${esc(venue.address || '주소 확인 필요')}
+            ${esc(
+              venue.address ||
+                '주소 확인 필요'
+            )}
           </p>
         </div>
 
         <div class="info-box">
           <b>가격·시간</b>
+
           <p>
-            ${esc(performance.price || '가격 확인 필요')}
+            ${esc(
+              performance.price ||
+                '가격 확인 필요'
+            )}
             <br>
-            ${esc(performance.runtime || '공연시간 확인 필요')}
+            ${esc(
+              performance.runtime ||
+                '공연시간 확인 필요'
+            )}
           </p>
         </div>
       </div>
@@ -491,25 +635,44 @@ function openDetail(id) {
 
         <ul>
           <li>
-            ${checks.officialSource ? '✓' : '!'}
+            ${
+              checks.officialSource
+                ? '✓'
+                : '!'
+            }
             공식 KOPIS 출처
           </li>
 
           <li>
             ${checks.age ? '✓' : '!'}
             관람연령
-            ${checks.age ? '확인됨' : '원문 확인 필요'}
+            ${
+              checks.age
+                ? '확인됨'
+                : '원문 확인 필요'
+            }
           </li>
 
           <li>
-            ${checks.booking ? '✓' : '!'}
+            ${
+              checks.booking
+                ? '✓'
+                : '!'
+            }
             예매 링크
-            ${checks.booking ? '확인됨' : '원문에서 확인 필요'}
+            ${
+              checks.booking
+                ? '확인됨'
+                : '원문에서 확인 필요'
+            }
           </li>
 
           <li>
             마지막 확인:
-            ${esc(performance.lastCheckedAt || '-')}
+            ${esc(
+              performance.lastCheckedAt ||
+                '-'
+            )}
           </li>
         </ul>
       </section>
@@ -521,19 +684,25 @@ function openDetail(id) {
   `;
 
   injectLd(performance, venue);
+
   $('#detailDialog').showModal();
 }
 
-function injectLd(performance, venue) {
+function injectLd(
+  performance,
+  venue
+) {
   $('#eventJsonLd')?.remove();
 
-  const script = document.createElement('script');
+  const script =
+    document.createElement('script');
 
   script.id = 'eventJsonLd';
   script.type = 'application/ld+json';
 
   script.textContent = JSON.stringify({
-    '@context': 'https://schema.org',
+    '@context':
+      'https://schema.org',
     '@type': 'Event',
     name: performance.title,
     startDate: performance.startDate,
@@ -546,10 +715,14 @@ function injectLd(performance, venue) {
       name: venue.name,
       address: venue.address
     },
-    offers: (performance.bookingUrls || [])[0]
+    offers: (
+      performance.bookingUrls || []
+    )[0]
       ? {
           '@type': 'Offer',
-          url: performance.bookingUrls[0].url
+          url:
+            performance.bookingUrls[0]
+              .url
         }
       : undefined
   });
@@ -557,7 +730,10 @@ function injectLd(performance, venue) {
   document.head.appendChild(script);
 }
 
-async function fetchJson(url, fallback) {
+async function fetchJson(
+  url,
+  fallback
+) {
   const response = await fetch(url, {
     cache: 'no-store'
   });
@@ -570,108 +746,162 @@ async function fetchJson(url, fallback) {
 }
 
 async function init() {
-  [config, venues, performances, meta, alerts] = await Promise.all([
+  [
+    config,
+    venues,
+    performances,
+    meta,
+    alerts
+  ] = await Promise.all([
     fetchJson('config.json', {}),
-    fetchJson('data/venues.json', []),
-    fetchJson('data/performances.json', []),
-    fetchJson('data/sync-meta.json', {}),
-    fetchJson('data/alerts.json', [])
+    fetchJson(
+      'data/venues.json',
+      []
+    ),
+    fetchJson(
+      'data/performances.json',
+      []
+    ),
+    fetchJson(
+      'data/sync-meta.json',
+      {}
+    ),
+    fetchJson(
+      'data/alerts.json',
+      []
+    )
   ]);
 
-  filtered = performances.filter(active);
+  filtered =
+    performances.filter(active);
 
-  const updated = parse(meta.updatedAt);
+  const updated =
+    parse(meta.updatedAt);
 
   const elapsedHours = updated
-    ? (Date.now() - updated.getTime()) / 3600000
+    ? (
+        Date.now() -
+        updated.getTime()
+      ) / 3600000
     : 999;
 
   $('#dataStatus').innerHTML = `
-    <b>${esc(meta.source || '공식 데이터')}</b>
-    · ${meta.performanceCount || performances.length}개
+    <b>
+      ${esc(
+        meta.source ||
+          '공식 데이터'
+      )}
+    </b>
+
+    · ${
+      meta.performanceCount ||
+      performances.length
+    }개
+
     · 마지막 확인
     ${
       updated
-        ? updated.toLocaleString('ko-KR')
+        ? updated.toLocaleString(
+            'ko-KR'
+          )
         : '알 수 없음'
     }
+
     ${
-      elapsedHours > Number(config.staleHours || 30)
+      elapsedHours >
+      Number(
+        config.staleHours || 30
+      )
         ? '<strong>⚠ 갱신 지연</strong>'
         : '<span>정상 갱신</span>'
     }
   `;
 
-  $('#watchKeywords').textContent = (
-    config.watchKeywords || []
-  ).join(' · ');
+  $('#watchKeywords').textContent =
+    (
+      config.watchKeywords || []
+    ).join(' · ');
 
   $('#footerMeta').textContent = `
-    마지막 데이터 확인: ${meta.updatedAt || '-'}
-    / 출처: ${meta.source || '-'}
+    마지막 데이터 확인:
+    ${meta.updatedAt || '-'}
+    / 출처:
+    ${meta.source || '-'}
   `.trim();
 
-  ['서울', '인천', '경기'].forEach(region => {
-    $('#regionFilter').insertAdjacentHTML(
-      'beforeend',
-      `<option value="${region}">${region}</option>`
-    );
+  [
+    '서울',
+    '인천',
+    '경기'
+  ].forEach(region => {
+    $('#regionFilter')
+      .insertAdjacentHTML(
+        'beforeend',
+        `
+          <option value="${region}">
+            ${region}
+          </option>
+        `
+      );
   });
 
   const watchIds = new Set(
     alerts
-      .filter(alert => alert.type === 'WATCH_MATCH')
-      .map(alert => alert.performanceId)
+      .filter(
+        alert =>
+          alert.type === 'WATCH_MATCH'
+      )
+      .map(
+        alert =>
+          alert.performanceId
+      )
   );
 
-  const watchPerformances = performances
-    .filter(
-      performance =>
-        watchIds.has(performance.id) &&
-        active(performance)
-    )
-    .slice(0, 12);
+  const watchPerformances =
+    performances
+      .filter(
+        performance =>
+          watchIds.has(
+            performance.id
+          ) &&
+          active(performance)
+      )
+      .slice(0, 12);
 
-  const familyPerformances = performances
-    .filter(
-      performance =>
-        active(performance) &&
-        familyFit(performance)
-    )
-    .sort(
-      (a, b) =>
-        (b.confidence?.score || 0) -
-        (a.confidence?.score || 0)
-    )
-    .slice(0, 12);
+  const familyPerformances =
+    performances
+      .filter(
+        performance =>
+          active(performance) &&
+          familyFit(performance)
+      )
+      .sort(
+        (a, b) =>
+          (
+            b.confidence?.score ||
+            0
+          ) -
+          (
+            a.confidence?.score ||
+            0
+          )
+      )
+      .slice(0, 12);
 
-  const newPerformances = performances
-    .filter(
-      performance =>
-        active(performance) &&
-        (recent(performance.firstSeenAt) ||
-          recent(performance.updatedAt))
-    )
-    .sort(
-      (a, b) =>
-        (parse(b.updatedAt)?.getTime() || 0) -
-        (parse(a.updatedAt)?.getTime() || 0)
-    )
-    .slice(0, 12);
+  render(
+    '#watchList',
+    watchPerformances
+  );
 
-  const weekPerformances = performances
-    .filter(
-      performance =>
-        active(performance) &&
-        thisWeek(performance)
-    )
-    .slice(0, 12);
+  render(
+    '#familyList',
+    familyPerformances
+  );
 
-  render('#watchList', watchPerformances);
-  render('#familyList', familyPerformances);
-  render('#newList', newPerformances);
-  render('#weekList', weekPerformances);
-  render('#allList', filtered);
+  render(
+    '#allList',
+    filtered
+  );
 
   $('#resultCount').textContent =
     `${filtered.length}개 공연`;
@@ -682,29 +912,51 @@ async function init() {
     '#ageFilter',
     '#dateFilter'
   ].forEach(selector => {
-    $(selector).addEventListener('input', applyFilters);
+    $(selector).addEventListener(
+      'input',
+      applyFilters
+    );
   });
 
-  $('.dialog-close').addEventListener('click', () => {
-    $('#detailDialog').close();
-  });
+  $('.dialog-close')
+    .addEventListener(
+      'click',
+      () => {
+        $('#detailDialog').close();
+      }
+    );
 
-  document.addEventListener('click', event => {
-    const cardElement = event.target.closest('[data-id]');
+  document.addEventListener(
+    'click',
+    event => {
+      const cardElement =
+        event.target.closest(
+          '[data-id]'
+        );
 
-    if (cardElement) {
-      openDetail(cardElement.dataset.id);
+      if (cardElement) {
+        openDetail(
+          cardElement.dataset.id
+        );
+      }
     }
-  });
+  );
 
-  document.addEventListener('keydown', event => {
-    if (
-      event.key === 'Enter' &&
-      event.target.matches('[data-id]')
-    ) {
-      openDetail(event.target.dataset.id);
+  document.addEventListener(
+    'keydown',
+    event => {
+      if (
+        event.key === 'Enter' &&
+        event.target.matches(
+          '[data-id]'
+        )
+      ) {
+        openDetail(
+          event.target.dataset.id
+        );
+      }
     }
-  });
+  );
 }
 
 init().catch(error => {
