@@ -1,0 +1,17 @@
+{
+  "kids-서울형-키즈카페-시립-1호점": {
+    "features": {"stroller": true, "diaperTable": true, "elevator": true},
+    "scores": {"first": 92, "baby": 60, "solo": 66, "parent": 75},
+    "verified": false
+  },
+  "kids-서울형-키즈카페-시립-공예마을점": {
+    "features": {"stroller": true, "elevator": true},
+    "scores": {"first": 92, "baby": 72, "solo": 68, "parent": 80},
+    "verified": false
+  },
+  "kids-서울형-키즈카페-시립-뚝섬자벌레점": {
+    "features": {"stroller": true, "diaperTable": true, "elevator": true},
+    "scores": {"first": 90, "baby": 78, "solo": 70, "parent": 79},
+    "verified": false
+  }
+}

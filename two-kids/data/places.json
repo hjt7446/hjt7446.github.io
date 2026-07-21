@@ -1,0 +1,146 @@
+{
+  "updatedAt": "2026-07-21T12:00:00+09:00",
+  "sourceNote": "초기 시설은 공식 홈페이지 기준으로 정리한 목록입니다. 운영시간·예약·편의시설은 방문 전 다시 확인하세요.",
+  "places": [
+    {
+      "id": "seoul-child-library",
+      "name": "서울특별시교육청 어린이도서관",
+      "region": "서울",
+      "address": "종로구 사직로9길 7",
+      "category": "library",
+      "stayMinutes": 120,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": false,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 76,
+        "baby": 92,
+        "solo": 91,
+        "parent": 88
+      },
+      "url": "https://childlib.sen.go.kr/childlib/index.do",
+      "ageMin": 0,
+      "ageMax": 12,
+      "verified": true
+    },
+    {
+      "id": "national-child-library",
+      "name": "국립어린이청소년도서관",
+      "region": "서울",
+      "address": "강남구 테헤란로7길 21",
+      "category": "library",
+      "stayMinutes": 150,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 82,
+        "baby": 91,
+        "solo": 87,
+        "parent": 90
+      },
+      "url": "https://www.nlcy.go.kr/",
+      "ageMin": 0,
+      "ageMax": 12,
+      "verified": true
+    },
+    {
+      "id": "seoul-imagination",
+      "name": "서울상상나라",
+      "region": "서울",
+      "address": "광진구 능동로 216",
+      "category": "museum",
+      "stayMinutes": 180,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": false,
+        "free": false
+      },
+      "scores": {
+        "first": 96,
+        "baby": 85,
+        "solo": 72,
+        "parent": 86
+      },
+      "url": "https://www.seoulchildrensmuseum.org/",
+      "ageMin": 0,
+      "ageMax": 12,
+      "verified": true
+    },
+    {
+      "id": "national-child-museum",
+      "name": "국립중앙박물관 어린이박물관",
+      "region": "서울",
+      "address": "용산구 서빙고로 137",
+      "category": "museum",
+      "stayMinutes": 150,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": false,
+        "free": true
+      },
+      "scores": {
+        "first": 91,
+        "baby": 89,
+        "solo": 80,
+        "parent": 92
+      },
+      "url": "https://www.museum.go.kr/site/child/home",
+      "ageMin": 0,
+      "ageMax": 12,
+      "verified": true
+    },
+    {
+      "id": "seoul-history-child",
+      "name": "서울역사박물관 어린이 공간",
+      "region": "서울",
+      "address": "종로구 새문안로 55",
+      "category": "museum",
+      "stayMinutes": 110,
+      "features": {
+        "indoor": true,
+        "stroller": true,
+        "nursingRoom": true,
+        "diaperTable": true,
+        "parking": true,
+        "elevator": true,
+        "reservationFree": true,
+        "free": true
+      },
+      "scores": {
+        "first": 80,
+        "baby": 90,
+        "solo": 88,
+        "parent": 90
+      },
+      "url": "https://museum.seoul.go.kr/",
+      "ageMin": 0,
+      "ageMax": 12,
+      "verified": true
+    }
+  ]
+}
