@@ -1,6 +1,133 @@
 {
-  "updatedAt": null,
-  "sourceNote": "GitHub Actions 실행 후 서울·경기·인천 공식 출처의 수집 결과가 저장됩니다.",
-  "sources": [],
-  "places": []
+  "updatedAt": "2026-07-22T12:50:05+09:00",
+  "sourceNote": "서울·경기·인천 공식 페이지를 자동 수집한 결과입니다. 기존 데이터는 보존하지 않습니다.",
+  "sources": [
+    {
+      "region": "서울",
+      "source": "서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeList.do",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "region": "경기",
+      "source": "놀이(체험)실·아이사랑놀이터",
+      "url": "https://gyeonggi.childcare.go.kr/lgyeonggi/d10_20000/d10_20061/d10_20062.jsp",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "region": "인천",
+      "source": "아이사랑꿈터",
+      "url": "https://www.incheon.go.kr/earlychild/EC040102",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "places": [
+    {
+      "id": "경기-bba3954f89cf",
+      "name": "분당판교 아이사랑놀이터 & 장난감도서관",
+      "region": "경기",
+      "district": "성남시",
+      "address": "경기도 성남시 분당구 판교공원로 4 길 27, 3 층",
+      "category": "public-play-space",
+      "ageMin": 0,
+      "ageMax": 6,
+      "description": "경기도 육아종합지원센터 놀이공간",
+      "url": "http://sneducare.or.kr/",
+      "source": "놀이(체험)실·아이사랑놀이터"
+    },
+    {
+      "id": "경기-1f74ed01f5d7",
+      "name": "센터본점 아이사랑놀이터 & 장난감도서관",
+      "region": "경기",
+      "district": "성남시",
+      "address": "경기도 성남시 중원구 양현로 379",
+      "category": "public-play-space",
+      "ageMin": 0,
+      "ageMax": 6,
+      "description": "경기도 육아종합지원센터 놀이공간",
+      "url": "http://sneducare.or.kr/",
+      "source": "놀이(체험)실·아이사랑놀이터"
+    },
+    {
+      "id": "서울-364b94fd7f28",
+      "name": "서울형 키즈카페 시립 뚝섬자벌레점",
+      "region": "서울",
+      "district": "광진구",
+      "address": "서울특별시 광진구 강변북로 2202 2층 꿈틀나루 (자양동)",
+      "category": "public-play-space",
+      "ageMin": 0,
+      "ageMax": 6,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=GJ240401&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    },
+    {
+      "id": "서울-27bbd7f08837",
+      "name": "서울형 키즈카페 시립 1호점",
+      "region": "서울",
+      "district": "동작구",
+      "address": "서울특별시 동작구 노량진로 10 서울가족플라자 지하2층 (대방동)",
+      "category": "public-play-space",
+      "ageMin": 4,
+      "ageMax": 10,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=DJ230901&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    },
+    {
+      "id": "서울-5832ab148178",
+      "name": "서울형 키즈카페 시립 보라매공원점",
+      "region": "서울",
+      "district": "동작구",
+      "address": "서울특별시 동작구 여의대방로20길 33 1층 (신대방동)",
+      "category": "public-play-space",
+      "ageMin": 3,
+      "ageMax": 9,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=DJ250901&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    },
+    {
+      "id": "서울-54f5d94f2903",
+      "name": "서울형 키즈카페 예약",
+      "region": "서울",
+      "district": "동작구",
+      "address": "서울특별시 동작구 노량진로 10 서울가족플라자 지하2층 (대방동)",
+      "category": "public-play-space",
+      "ageMin": 4,
+      "ageMax": 10,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=DJ230901&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    },
+    {
+      "id": "서울-41155e8a84d6",
+      "name": "서울형 키즈카페 시립 목동점",
+      "region": "서울",
+      "district": "양천구",
+      "address": "서울특별시 양천구 안양천로 1131 지식산업센터 2층 (목동)",
+      "category": "public-play-space",
+      "ageMin": 3,
+      "ageMax": 12,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=YC231201&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    },
+    {
+      "id": "서울-ef6b03343202",
+      "name": "서울형 키즈카페 시립 공예마을점",
+      "region": "서울",
+      "district": "종로구",
+      "address": "서울특별시 종로구 율곡로3길 4 서울공예박물관 어린이박물관 (교육동 2~3층)",
+      "category": "public-play-space",
+      "ageMin": 0,
+      "ageMax": 9,
+      "description": "서울시 공식 서울형 키즈카페",
+      "url": "https://umppa.seoul.go.kr/icare/user/kidsCafe/BD_selectKidsCafeView.do?q_fcltyId=JN251201&q_fcltyStle=",
+      "source": "서울형 키즈카페"
+    }
+  ]
 }
