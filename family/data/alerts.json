@@ -1,25 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF291333",
-    "title": "스트라빈스키 [대학로]",
-    "detectedAt": "2026-07-22T15:39:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "poster"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF236349",
-    "title": "난타 [홍대]",
-    "detectedAt": "2026-07-22T15:39:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
