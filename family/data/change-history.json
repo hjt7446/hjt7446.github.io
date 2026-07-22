@@ -526,5 +526,29 @@
         "after": "공연중"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF291333",
+    "title": "스트라빈스키 [대학로]",
+    "detectedAt": "2026-07-22T15:39:56+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF291333_260514_103003.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF291333_260722_144354.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF236349",
+    "title": "난타 [홍대]",
+    "detectedAt": "2026-07-22T15:39:56+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-12-31"
+      }
+    ]
   }
 ]
