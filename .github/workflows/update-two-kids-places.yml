@@ -1,31 +1,67 @@
-name: Update two-kids place data
+name: Update two-kids places
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 21 * * 1,4" # KST 화/금 06:20
+    # 매일 한국시간 오전 5시 20분 (UTC 전날 20:20)
+    - cron: "20 20 * * *"
+
 permissions:
   contents: write
+
 concurrency:
-  group: two-kids-place-sync
-  cancel-in-progress: true
+  group: update-two-kids-places
+  cancel-in-progress: false
+
 jobs:
-  sync:
+  crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v6
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -r two-kids/scripts/requirements.txt
-      - run: python two-kids/scripts/crawl_places.py
-      - run: python -m json.tool two-kids/data/places.json >/dev/null
-      - name: Commit verified changes
+          cache: pip
+
+      - name: Install dependencies
         run: |
-          if git diff --quiet -- two-kids/data; then exit 0; fi
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Crawl places
+        run: python two-kids/scripts/crawl_places.py
+
+      - name: Validate generated JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("two-kids/data/places.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          if not isinstance(data, dict):
+              raise SystemExit("places.json root must be an object")
+          if not isinstance(data.get("places"), list):
+              raise SystemExit("places must be an array")
+
+          print(f"Valid JSON: {len(data['places'])} places")
+          PY
+
+      - name: Commit updated places
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add two-kids/data
-          git commit -m "data: refresh two-kids places"
-          git pull --rebase origin "${{ github.event.repository.default_branch }}"
-          git push origin "HEAD:${{ github.event.repository.default_branch }}"
+          git add two-kids/data/places.json
+
+          if git diff --cached --quiet; then
+            echo "변경된 데이터가 없습니다."
+            exit 0
+          fi
+
+          git commit -m "자동 업데이트: 아이와 갈 곳 데이터"
+          git push
