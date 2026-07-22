@@ -6,22 +6,70 @@ function unique(values) { return [...new Set(values.filter(Boolean))]; }
 function escapeText(value) { return String(value ?? ""); }
 
 function fillRegions() {
-  const regions = unique(state.places.map((p) => p.region)).sort((a,b) => {
-    const ai = regionOrder.indexOf(a), bi = regionOrder.indexOf(b);
-    return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi) || a.localeCompare(b, "ko");
-  });
-  $("#region").innerHTML = '<option value="all">전체</option>' + regions.map((r) => `<option value="${r}">${r}</option>`).join("");
-  const preferred = localStorage.getItem("twoKidsRegion") || "인천";
-  $("#region").value = regions.includes(preferred) ? preferred : "all";
+  const regionSelect = $("#region");
+
+  regionSelect.innerHTML = `
+    <option value="all">전체</option>
+    <option value="인천">인천</option>
+    <option value="경기">경기</option>
+    <option value="서울">서울</option>
+  `;
+
+  const preferred =
+    localStorage.getItem("twoKidsRegion") ||
+    "인천";
+
+  regionSelect.value = [
+    "all",
+    "인천",
+    "경기",
+    "서울",
+  ].includes(preferred)
+    ? preferred
+    : "인천";
+
   fillDistricts();
 }
 
 function fillDistricts() {
   const region = $("#region").value;
-  const districts = unique(state.places.filter((p) => region === "all" || p.region === region).map((p) => p.district)).sort((a,b) => a.localeCompare(b,"ko"));
-  const current = $("#district").value;
-  $("#district").innerHTML = '<option value="all">전체</option>' + districts.map((d) => `<option value="${d}">${d}</option>`).join("");
-  $("#district").value = districts.includes(current) ? current : "all";
+
+  const districts = unique(
+    state.places
+      .filter(
+        (place) =>
+          region === "all" ||
+          place.region === region
+      )
+      .map((place) => place.district)
+      .filter(
+        (district) =>
+          district &&
+          !["서울", "경기", "인천"].includes(
+            district
+          )
+      )
+  ).sort((a, b) =>
+    a.localeCompare(b, "ko")
+  );
+
+  const current =
+    $("#district").value;
+
+  $("#district").innerHTML = `
+    <option value="all">전체</option>
+    ${districts
+      .map(
+        (district) =>
+          `<option value="${district}">${district}</option>`
+      )
+      .join("")}
+  `;
+
+  $("#district").value =
+    districts.includes(current)
+      ? current
+      : "all";
 }
 
 function filteredPlaces() {
