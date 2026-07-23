@@ -1018,5 +1018,29 @@
         "after": "공연중"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF284594",
+    "title": "장수탕 선녀님 [서울 광진]",
+    "detectedAt": "2026-07-23T15:37:57+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-09",
+        "after": "2026-08-30"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF175093",
+    "title": "뷰티풀라이프",
+    "detectedAt": "2026-07-23T15:37:57+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-30"
+      }
+    ]
   }
 ]
