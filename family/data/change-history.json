@@ -1642,5 +1642,34 @@
         "after": "공연완료"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF293119",
+    "title": "나 혼자만 레벨업 on ICE",
+    "detectedAt": "2026-07-24T15:36:04+09:00",
+    "changes": [
+      {
+        "field": "price",
+        "before": "VIP석 135,000원, VIP석 2인석(테이블석)  270,000원, R석 120,000원",
+        "after": "VIP석 135,000원, VIP석 2인석(테이블석)  270,000원, R석 120,000원, S석 88,000원"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293119_260608_151647.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293119_260724_112432.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295228",
+    "title": "인천문화예술회관 클래식시리즈3. 조수미 세계무대 데뷔 40주년 기념 공연 [인천]",
+    "detectedAt": "2026-07-24T15:36:04+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "인천문화예술회관 클래식시리즈3. 조수미 세계무대 데뷔 40주년 기념 공연",
+        "after": "인천문화예술회관 클래식시리즈3. 조수미 세계무대 데뷔 40주년 기념 공연 [인천]"
+      }
+    ]
   }
 ]
