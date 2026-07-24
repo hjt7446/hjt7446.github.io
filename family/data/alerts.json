@@ -1,26 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF293119",
-    "title": "나 혼자만 레벨업 on ICE",
-    "detectedAt": "2026-07-24T15:36:04+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "price",
-      "poster"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF295228",
-    "title": "인천문화예술회관 클래식시리즈3. 조수미 세계무대 데뷔 40주년 기념 공연 [인천]",
-    "detectedAt": "2026-07-24T15:36:04+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "title"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
