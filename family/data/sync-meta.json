@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-25T08:11:53+09:00",
+  "updatedAt": "2026-07-25T15:26:34+09:00",
   "status": "ok",
   "source": "KOPIS official API",
-  "performanceCount": 1377,
-  "venueCount": 407,
-  "changedCount": 108,
-  "failedCount": 0,
-  "ageSkippedCount": 377,
+  "performanceCount": 1346,
+  "venueCount": 406,
+  "changedCount": 0,
+  "failedCount": 2,
+  "ageSkippedCount": 374,
   "maxAudienceAge": 8,
   "excludeUnknownAge": true,
-  "successRatio": 1.0,
+  "successRatio": 0.9988,
   "range": {
     "daysBack": 14,
     "daysForward": 30
