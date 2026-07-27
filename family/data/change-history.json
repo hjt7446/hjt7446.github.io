@@ -5247,5 +5247,65 @@
         "after": "공연완료"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF293705",
+    "title": "2호선 세입자 [JS아트홀]",
+    "detectedAt": "2026-07-27T16:43:40+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF281769",
+    "title": "오르간 오딧세이",
+    "detectedAt": "2026-07-27T16:43:40+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "김지윤, 박준호, 홍정민, 강민지, 박범수",
+        "after": "안갑성, 최규미 등"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF276681",
+    "title": "아빠와 딸 [대학로]",
+    "detectedAt": "2026-07-27T16:43:40+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-30"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF270484",
+    "title": "영시기 [서울 성수]",
+    "detectedAt": "2026-07-27T16:43:40+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-29"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF260200",
+    "title": "알사탕",
+    "detectedAt": "2026-07-27T16:43:40+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
+      }
+    ]
   }
 ]
