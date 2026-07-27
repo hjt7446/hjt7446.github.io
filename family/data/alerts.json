@@ -1,5 +1,235 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296719",
+    "title": "쌀롱드무지끄, 빛에서 황혼으로",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296681",
+    "title": "천탈쌀롱: 탈춤은 어떻게 오늘이 되는가? (7월)",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296533",
+    "title": "라움 마티네콘서트, Hollywood & Jazz: Cinema Concert (7월)",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296393",
+    "title": "클래식, 가장 가까운 곳에서: 플로스 앙상블",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295955",
+    "title": "LIVE in SETi vol.89",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295939",
+    "title": "OCTAVARIUM LIVE, 오늘도 아이돌 vol.36",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295684",
+    "title": "먼데이프로젝트 IN 라이브클럽, 원니 단독콘서트",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295473",
+    "title": "김지혜 귀국 피아노 독주회",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295347",
+    "title": "Zubek & Pentz Piazzolla Duo 피오트르 주벡 & 야네크 펜츠 피아졸라 듀오 내한공연",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295244",
+    "title": "양희주 해금독주회 III. 심소풍류 별곡",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295231",
+    "title": "김연경 바이올린 독주회",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294913",
+    "title": "온: 콘서트, 피아노 살롱",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294832",
+    "title": "김주희 & 어자혜 Duo Recital",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293833",
+    "title": "이안아 피콜로 & 플루트 리사이틀",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293366",
+    "title": "소프라노 이주현 귀국 독창회: 낯선 풍경들: 현대의 목소리",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293268",
+    "title": "아시테지 국제여름축제, 미스터 사티: 종이로 만든 세상",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293005",
+    "title": "AI세계에서 살아남기",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291425",
+    "title": "제1188회 하우스콘서트, July Festival: Messiaen 1. 스무 개의 명상",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291422",
+    "title": "제1187회 하우스콘서트, July Festival: Artist in Focus 4. 이원석 조합",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291353",
+    "title": "집사TV 시즌2, Part.2: 대저택 끝 없는 문 [서울 서대문]",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF290859",
+    "title": "마법소녀 애니메이션 콘서트",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF288899",
+    "title": "American Football Live [서울]",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294357",
+    "title": "수원시립교향악단 기획연주회, 수원시립예술단 유료회원 초청음악회: 차이콥스키 [수원]",
+    "detectedAt": "2026-07-28T08:14:58+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
