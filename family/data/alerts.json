@@ -1,55 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF293705",
-    "title": "2호선 세입자 [JS아트홀]",
-    "detectedAt": "2026-07-27T16:43:40+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF281769",
-    "title": "오르간 오딧세이",
-    "detectedAt": "2026-07-27T16:43:40+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "cast"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF276681",
-    "title": "아빠와 딸 [대학로]",
-    "detectedAt": "2026-07-27T16:43:40+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF270484",
-    "title": "영시기 [서울 성수]",
-    "detectedAt": "2026-07-27T16:43:40+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF260200",
-    "title": "알사탕",
-    "detectedAt": "2026-07-27T16:43:40+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
