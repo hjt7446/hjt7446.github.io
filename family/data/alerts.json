@@ -1,55 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF288742",
-    "title": "사랑해 엄마 [대학로]",
-    "detectedAt": "2026-07-28T15:36:13+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "cast"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF285839",
-    "title": "불편한 편의점1 [대학로]",
-    "detectedAt": "2026-07-28T15:36:13+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF285349",
-    "title": "불편한 편의점2",
-    "detectedAt": "2026-07-28T15:36:13+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF237479",
-    "title": "페인터즈 [경향아트힐]",
-    "detectedAt": "2026-07-28T15:36:13+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF220426",
-    "title": "죽여주는 이야기",
-    "detectedAt": "2026-07-28T15:36:13+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
