@@ -1,5 +1,325 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297141",
+    "title": "코리아라운드 컬처, 한국-인도네시아 클래시컬 브릿지",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296582",
+    "title": "서희무용단 기획공연: 일관 (一貫)",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296320",
+    "title": "제4회 툴뮤직장애인예술단 정기연주회",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296310",
+    "title": "π (파이) 의 변주: 강강술래",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296230",
+    "title": "쌀롱드무지끄, 낭만에 대하여",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296025",
+    "title": "제11회 SC브라이트 협연시리즈, Matinee Orchestra Concert with SC BRIGHT ORCHESTRA",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295757",
+    "title": "먼데이 프로젝트 IN 라이브 클럽, blue is not blue 단독 콘서트",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295693",
+    "title": "제7회 가곡풍류보존회 정기연주회: 남녀창 가곡 다른 노랫말 발췌 그 다섯",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295463",
+    "title": "나루 영 아티스트와 함께하는 살롱음악회 (7월)",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295214",
+    "title": "월간 피오레, 김윤지 피아니스트 (7월)",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295055",
+    "title": "월간뮤지크, 노을",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295003",
+    "title": "The Unison: Piano Ensemble",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294757",
+    "title": "제43회 정재영 명인의 초적소리 & 김화선 명창의 가야금소리45",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294597",
+    "title": "조종현 귀국 클라리넷 독주회",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293894",
+    "title": "제11회 늘푸른 연극제, 극단 신협: 벚꽃동산",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293697",
+    "title": "소프라노 노지윤 독창회",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293379",
+    "title": "로데아트센터 마티네 콘서트 시리즈: 클래식 모닝, Vn. 이제린 Pf. 유현성: 비상의 시작 (The Prelude)",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293282",
+    "title": "아시테지 국제여름축제, 걸리버 여행기: ZOOM IN OUT",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293257",
+    "title": "아시테지 국제여름축제, 이리저리 팔랑팔랑",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF292573",
+    "title": "우리 시대 에투알 (07.30)",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291964",
+    "title": "예술의전당 어린이 가족 페스티벌, 코 잃은 코끼리 코바",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291680",
+    "title": "원더매직의 오리지널 과학마술콘서트 시즌2 [서울 강북]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291448",
+    "title": "제1190회 하우스콘서트, July Festival: Messiaen 2. 영원으로의 여정",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF291447",
+    "title": "제1189회 하우스콘서트, July Festival: Debussy & Ravel Ensemble 4. Masterworks",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF279501",
+    "title": "아름다운 목요일 영 오디세이: 베토벤, Ⅲ. 윤해원 & 박원민 & 진영훈 Violin",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296693",
+    "title": "풍류일로: 인천의 소리, 하나의 길로 잇다 [인천]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF289123",
+    "title": "트라이보울 시리즈, 김효영: 숨 X 굿",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297230",
+    "title": "제3회 대한민국 대학연극제, 비밀의 화원: 단국대학교",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295301",
+    "title": "조성진 피아노 리사이틀 [평택]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295225",
+    "title": "강윤주의 전통 춤: 태평장춘 [과천]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294812",
+    "title": "수 라운지, 올디 벗 구디 (Oldie but Goodie) [연천]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF283666",
+    "title": "아침음악나들이 3, 노브레인 [고양]",
+    "detectedAt": "2026-07-30T08:08:10+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF292512",
     "title": "넘버블록스 [하남 (앵콜) ]",
