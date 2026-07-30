@@ -6519,5 +6519,49 @@
         "after": "공연중"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF286543",
+    "title": "백 번째 리뷰",
+    "detectedAt": "2026-07-30T15:37:08+09:00",
+    "changes": [
+      {
+        "field": "price",
+        "before": "전석 30,000원",
+        "after": "전석 50,000원"
+      },
+      {
+        "field": "cast",
+        "before": "김유성, 조활, 박종수, 한현진, 유나연 등",
+        "after": "김유성, 조활, 박종수, 천이도, 전세기, 한현진, 유나연 등"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296694",
+    "title": "광명 전통예술 플렛폼 Vol.1 춤 & 사운드: 시그날",
+    "detectedAt": "2026-07-30T15:37:08+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "광명 전통예술 플렛폼 Vol.1 춤 & 사운드, 검: 비트",
+        "after": "광명 전통예술 플렛폼 Vol.1 춤 & 사운드: 시그날"
+      },
+      {
+        "field": "genre",
+        "before": "한국음악(국악)",
+        "after": "복합"
+      },
+      {
+        "field": "cast",
+        "before": "임용주 등",
+        "after": ""
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296694_260723_102356.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296694_260730_112125.jpg"
+      }
+    ]
   }
 ]
