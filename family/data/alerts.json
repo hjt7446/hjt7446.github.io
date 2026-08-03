@@ -1,5 +1,205 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297544",
+    "title": "제38회 본스타 강남본사 음악학부 정기공연: THE STAGE of BORNSTAR",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297498",
+    "title": "Quartet NNAC, Summer Breeze",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297153",
+    "title": "박성근 첼로 리사이틀",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296124",
+    "title": "서울시향, 우리동네 실내악",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295908",
+    "title": "앙상블 드 로즈마리 기획 초청 연주회: The Treasure Box",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295861",
+    "title": "소프라노 김예진 귀국 독창회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295845",
+    "title": "시프레 (Chypre) : 8월의 클래식 에세이",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295838",
+    "title": "AWAFE 라이부, 루네 Birthday party RUNEMURIHIME",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295795",
+    "title": "제9회 앙상블 에스프리 정기 연주회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295790",
+    "title": "권명혜 바이올린 독주회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295723",
+    "title": "지복현 귀국 플루트 독주회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294989",
+    "title": "정영환 피아노 귀국 독주회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294979",
+    "title": "천예나 피아노 독주회: Chopin, 그 시적인 순간들",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294416",
+    "title": "김나윤 클라리넷 독주회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294270",
+    "title": "EISLEANA PIANO QUARTET: 한여름밤을 수놓을 네 개의 목소리",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF292199",
+    "title": "하나로 연결된 평화음악회",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF292068",
+    "title": "누가 내 머리에 똥 쌌어? [서울 양천]",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF290469",
+    "title": "디즈니 판타지아 인 콘서트",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF290371",
+    "title": "코드세시 on Sync Next 26",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF289308",
+    "title": "랄라보이 내한공연: lullaboy Live [서울]",
+    "detectedAt": "2026-08-04T08:14:21+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF290973",
     "title": "넘버블록스 [성남]",
