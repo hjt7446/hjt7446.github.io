@@ -1,39 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF296946",
-    "title": "LUCIGANG 1ST SOLO CONCERT: 무한궤도",
-    "detectedAt": "2026-08-03T16:39:07+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "title"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF295148",
-    "title": "두들팝 [서울 광진]",
-    "detectedAt": "2026-08-03T16:39:07+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "startDate",
-      "endDate",
-      "cast",
-      "poster"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF152141",
-    "title": "북극곰 예술여행",
-    "detectedAt": "2026-08-03T16:39:07+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate",
-      "sourceStatus"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF290973",
     "title": "넘버블록스 [성남]",
