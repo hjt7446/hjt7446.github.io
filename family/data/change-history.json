@@ -10031,5 +10031,61 @@
         "after": "공연완료"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF296946",
+    "title": "LUCIGANG 1ST SOLO CONCERT: 무한궤도",
+    "detectedAt": "2026-08-03T16:39:07+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "LUCIGANG 1ST SOLO CONCERT",
+        "after": "LUCIGANG 1ST SOLO CONCERT: 무한궤도"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295148",
+    "title": "두들팝 [서울 광진]",
+    "detectedAt": "2026-08-03T16:39:07+09:00",
+    "changes": [
+      {
+        "field": "startDate",
+        "before": "2026-08-01",
+        "after": "2026-07-15"
+      },
+      {
+        "field": "endDate",
+        "before": "2026-09-20",
+        "after": "2026-10-18"
+      },
+      {
+        "field": "cast",
+        "before": "",
+        "after": "신광민, 김소희, 박선주, 강수연, 유수인, 김민지, 김무원 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295148_260702_141006.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295148_260803_145115.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF152141",
+    "title": "북극곰 예술여행",
+    "detectedAt": "2026-08-03T16:39:07+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-31"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
   }
 ]
