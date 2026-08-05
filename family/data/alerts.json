@@ -1,47 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF297328",
-    "title": "김민석 소극장 콘서트, 성하록: 여름사이",
-    "detectedAt": "2026-08-05T15:37:49+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "startDate",
-      "poster"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF296638",
-    "title": "달콤한나라의 버블매직쇼",
-    "detectedAt": "2026-08-05T15:37:49+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF295148",
-    "title": "두들팝 [서울 광진]",
-    "detectedAt": "2026-08-05T15:37:49+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "startDate"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF236674",
-    "title": "썸데이 [대학로]",
-    "detectedAt": "2026-08-05T15:37:49+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate",
-      "sourceStatus"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF290973",
     "title": "넘버블록스 [성남]",
