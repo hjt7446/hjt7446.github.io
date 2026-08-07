@@ -11537,5 +11537,17 @@
         "after": "2026-09-30"
       }
     ]
+  },
+  {
+    "performanceId": "kopis-PF296841",
+    "title": "전기뱀장어 EP 불꽃 쇼케이스",
+    "detectedAt": "2026-08-07T14:47:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "전기뱀장어 EP 불*꽃 쇼케이스",
+        "after": "전기뱀장어 EP 불꽃 쇼케이스"
+      }
+    ]
   }
 ]
