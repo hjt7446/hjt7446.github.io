@@ -1,15 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF296841",
-    "title": "전기뱀장어 EP 불꽃 쇼케이스",
-    "detectedAt": "2026-08-07T14:47:47+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "title"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF290973",
     "title": "넘버블록스 [성남]",
