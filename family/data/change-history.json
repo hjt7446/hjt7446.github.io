@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF295435",
-    "title": "idol wave, 리즈 생탄제 星夜残火",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295434",
-    "title": "엔분의일 투어 콘서트: HIGHTENSION [서울]",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF295384",
     "title": "피아니스트 김하얀의 Collaborative Recital",
     "detectedAt": "2026-07-26T08:04:27+09:00",
@@ -12071,6 +12047,45 @@
         "field": "sourceStatus",
         "before": "공연완료",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293558",
+    "title": "타임 [대학로]",
+    "detectedAt": "2026-08-10T20:17:01+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "타임",
+        "after": "타임 [대학로]"
+      },
+      {
+        "field": "cast",
+        "before": "",
+        "after": "석봉준, 배진범, 윤민혁, 노승민, 오하성, 전청일, 전시후 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293558_260612_134211.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293558_260810_160336.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297740",
+    "title": "제9회 생생우리음악축제, 본축제 [모모책방]",
+    "detectedAt": "2026-08-10T20:17:01+09:00",
+    "changes": [
+      {
+        "field": "startDate",
+        "before": "2026-08-28",
+        "after": "2026-08-29"
+      },
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-08-29"
       }
     ]
   }
