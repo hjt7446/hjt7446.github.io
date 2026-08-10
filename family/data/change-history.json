@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF295514",
-    "title": "진현준의 Holding Me",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295498",
-    "title": "숲세권 라이브, 줍에이 단독 공연: 능소화",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295474",
-    "title": "더베인 정규 2집 균열 쇼케이스",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295436",
-    "title": "OurR Live: Oasis Ⅲ",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF295435",
     "title": "idol wave, 리즈 생탄제 星夜残火",
     "detectedAt": "2026-07-26T08:04:27+09:00",
@@ -12046,6 +11998,79 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297777",
+    "title": "제8회 손정민 피리 독주회, 화탐확-취: 현",
+    "detectedAt": "2026-08-10T14:40:38+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "손정민",
+        "after": "손정민, 김남중, 서민서, 유다경, 김수아, 박다인 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297777_260805_144726.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297777_260810_134555.png"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286005",
+    "title": "삐삐: 기억을 담는 작은 상자 [대학로]",
+    "detectedAt": "2026-08-10T14:40:38+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-08-30"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF274407",
+    "title": "아주아주 배고픈 애벌레 쇼",
+    "detectedAt": "2026-08-10T14:40:38+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF242666",
+    "title": "페인터즈 [서대문전용관]",
+    "detectedAt": "2026-08-10T14:40:38+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-07-31",
+        "after": "2026-10-31"
+      },
+      {
+        "field": "price",
+        "before": "VIP석 70,000원, R석 50,000원",
+        "after": "VIP석 70,000원, R석 60,000원, S석 50,000원"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF242666_240805_155829.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF242666_260810_141710.gif"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
       }
     ]
   }
