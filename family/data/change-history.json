@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF293083",
-    "title": "스미다 아이코 & 모치즈키 루카 조인트 콘서트 & OVAL SISTEM in SEOUL",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF292951",
-    "title": "신곡 발매 기념 쇼케이스: 엄마는 예뻤다 / 압구정에서 옥수를 지나며",
-    "detectedAt": "2026-07-26T08:04:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF292719",
     "title": "아이재아 제이 톰슨 트리오 첫 내한공연",
     "detectedAt": "2026-07-26T08:04:27+09:00",
@@ -12086,6 +12062,30 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297480",
+    "title": "DONGHAE 1ST SOLO ENCORE CONCERT: ALIVE [서울]",
+    "detectedAt": "2026-08-11T14:18:14+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2027-09-06",
+        "after": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF233263",
+    "title": "인사이드 미",
+    "detectedAt": "2026-08-11T14:18:14+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
       }
     ]
   }
