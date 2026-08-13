@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF294561",
-    "title": "어린이 아트스테이지, 일장일딴 컬렉션 [김포]",
-    "detectedAt": "2026-07-27T08:07:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293978",
-    "title": "팥죽할멈과 호랑이 [안산 고잔]",
-    "detectedAt": "2026-07-27T08:07:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF293219",
     "title": "인어공주 [평택]",
     "detectedAt": "2026-07-27T08:07:42+09:00",
@@ -12086,6 +12062,40 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF254868",
+    "title": "급식왕: 급식이 사라졌다",
+    "detectedAt": "2026-08-13T14:46:00+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-01",
+        "after": "2026-09-05"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF252877",
+    "title": "드립소년단 [대학로]",
+    "detectedAt": "2026-08-13T14:46:00+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-02",
+        "after": "2026-09-06"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
       }
     ]
   }
