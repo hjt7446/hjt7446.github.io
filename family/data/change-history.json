@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF294757",
-    "title": "제43회 정재영 명인의 초적소리 & 김화선 명창의 가야금소리45",
-    "detectedAt": "2026-07-29T08:11:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF293697",
     "title": "소프라노 노지윤 독창회",
     "detectedAt": "2026-07-29T08:11:42+09:00",
@@ -12096,6 +12084,23 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296998",
+    "title": "서울중앙음악학원 개원 10주년 기념 연주회: A Decade of Passion",
+    "detectedAt": "2026-08-14T20:05:24+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "서아인, 고윤서, 윤지빈, 최수진, 백수현, 이지언, 안유나 등",
+        "after": "김수언, 김서현, 류현석, 이현정, 고윤서, 백수현, 최수진 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296998_260727_131500.png",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296998_260814_181245.gif"
       }
     ]
   }

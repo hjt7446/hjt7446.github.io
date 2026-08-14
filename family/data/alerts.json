@@ -1,5 +1,16 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296998",
+    "title": "서울중앙음악학원 개원 10주년 기념 연주회: A Decade of Passion",
+    "detectedAt": "2026-08-14T20:05:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "cast",
+      "poster"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF290973",
     "title": "넘버블록스 [성남]",
