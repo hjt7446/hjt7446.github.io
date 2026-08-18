@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF292696",
-    "title": "Grand Soft Day [평택]",
-    "detectedAt": "2026-08-02T08:03:41+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297188",
-    "title": "Classic Note Ⅱ: 남겨진 시간",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297085",
     "title": "주보라 피아노 독주회",
     "detectedAt": "2026-08-03T08:03:45+09:00",
@@ -12081,6 +12057,35 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297432",
+    "title": "한여름 밤의 호두까기 [대학로]",
+    "detectedAt": "2026-08-18T13:45:06+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "이민재, 황선정, 김성현, 이석원, 유무선, 이채아, 이은로 등",
+        "after": "이민재, 황선정, 이석원, 이은로, 유무선, 선승수, 윤정훈 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297432_260731_170029.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297432_260818_090346.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296102",
+    "title": "서도밴드 정규 1집 콘서트: 원",
+    "detectedAt": "2026-08-18T13:45:06+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "서재현, 김성현, 연태희, 김태주, 이환",
+        "after": "서재현, 김성현, 연태희, 김태주, 정현빈"
       }
     ]
   }
