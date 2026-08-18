@@ -1,77 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297085",
-    "title": "주보라 피아노 독주회",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296565",
-    "title": "RIE FAN CONCERT: FLOW, TO FLOURISH",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296547",
-    "title": "숲세권 라이브, 더씬드롬 단독 공연: 리시안셔스",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296516",
-    "title": "박시환 팬 콘서트, 다음 페이지: 인생의 새로운 장",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296412",
-    "title": "테너 정민규 독창회",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296209",
-    "title": "KT&G 장학재단과 함께하는 BALLET SHOWING",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF296175",
     "title": "N.Flying LIVE, &CON5: into REM [서울]",
     "detectedAt": "2026-08-03T08:03:45+09:00",
@@ -12086,6 +12014,78 @@
         "field": "cast",
         "before": "서재현, 김성현, 연태희, 김태주, 이환",
         "after": "서재현, 김성현, 연태희, 김태주, 정현빈"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297820",
+    "title": "우리 신화 이야기: 이야기 장수와 도깨비 [대학로]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297820_260806_104318.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297820_260818_175946.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296265",
+    "title": "옹알스 [대학로]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294927",
+    "title": "공부의 신 [대학로]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "",
+        "after": "우두연, 호천, 김권, 류한선, 김윤미, 김리나, 이윤미 등"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293558",
+    "title": "타임 [대학로]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-30"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF254549",
+    "title": "매직 사이언스 콘서트 [대학로]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-23",
+        "after": "2026-09-27"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295697",
+    "title": "말안듣는 청개구리 [안산]",
+    "detectedAt": "2026-08-18T19:39:29+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-05"
       }
     ]
   }
