@@ -27,7 +27,9 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r hotdeal/requirements.txt
+        run: |
+          pip install -r hotdeal/requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: Check hot deals and notify Telegram
         env:
