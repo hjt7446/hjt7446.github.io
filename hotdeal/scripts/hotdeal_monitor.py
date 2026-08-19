@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urljoin, urlparse
 
+
 from bs4 import BeautifulSoup
 try:
     from curl_cffi import requests as http_requests
@@ -72,7 +73,7 @@ def parse_price(text: str) -> int | None:
     return values[0] if values else None
 
 
-def fetch_html(url: str) -> str:
+def fetch_html_http(url: str) -> str:
     headers = {
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.7,en;q=0.6",
@@ -94,6 +95,77 @@ def fetch_html(url: str) -> str:
     if len(text) < 1000:
         raise RuntimeError("응답 HTML이 비정상적으로 짧습니다")
     return text
+
+
+def looks_like_deal_list(source_html: str, base_url: str) -> bool:
+    soup = BeautifulSoup(source_html, "html.parser")
+    base_host = urlparse(base_url).netloc
+    for a in soup.find_all("a", href=True):
+        parsed = urlparse(urljoin(base_url, a.get("href", "")))
+        if parsed.netloc == base_host and DETAIL_PATH_RE.search(parsed.path):
+            return True
+    return False
+
+
+def fetch_html_browser(url: str) -> str:
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise RuntimeError("Playwright가 설치되지 않았습니다") from exc
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
+        context = browser.new_context(
+            locale="ko-KR",
+            timezone_id="Asia/Seoul",
+            viewport={"width": 1365, "height": 900},
+            user_agent=(
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+            ),
+        )
+        page = context.new_page()
+        page.goto(url, wait_until="domcontentloaded", timeout=45000)
+
+        # 목록 데이터가 JS로 주입되는 사이트라 네트워크/DOM 변화를 잠시 기다린다.
+        try:
+            page.wait_for_load_state("networkidle", timeout=15000)
+        except Exception:
+            pass
+
+        # 개별 핫딜 URL은 마지막에 4~8자리 hex 식별자가 붙는다.
+        try:
+            page.wait_for_function(
+                """() => Array.from(document.querySelectorAll('a[href]')).some(a => /-[0-9a-fA-F]{4,8}\/?(?:[?#].*)?$/.test(a.href))""",
+                timeout=15000,
+            )
+        except Exception:
+            # 사이트가 느릴 때를 위한 짧은 추가 대기
+            page.wait_for_timeout(5000)
+
+        content = page.content()
+        browser.close()
+        return content
+
+
+def fetch_html(url: str) -> str:
+    http_error = None
+    try:
+        text = fetch_html_http(url)
+        if looks_like_deal_list(text, url):
+            print("INFO: HTTP HTML에서 핫딜 링크 확인")
+            return text
+        print("INFO: 초기 HTML에 핫딜 링크가 없어 브라우저 렌더링으로 전환")
+    except Exception as exc:
+        http_error = exc
+        print(f"INFO: HTTP 수집 실패({exc}); 브라우저 렌더링으로 전환")
+
+    rendered = fetch_html_browser(url)
+    if not looks_like_deal_list(rendered, url):
+        suffix = f"; HTTP 오류: {http_error}" if http_error else ""
+        raise RuntimeError(f"브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다{suffix}")
+    print("INFO: 브라우저 렌더링 HTML에서 핫딜 링크 확인")
+    return rendered
 
 
 def candidate_container(anchor):
