@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-08-19T20:26:31+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 20건",
+  "updatedAt": "2026-08-19T20:48:06+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 3건",
   "matches": [
+    {
+      "id": "fc1c",
+      "title": "제이엠솔루션 청광 마린 진주 모이스처 마스크 펄 24ml 10매입 x 3개 총 30매",
+      "url": "https://hotdeal.zip/제이엠솔루션-청광-마린-진주-모이스처-마스크-펄-24ml-10매입-x-3개-총-30매-fc1c",
+      "price": 12820,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T20:48:06+09:00"
+    },
+    {
+      "id": "72a6",
+      "title": "제이엠솔루션 청광 마린 진주 모이스처 마스크 펄 24ml 10매입 x 3개 총 30매",
+      "url": "https://hotdeal.zip/팜모닝-실속형-경북-샤인머스켓-2kg-4-5수-72a6",
+      "price": 12820,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T20:48:06+09:00"
+    },
+    {
+      "id": "c5b7",
+      "title": "제이엠솔루션 청광 마린 진주 모이스처 마스크 펄 24ml 10매입 x 3개 총 30매",
+      "url": "https://hotdeal.zip/호그와트-레거시-스위치2-c5b7",
+      "price": 12820,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T20:48:06+09:00"
+    },
     {
       "id": "418a",
       "title": "지압슬리퍼",
