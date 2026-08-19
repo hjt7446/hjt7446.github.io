@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-08-20T02:35:51+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
+  "updatedAt": "2026-08-20T02:54:57+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 2건",
   "matches": [
+    {
+      "id": "07c1",
+      "title": "닌텐도 스위치2 프로컨트롤러",
+      "url": "https://hotdeal.zip/닌텐도-스위치2-프로컨트롤러-07c1",
+      "price": 87840,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T02:54:57+09:00"
+    },
+    {
+      "id": "a8ac",
+      "title": "닌텐도 스위치2 프로컨트롤러",
+      "url": "https://hotdeal.zip/Caravan-SandWitch-a8ac",
+      "price": 87840,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T02:54:57+09:00"
+    },
     {
       "id": "85f8",
       "title": "구글 다이아몬드 밸리 감사제 (8/26 시작)",
