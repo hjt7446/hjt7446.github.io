@@ -1,22 +1,12 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF297431",
-    "title": "피아니스트 이재혁의 실내악 시리즈 Ⅱ, 베토벤 피아노 트리오 전곡 시리즈",
-    "detectedAt": "2026-08-19T13:46:42+09:00",
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-08-19T19:39:20+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "title"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF297157",
-    "title": "카페인 [대학로]",
-    "detectedAt": "2026-08-19T13:46:42+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "poster"
+      "endDate"
     ]
   },
   {

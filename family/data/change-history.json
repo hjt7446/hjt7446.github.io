@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF287187",
-    "title": "LiSA ASIA TOUR: LiVE is Smile Always ~15~ [서울]",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF252877",
     "title": "드립소년단 [대학로]",
     "detectedAt": "2026-08-03T08:03:45+09:00",
@@ -12086,6 +12074,18 @@
         "field": "poster",
         "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_260729_100642.gif",
         "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_260819_130301.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-08-19T19:39:20+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-31",
+        "after": "2026-10-31"
       }
     ]
   }
