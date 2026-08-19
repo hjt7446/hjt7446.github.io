@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-20T04:58:46+09:00",
+  "updatedAt": "2026-08-20T06:11:42+09:00",
   "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "89be",
+      "title": "sony A7M5 바디킷",
+      "url": "https://hotdeal.zip/sony-A7M5-바디킷-89be",
+      "price": 3095970,
+      "category": "가전",
+      "store": "네이버",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T06:11:42+09:00"
+    },
     {
       "id": "df8e",
       "title": "네이버페이 결제시 50% 할인",
@@ -1182,18 +1194,6 @@
       "id": "b49f",
       "title": "앤커 사운드코어 리버티4 프로 노이즈캔슬링 블루투스 이어폰 A3954",
       "url": "https://hotdeal.zip/비와이씨-에어로쉬-반팔런닝-5개-b49f",
-      "price": 99900,
-      "category": "PC",
-      "store": "네이버",
-      "community": "FM코리아",
-      "ruleId": "ramen",
-      "ruleName": "라면",
-      "detectedAt": "2026-08-19T19:04:59+09:00"
-    },
-    {
-      "id": "fb7e",
-      "title": "앤커 사운드코어 리버티4 프로 노이즈캔슬링 블루투스 이어폰 A3954",
-      "url": "https://hotdeal.zip/평양냉면-3인분세트-개별포장면-3팩-냉면육수-3팩-2세트-fb7e",
       "price": 99900,
       "category": "PC",
       "store": "네이버",
