@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r hotdeal/requirements.txt
-          python -m playwright install --with-deps chromium
+          python -m playwright install chromium
 
       - name: Check hot deals and notify Telegram
         env:
