@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>내 핫딜 알리미</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./">🔥 내 핫딜 알리미</a>
+      <a class="source-link" href="https://hotdeal.zip/" target="_blank" rel="noopener">hotdeal.zip ↗</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">GITHUB ACTIONS + TELEGRAM</p>
+        <h1>원하는 핫딜만<br>자동으로 알려줍니다.</h1>
+        <p class="hero-copy">GitHub Actions가 5분마다 확인하고 조건에 맞는 새 글이 올라오면 텔레그램으로 전송합니다.</p>
+      </div>
+      <div class="status-card">
+        <span class="status-dot" id="statusDot"></span>
+        <div>
+          <strong id="sourceStatus">상태 확인 중…</strong>
+          <p id="updatedAt">최근 실행 정보 불러오는 중</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">WATCH LIST</p>
+          <h2>감시 조건</h2>
+        </div>
+        <span class="count" id="ruleCount">0개</span>
+      </div>
+      <div class="rule-grid" id="ruleGrid">
+        <div class="empty">설정을 불러오는 중입니다.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">LATEST MATCHES</p>
+          <h2>최근 발견</h2>
+        </div>
+        <span class="count" id="matchCount">0건</span>
+      </div>
+      <div class="deal-list" id="dealList">
+        <div class="empty">아직 발견된 핫딜이 없습니다.</div>
+      </div>
+    </section>
+
+    <section class="guide">
+      <h2>조건 수정 방법</h2>
+      <p><code>hotdeal/config.json</code>의 <code>rules</code>를 수정하면 다음 Actions 실행부터 반영됩니다. 텔레그램 Bot Token과 Chat ID는 공개 파일에 넣지 말고 GitHub Actions Secrets에 저장하세요.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">개인용 핫딜 모니터 · 데이터는 알림 확인용이며 구매 전 원문을 확인하세요.</footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
