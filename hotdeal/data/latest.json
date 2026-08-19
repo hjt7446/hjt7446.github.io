@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-20T01:14:20+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 4건",
+  "updatedAt": "2026-08-20T02:35:51+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "85f8",
+      "title": "구글 다이아몬드 밸리 감사제 (8/26 시작)",
+      "url": "https://hotdeal.zip/구글-다이아몬드-밸리-감사제-8-26-시작-85f8",
+      "price": 17820,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T02:35:51+09:00"
+    },
     {
       "id": "07c5",
       "title": "싱하 소다워터 325ml 24병",
