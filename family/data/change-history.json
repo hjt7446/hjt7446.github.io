@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF290092",
-    "title": "인어공주 [서울 양천]",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF289969",
-    "title": "인싸가족",
-    "detectedAt": "2026-08-03T08:03:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF287187",
     "title": "LiSA ASIA TOUR: LiVE is Smile Always ~15~ [서울]",
     "detectedAt": "2026-08-03T08:03:45+09:00",
@@ -12086,6 +12062,30 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297431",
+    "title": "피아니스트 이재혁의 실내악 시리즈 Ⅱ, 베토벤 피아노 트리오 전곡 시리즈",
+    "detectedAt": "2026-08-19T13:46:42+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "피아니스트 이재혁의 실내악 시리즈 Ⅱ. 베토벤 피아노 트리오 전곡 시리즈",
+        "after": "피아니스트 이재혁의 실내악 시리즈 Ⅱ, 베토벤 피아노 트리오 전곡 시리즈"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297157",
+    "title": "카페인 [대학로]",
+    "detectedAt": "2026-08-19T13:46:42+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_260729_100642.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297157_260819_130301.gif"
       }
     ]
   }
