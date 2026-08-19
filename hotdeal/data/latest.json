@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-08-19T19:39:08+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 13건",
+  "updatedAt": "2026-08-19T19:59:56+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 5건",
   "matches": [
+    {
+      "id": "47c5",
+      "title": "지오다노 주니어 덕다운 조끼패딩",
+      "url": "https://hotdeal.zip/지오다노-주니어-덕다운-조끼패딩-47c5",
+      "price": 39300,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T19:59:56+09:00"
+    },
+    {
+      "id": "72d2",
+      "title": "지오다노 주니어 덕다운 조끼패딩",
+      "url": "https://hotdeal.zip/애플-아이폰-Air-자급제-256gb-클라우드화이트-72d2",
+      "price": 39300,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T19:59:56+09:00"
+    },
+    {
+      "id": "d496",
+      "title": "지오다노 주니어 덕다운 조끼패딩",
+      "url": "https://hotdeal.zip/다이슨-슈퍼소닉-HD15-프러시안-블루-코퍼-A-S-지원-가능-d496",
+      "price": 39300,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T19:59:56+09:00"
+    },
+    {
+      "id": "19fd",
+      "title": "지오다노 주니어 덕다운 조끼패딩",
+      "url": "https://hotdeal.zip/인도네시아-마나도-5일-노쇼핑-패키지-19fd",
+      "price": 39300,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T19:59:56+09:00"
+    },
+    {
+      "id": "717b",
+      "title": "지오다노 주니어 덕다운 조끼패딩",
+      "url": "https://hotdeal.zip/iPlay-80-미니-프로-GMKtec-M8-미니PC-717b",
+      "price": 39300,
+      "category": "PC",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-19T19:59:56+09:00"
+    },
     {
       "id": "319a",
       "title": "[기타] 올리브영 달리프 글램 스틱 헤어 왁스 16g",
