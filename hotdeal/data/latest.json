@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-20T00:51:17+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 20건",
+  "updatedAt": "2026-08-20T01:14:20+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 4건",
   "matches": [
+    {
+      "id": "07c5",
+      "title": "싱하 소다워터 325ml 24병",
+      "url": "https://hotdeal.zip/싱하-소다워터-325ml-24병-07c5",
+      "price": 17820,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T01:14:20+09:00"
+    },
+    {
+      "id": "6613",
+      "title": "싱하 소다워터 325ml 24병",
+      "url": "https://hotdeal.zip/MUSNAP-Ocean-7인치-이북리더기-6613",
+      "price": 17820,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T01:14:20+09:00"
+    },
+    {
+      "id": "3772",
+      "title": "싱하 소다워터 325ml 24병",
+      "url": "https://hotdeal.zip/싱하-소다워터-325mlX24병-3772",
+      "price": 17820,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T01:14:20+09:00"
+    },
+    {
+      "id": "2884",
+      "title": "싱하 소다워터 325ml 24병",
+      "url": "https://hotdeal.zip/월희-리메이크-PS4-스위치-패키지-2884",
+      "price": 17820,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T01:14:20+09:00"
+    },
     {
       "id": "1cba",
       "title": "투게더 오리지널 바닐라 아이스크림 6개 등 맛선택",
