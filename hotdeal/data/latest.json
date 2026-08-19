@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-20T02:54:57+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 2건",
+  "updatedAt": "2026-08-20T04:17:07+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "a12f",
+      "title": "닌텐도 스위치 월희 A piece of blue glass moon 한글판 / 2차분 / 9월14일 출고",
+      "url": "https://hotdeal.zip/닌텐도-스위치-월희-A-piece-of-blue-glass-moon-한글판-2차분-9월14일-출고-a12f",
+      "price": 77000,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T04:17:07+09:00"
+    },
     {
       "id": "07c1",
       "title": "닌텐도 스위치2 프로컨트롤러",
