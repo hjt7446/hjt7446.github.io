@@ -5,41 +5,22 @@
   "maxHistory": 100,
   "rules": [
     {
-      "id": "example-5070ti",
-      "name": "RTX 5070 Ti",
-      "enabled": false,
+      "id": "ramen",
+      "name": "라면",
+      "enabled": true,
       "keywordsAny": [
-        "5070 ti",
-        "5070ti"
+        "라면",
+        "신라면",
+        "진라면",
+        "짜파게티",
+        "불닭",
+        "너구리",
+        "육개장"
       ],
       "keywordsAll": [],
-      "exclude": [
-        "중고",
-        "리퍼",
-        "채굴"
-      ],
-      "maxPrice": 1100000,
+      "exclude": [],
+      "maxPrice": 0,
       "categories": [],
-      "stores": [],
-      "communities": []
-    },
-    {
-      "id": "example-990pro",
-      "name": "Samsung 990 PRO 4TB",
-      "enabled": false,
-      "keywordsAny": [
-        "990 pro 4tb",
-        "990pro 4tb"
-      ],
-      "keywordsAll": [],
-      "exclude": [
-        "중고",
-        "리퍼"
-      ],
-      "maxPrice": 350000,
-      "categories": [
-        "PC"
-      ],
       "stores": [],
       "communities": []
     }
