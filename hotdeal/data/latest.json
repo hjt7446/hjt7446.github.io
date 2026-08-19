@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-08-20T04:17:07+09:00",
+  "updatedAt": "2026-08-20T04:42:33+09:00",
   "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "00fc",
+      "title": "파파존스 배달 11000원 할인",
+      "url": "https://hotdeal.zip/파파존스-배달-11000원-할인-00fc",
+      "price": 11000,
+      "category": "가전",
+      "store": "쿠팡",
+      "community": "FM코리아",
+      "ruleId": "ramen",
+      "ruleName": "라면",
+      "detectedAt": "2026-08-20T04:42:33+09:00"
+    },
     {
       "id": "a12f",
       "title": "닌텐도 스위치 월희 A piece of blue glass moon 한글판 / 2차분 / 9월14일 출고",
