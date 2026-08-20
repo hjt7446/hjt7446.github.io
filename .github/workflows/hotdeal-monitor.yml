@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: hotdeal-monitor
+  group: master-write
   cancel-in-progress: false
 
 jobs:
@@ -48,4 +48,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add hotdeal/data/latest.json
           git commit -m "chore: update hotdeal monitor data"
+          git pull --rebase origin master
           git push
