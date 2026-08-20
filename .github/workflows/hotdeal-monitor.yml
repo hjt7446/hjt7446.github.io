@@ -49,4 +49,4 @@ jobs:
           git add hotdeal/data/latest.json
           git commit -m "chore: update hotdeal monitor data"
           git pull --rebase origin master
-          git push
+          git push origin master
