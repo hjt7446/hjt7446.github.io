@@ -11,18 +11,6 @@
     "message": "관심 작품 발견: 넘버블록스 [서울 (앵콜) ]"
   },
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF286543",
-    "title": "백 번째 리뷰",
-    "detectedAt": "2026-08-20T13:47:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate",
-      "cast",
-      "poster"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF294112",
     "title": "핑크퐁 클래식 나라: 뚜띠를 찾아서 [광명]",
