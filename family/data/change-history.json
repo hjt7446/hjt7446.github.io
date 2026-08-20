@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296537",
-    "title": "String Trio, Raffinierte Musik",
-    "detectedAt": "2026-08-05T08:13:27+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF296198",
     "title": "먼데이프로젝트 시즌9, 이파란 단독 콘서트: 미스테리! 초럭셔리 왕실파티와 사라진 보석",
     "detectedAt": "2026-08-05T08:13:27+09:00",
@@ -12066,6 +12054,28 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286543",
+    "title": "백 번째 리뷰",
+    "detectedAt": "2026-08-20T13:47:24+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-12-27"
+      },
+      {
+        "field": "cast",
+        "before": "김유성, 조활, 박종수, 천이도, 전세기, 한현진, 유나연 등",
+        "after": "김유성, 조활, 천이도, 전세기, 유나연, 문선혜, 김본비 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF286543_260309_114309.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF286543_260820_111402.png"
       }
     ]
   }
