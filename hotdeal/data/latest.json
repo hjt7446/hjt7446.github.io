@@ -1,5 +1,18 @@
 {
-  "updatedAt": "2026-08-20T09:57:16+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 0건",
-  "matches": []
+  "updatedAt": "2026-08-20T11:36:06+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
+  "matches": [
+    {
+      "id": "fde8",
+      "title": "생활용품 지마켓 FM코리아 크리넥스 안심 키친타월 140매 12롤 2팩(+뽑아쓰는 치킨타올40매) 21,300원 19분전 11:16",
+      "url": "https://hotdeal.zip/크리넥스-안심-키친타월-140매-12롤-2팩-뽑아쓰는-치킨타올40매-fde8",
+      "price": 21300,
+      "category": "생활용품",
+      "store": "지마켓",
+      "community": "FM코리아",
+      "ruleId": "wet_tissue",
+      "ruleName": "물티슈",
+      "detectedAt": "2026-08-20T11:36:06+09:00"
+    }
+  ]
 }
