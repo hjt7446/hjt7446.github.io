@@ -66,4 +66,4 @@ jobs:
 
           git commit -m "자동 업데이트: 맘맘 전국 인기 장소"
           git pull --rebase origin master
-          git push
+          git push origin master
