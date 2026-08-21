@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF295944",
-    "title": "SSUM 타는 콘서트, 좋은날이 오려나봐요",
-    "detectedAt": "2026-08-07T10:33:01+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF295920",
     "title": "홍은주 비올라 독주회",
     "detectedAt": "2026-08-07T10:33:01+09:00",
@@ -12066,6 +12054,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF277037",
+    "title": "아주아주 배고픈 애벌레 쇼 (영어)",
+    "detectedAt": "2026-08-21T13:49:42+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
       }
     ]
   }
