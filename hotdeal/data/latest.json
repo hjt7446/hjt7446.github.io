@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-08-22T14:57:46+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
+  "updatedAt": "2026-08-22T17:33:27+09:00",
+  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 3건",
   "matches": [
+    {
+      "id": "f248",
+      "title": "생활용품 앙블랑 뽐뿌 고평량 아기물티슈 썸머 에디션 네이비 캡형 70매X20팩 38,750원 4분전 17:28",
+      "url": "https://hotdeal.zip/고평량-아기물티슈-썸머-에디션-네이비-캡형-70매X20팩-f248",
+      "price": 38750,
+      "category": "생활용품",
+      "store": "",
+      "community": "뽐뿌",
+      "ruleId": "wet_tissue",
+      "ruleName": "물티슈",
+      "detectedAt": "2026-08-22T17:33:27+09:00"
+    },
+    {
+      "id": "1221",
+      "title": "생활용품 GS샵 뽐뿌 블루나 카모그랑 물티슈 120매 10팩 10,890원 31분전 17:02",
+      "url": "https://hotdeal.zip/블루나-카모그랑-물티슈-120매-10팩-1221",
+      "price": 10890,
+      "category": "생활용품",
+      "store": "",
+      "community": "뽐뿌",
+      "ruleId": "wet_tissue",
+      "ruleName": "물티슈",
+      "detectedAt": "2026-08-22T17:33:27+09:00"
+    },
+    {
+      "id": "6b96",
+      "title": "식품 롯데온 뽐뿌 핫식스 더킹 8종 355ml 24캔 17,780원 32분전 17:00",
+      "url": "https://hotdeal.zip/핫식스-더킹-8종-355ml-24캔-6b96",
+      "price": 17780,
+      "category": "식품",
+      "store": "롯데온",
+      "community": "뽐뿌",
+      "ruleId": "wet_tissue",
+      "ruleName": "물티슈",
+      "detectedAt": "2026-08-22T17:33:27+09:00"
+    },
     {
       "id": "3b70",
       "title": "식품 롯데온 FM코리아 핫식스 더킹 8종 355ml 24캔 17,780원 13분전 3 14:44",
