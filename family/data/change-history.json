@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF291908",
-    "title": "제29회 크리틱스초이스댄스페스티벌, 강요찬: Buchae & 박수윤: Untitled",
-    "detectedAt": "2026-08-10T07:42:51+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF290849",
-    "title": "지브리 & 디즈니 영화음악 FESTA (08.09)",
-    "detectedAt": "2026-08-10T07:42:51+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF289916",
-    "title": "민트페스타 vol.85",
-    "detectedAt": "2026-08-10T07:42:51+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF288575",
     "title": "베니스의 상인",
     "detectedAt": "2026-08-10T07:42:51+09:00",
@@ -12066,6 +12030,47 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297817",
+    "title": "한국 가곡의 밤: 우리 가곡, 마음의 노래",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "권형신, 양진모, 윤정수, 박유리, 손혜수, 우지연 등",
+        "after": "홍지원, 권형신, 양진모, 윤정수, 박유리, 손혜수, 우지연 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297817_260806_103723.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297817_260824_144257.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286497",
+    "title": "김종욱 찾기 [대학로]",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-31",
+        "after": "2026-09-27"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF234521",
+    "title": "사춘기메들리 [대학로]",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
       }
     ]
   }

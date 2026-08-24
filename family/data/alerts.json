@@ -1,5 +1,36 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297817",
+    "title": "한국 가곡의 밤: 우리 가곡, 마음의 노래",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "cast",
+      "poster"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF286497",
+    "title": "김종욱 찾기 [대학로]",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF234521",
+    "title": "사춘기메들리 [대학로]",
+    "detectedAt": "2026-08-24T19:48:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
