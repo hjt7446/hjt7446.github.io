@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297170",
-    "title": "김기진 정광수제 수궁가 완창 발표회",
-    "detectedAt": "2026-08-11T07:50:44+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297159",
     "title": "한정림의 음악일기",
     "detectedAt": "2026-08-11T07:50:44+09:00",
@@ -12031,6 +12019,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF175093",
+    "title": "뷰티풀라이프",
+    "detectedAt": "2026-08-25T13:48:46+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-30"
       }
     ]
   }
