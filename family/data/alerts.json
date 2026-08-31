@@ -1,152 +1,32 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299585",
-    "title": "박수현 피아노 독주회",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
+    "performanceId": "kopis-PF299592",
+    "title": "김은성 작곡발표회: Sound Interaction",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "title"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299377",
-    "title": "바다 한가운데서 [대학로]",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
+    "performanceId": "kopis-PF297109",
+    "title": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다, 달빛마을 사람들",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "title"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299090",
-    "title": "옛날 옛적에 말이야 [대학로]",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
+    "performanceId": "kopis-PF293884",
+    "title": "숲속 100층짜리 집 [성남]",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299014",
-    "title": "12인의 성난 사람들",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298975",
-    "title": "쌀롱드무지끄, 우리가 사랑한 클래식 시리즈 Ⅱ. Timeless Melodies",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298925",
-    "title": "밤의 오브제들: 오브제 콰르텟 연주회",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298829",
-    "title": "소프라노 김민지 독창회: 여름의 끝에서, 사랑을 부르다",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298816",
-    "title": "쌀롱드무지끄, 열정의 변주 : 모스크바와 파리",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298789",
-    "title": "비상 탈출 작전: 비상구를 찾아라!",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298747",
-    "title": "MUSIA, 결혼하지 않는 세 여자",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298658",
-    "title": "Over The Shoulder Vol.9 They Never Change X Sorted X for the poet",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298616",
-    "title": "신예의 밤, 비올리스트/바이올리니스트 최수지 (8월)",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298611",
-    "title": "NEKIRU: TurnOver",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298462",
-    "title": "제7회 아티스타 앙상블 정기 연주회",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299033",
-    "title": "제4회 나무오케스트라 정기연주회: Destiny!",
-    "detectedAt": "2026-08-31T09:26:43+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "poster"
+      "title"
     ]
   },
   {

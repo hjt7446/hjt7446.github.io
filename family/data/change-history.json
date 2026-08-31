@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298128",
-    "title": "LIVE in SETi vol.91",
-    "detectedAt": "2026-08-19T07:35:17+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298123",
-    "title": "권미선 가야금 독주회: 유어예",
-    "detectedAt": "2026-08-19T07:35:17+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298069",
-    "title": "제87회 시티필하모니오케스트라 정기연주회: Summer Concerto Night",
-    "detectedAt": "2026-08-19T07:35:17+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297983",
     "title": "재오 소프라노 유소영 & KTPO 함께하는 음악 여행: My Favorite Songs",
     "detectedAt": "2026-08-19T07:35:17+09:00",
@@ -12011,6 +11975,42 @@
         "field": "poster",
         "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299033_260821_111151.png",
         "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299033_260831_091015.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299592",
+    "title": "김은성 작곡발표회: Sound Interaction",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "김은성 작곡발표회: Soung Interaction",
+        "after": "김은성 작곡발표회: Sound Interaction"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297109",
+    "title": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다, 달빛마을 사람들",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다",
+        "after": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다, 달빛마을 사람들"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293884",
+    "title": "숲속 100층짜리 집 [성남]",
+    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "100층짜리 집 [성남]",
+        "after": "숲속 100층짜리 집 [성남]"
       }
     ]
   }
