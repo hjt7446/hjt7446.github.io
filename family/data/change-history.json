@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298720",
-    "title": "성남국제윈드페스티벌",
-    "detectedAt": "2026-08-19T07:35:17+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297135",
     "title": "윤길중 피아노 리사이틀 [화성]",
     "detectedAt": "2026-08-19T07:35:17+09:00",
@@ -12011,6 +11999,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299338",
+    "title": "라라라온 [공상온도]",
+    "detectedAt": "2026-09-01T18:21:39+09:00",
+    "changes": [
+      {
+        "field": "runtime",
+        "before": "",
+        "after": "1시간 40분"
       }
     ]
   }
