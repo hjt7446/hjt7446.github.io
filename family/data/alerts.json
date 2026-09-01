@@ -1,32 +1,262 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299592",
-    "title": "김은성 작곡발표회: Sound Interaction",
-    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "performanceId": "kopis-PF299748",
+    "title": "LIVE in SETi vol.92",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "title"
+      "sourceStatus"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF297109",
-    "title": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다, 달빛마을 사람들",
-    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "performanceId": "kopis-PF299620",
+    "title": "권한숙 피아노 독주회",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "title"
+      "sourceStatus"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF293884",
-    "title": "숲속 100층짜리 집 [성남]",
-    "detectedAt": "2026-08-31T19:46:48+09:00",
+    "performanceId": "kopis-PF299056",
+    "title": "양고운 바이올린 독주회: 베토벤 바이올린 소나타 전곡 연주 Ⅰ. 내면의 풍경",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "title"
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298829",
+    "title": "소프라노 김민지 독창회: 여름의 끝에서, 사랑을 부르다",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298789",
+    "title": "비상 탈출 작전: 비상구를 찾아라!",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298354",
+    "title": "김규리 리코더 리사이틀, 헨델의 꿈꾸는 다락방 Ⅱ: 리코더 소나타 전곡",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298236",
+    "title": "Sommerklang: 여름의 소리",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297913",
+    "title": "SAM성악앙상블 정기연주회: A Beautiful Life",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297715",
+    "title": "젊은소정인의 밤: 소정 (素汀) , 젊은 소리, 가을을 깨우다",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297510",
+    "title": "제22회 서울코다이싱어즈 정기연주회: Liszt 대서사시, Via Crucis (십자가의 길)",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297360",
+    "title": "오페라의 유령 [서울 중구]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297249",
+    "title": "숲속의 청소부 다롱이",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297236",
+    "title": "홍종화 & 김정수 듀오 연주회",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296717",
+    "title": "제10회 선재 오페라단 정기 연주회",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296643",
+    "title": "송영민 피아노 독주회 쇼팽 협주곡 전곡 with String Quintet",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296369",
+    "title": "제1194회 하우스콘서트: 이주혁, 권인회",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296304",
+    "title": "소프라노 김은경 독창회: La voix naturelle 자연의 소리",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295259",
+    "title": "제9회 힉엣눙크! 뮤직 페스티벌, 젊은 비르투오소 시리즈, 데이비드 버넷 & 니나 버넷 듀오 한국 데뷔 리사이틀",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293705",
+    "title": "2호선 세입자 [JS아트홀]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293272",
+    "title": "클래식 레볼루션, 레오니다스 카바코스 & 키릴 게르스타인 듀오 리사이틀 (09.01)",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF173894",
+    "title": "프리즌 [H씨어터]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF152141",
+    "title": "북극곰 예술여행",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297456",
+    "title": "뮤직 인 시네마 [용인]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297111",
+    "title": "풍화자무 [안양]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296996",
+    "title": "제12회 플레이어즈 필하모닉 오케스트라 정기연주회 [성남]",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293820",
+    "title": "아리와 이도가 추어주는 판소리",
+    "detectedAt": "2026-09-01T10:13:42+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
     ]
   },
   {
