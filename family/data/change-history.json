@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF295335",
-    "title": "Rio 콘서트: 한여름 밤의 꿈",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295100",
-    "title": "커피콘서트 Ⅵ. 다니엘 린데만 퀸텟: 한낮의 재즈 [인천]",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF284159",
-    "title": "ACIx인천시향 공동기획, 조조 클래식 Ⅲ",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298723",
     "title": "성남국제윈드페스티벌",
     "detectedAt": "2026-08-20T07:35:15+09:00",
@@ -12026,6 +11990,42 @@
         "field": "poster",
         "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF294028_260618_143825.gif",
         "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF294028_260902_153023.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296724",
+    "title": "10번째 플루트 부케를 드립니다: 감사 [성남]",
+    "detectedAt": "2026-09-02T23:22:13+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294218",
+    "title": "플라멩코와 함까하는 모던 팝 클래식 콘서트: 날것. 놀러. Ole! [고양]",
+    "detectedAt": "2026-09-02T23:22:13+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285130",
+    "title": "성남아트센터 오후의 콘서트: 탱고, 한낮의 열정 (9월)",
+    "detectedAt": "2026-09-02T23:22:13+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
       }
     ]
   }
