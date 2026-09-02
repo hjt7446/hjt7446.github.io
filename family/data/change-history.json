@@ -1,137 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF295804",
-    "title": "테너 박성원과 함께 하는 열여섯번째 행복한 동행",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295393",
-    "title": "롯데콘서트홀 개관 10주년 기념 갈라 콘서트",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293634",
-    "title": "예술의전당 국제음악제, 베조드 압두라이모프 피아노 리사이틀",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293613",
-    "title": "예술의전당 국제음악제, 트리오 아니모소",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293611",
-    "title": "예술의전당 국제음악제, 세계평화음악앙상블",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293607",
-    "title": "예술의전당 국제음악제, 프뉴마 콰르텟",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293573",
-    "title": "예술의전당 국제음악제, 유치엔 쳉 & 신창용 듀오 리사이틀",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293567",
-    "title": "예술의전당 국제음악제, 케빈 첸 피아노 리사이틀",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF291332",
-    "title": "Tortoise Live in Seoul",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF279497",
-    "title": "아름다운 목요일 영 오디세이: 모차르트, III. 남예서 & 홍석영 & 박해림 Piano",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF277456",
-    "title": "서울시향 얍 판 츠베덴의 레스피기: 로마의 소나무",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298702",
     "title": "기억으로 잇다 [인천]",
     "detectedAt": "2026-08-20T07:35:15+09:00",
@@ -12011,6 +11879,138 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299748",
+    "title": "LIVE in SETi vol.92",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299620",
+    "title": "권한숙 피아노 독주회",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299504",
+    "title": "쌀롱드무지끄, 피아노 독주회 시리즈: 시간을 걷다 1. 시선의 확장",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299089",
+    "title": "제17회 새빛낮은예술 정기음악회: 빛을 들고 세상으로",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299056",
+    "title": "양고운 바이올린 독주회: 베토벤 바이올린 소나타 전곡 연주 Ⅰ. 내면의 풍경",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299026",
+    "title": "윤종학 트럼펫 리사이틀: 벨 에포크에서 세계대전까지",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299017",
+    "title": "우영욱 플루트 독주회",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298933",
+    "title": "손정진의 고수展: 조율 (調律)",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298814",
+    "title": "미명",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298800",
+    "title": "김찬영 전국투어 [서울]",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298354",
+    "title": "김규리 리코더 리사이틀, 헨델의 꿈꾸는 다락방 Ⅱ: 리코더 소나타 전곡",
+    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
       }
     ]
   }
