@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298702",
-    "title": "기억으로 잇다 [인천]",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295477",
-    "title": "퇴근후N시리즈Ⅲ, 선예 & 프렐류드: Day Off [인천]",
-    "detectedAt": "2026-08-20T07:35:15+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF295335",
     "title": "Rio 콘서트: 한여름 밤의 꿈",
     "detectedAt": "2026-08-20T07:35:15+09:00",
@@ -12011,6 +11987,45 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298313",
+    "title": "제비출장서비스",
+    "detectedAt": "2026-09-02T17:43:45+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "박새별, 현석원, 남우현, 변수진, 황소희, 오재석, 최다정 등",
+        "after": "남우현, 박새별, 현석원, 변수진, 황소희, 오재석, 최다정 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298313_260812_112444.png",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298313_260902_125027.png"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294028",
+    "title": "나의 장례식 [대학로]",
+    "detectedAt": "2026-09-02T17:43:45+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "나의 장례식",
+        "after": "나의 장례식 [대학로]"
+      },
+      {
+        "field": "cast",
+        "before": "",
+        "after": "홍성민, 차용환, 박한솔, 김언수, 전기우, 김다형, 이현정 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF294028_260618_143825.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF294028_260902_153023.gif"
       }
     ]
   }

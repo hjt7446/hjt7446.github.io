@@ -1,112 +1,25 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299748",
-    "title": "LIVE in SETi vol.92",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "performanceId": "kopis-PF298313",
+    "title": "제비출장서비스",
+    "detectedAt": "2026-09-02T17:43:45+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "cast",
+      "poster"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299620",
-    "title": "권한숙 피아노 독주회",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
+    "performanceId": "kopis-PF294028",
+    "title": "나의 장례식 [대학로]",
+    "detectedAt": "2026-09-02T17:43:45+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299504",
-    "title": "쌀롱드무지끄, 피아노 독주회 시리즈: 시간을 걷다 1. 시선의 확장",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299089",
-    "title": "제17회 새빛낮은예술 정기음악회: 빛을 들고 세상으로",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299056",
-    "title": "양고운 바이올린 독주회: 베토벤 바이올린 소나타 전곡 연주 Ⅰ. 내면의 풍경",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299026",
-    "title": "윤종학 트럼펫 리사이틀: 벨 에포크에서 세계대전까지",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299017",
-    "title": "우영욱 플루트 독주회",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298933",
-    "title": "손정진의 고수展: 조율 (調律)",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298814",
-    "title": "미명",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298800",
-    "title": "김찬영 전국투어 [서울]",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF298354",
-    "title": "김규리 리코더 리사이틀, 헨델의 꿈꾸는 다락방 Ⅱ: 리코더 소나타 전곡",
-    "detectedAt": "2026-09-02T09:00:45+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
+      "title",
+      "cast",
+      "poster"
     ]
   },
   {
