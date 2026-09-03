@@ -1,149 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF290237",
-    "title": "데이비드 번 첫 단독 내한공연: David Byrne Who Is The Sky? Tour",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF289145",
-    "title": "개구쟁이와 마법",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF279497",
-    "title": "아름다운 목요일 영 오디세이: 모차르트, III. 남예서 & 홍석영 & 박해림 Piano",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298702",
-    "title": "기억으로 잇다 [인천]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297639",
-    "title": "인천시립극단 특별기획 리딩스테이지, 배: 웅",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295228",
-    "title": "인천문화예술회관 클래식시리즈3. 조수미 세계무대 데뷔 40주년 기념 공연 [인천]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF284159",
-    "title": "ACIx인천시향 공동기획, 조조 클래식 Ⅲ",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298913",
-    "title": "제4회 그레이스 콰이어 정기연주회: 슈베르트의 찬송",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298798",
-    "title": "에보니 홀 기획연주 시리즈, 살롱 음악회: 앙상블 결의 노래로 건너는 계절 [수원]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298242",
-    "title": "제3회 성남 청소년 교향악 페스티벌 (08.21)",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298205",
-    "title": "브레멘 음악대 [광명]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297119",
-    "title": "CLASSY 打 (클래씨타) [파주]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF296004",
     "title": "트리오 솔러스 콘서트 [성남]",
     "detectedAt": "2026-08-21T07:38:25+09:00",
@@ -12026,6 +11882,150 @@
         "field": "title",
         "before": "매직컬 피노키오 [인천]",
         "after": "매지컬 피노키오 [인천]"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299374",
+    "title": "아티스트 IN 과천, 재인청춤판 왕! 발로 새긴 태평",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299200",
+    "title": "단국 클라리넷 앙상블 창단 연주회 [성남]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298936",
+    "title": "벚꽃동산, 하얀 집 [남양주]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298629",
+    "title": "DK 피아노 트리오 정기연주회 [성남]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297873",
+    "title": "헤어드레서 [포천]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297705",
+    "title": "파주포크페스티벌 전야제",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297047",
+    "title": "국립국악원, 춤결: 춤으로 그리는 길 [하남]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296724",
+    "title": "10번째 플루트 부케를 드립니다: 감사 [성남]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296350",
+    "title": "임영웅 콘서트: IM HERO, THE STADIUM 2",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296183",
+    "title": "금요일N, 이날치 [화성]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295354",
+    "title": "고양이 에다, 권율장군을 만나다 [고양]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294218",
+    "title": "플라멩코와 함까하는 모던 팝 클래식 콘서트: 날것. 놀러. Ole! [고양]",
+    "detectedAt": "2026-09-03T23:25:36+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
       }
     ]
   }
