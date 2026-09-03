@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF292994",
-    "title": "대니 메이 내한공연 (Dannie May ONE-SHOT VACATION) [서울]",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF291332",
-    "title": "Tortoise Live in Seoul",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF290387",
-    "title": "김혜경 on Sync Next 26",
-    "detectedAt": "2026-08-21T07:38:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF290237",
     "title": "데이비드 번 첫 단독 내한공연: David Byrne Who Is The Sky? Tour",
     "detectedAt": "2026-08-21T07:38:25+09:00",
@@ -12016,6 +11980,52 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297438",
+    "title": "유니버설 발레단, 잠자는 숲속의 미녀 [서울]",
+    "detectedAt": "2026-09-03T17:52:54+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "유니버설 발레단, 잠자는 숲속의 미녀",
+        "after": "유니버설 발레단, 잠자는 숲속의 미녀 [서울]"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293705",
+    "title": "2호선 세입자 [JS아트홀]",
+    "detectedAt": "2026-09-03T17:52:54+09:00",
+    "changes": [
+      {
+        "field": "startDate",
+        "before": "2026-07-11",
+        "after": "2026-06-10"
+      },
+      {
+        "field": "endDate",
+        "before": "2026-08-31",
+        "after": "2026-09-30"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299710",
+    "title": "매지컬 피노키오 [인천]",
+    "detectedAt": "2026-09-03T17:52:54+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "매직컬 피노키오 [인천]",
+        "after": "매지컬 피노키오 [인천]"
       }
     ]
   }
