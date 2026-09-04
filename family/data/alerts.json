@@ -1,16 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF286005",
-    "title": "삐삐: 기억을 담는 작은 상자 [대학로]",
-    "detectedAt": "2026-09-04T17:47:38+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "endDate",
-      "sourceStatus"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
