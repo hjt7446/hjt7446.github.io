@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296403",
-    "title": "백진주 피아노 독주회",
-    "detectedAt": "2026-08-22T07:35:20+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF296361",
     "title": "ASAKA LIVE In Seoul",
     "detectedAt": "2026-08-22T07:35:20+09:00",
@@ -12025,6 +12013,23 @@
       {
         "field": "sourceStatus",
         "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286005",
+    "title": "삐삐: 기억을 담는 작은 상자 [대학로]",
+    "detectedAt": "2026-09-04T17:47:38+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
         "after": "공연중"
       }
     ]
