@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296132",
-    "title": "정명훈 & KBS교향악단 with 김세현 [평택]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295568",
-    "title": "아기돼지삼형제 [수원]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294897",
-    "title": "하남문화재단 문화가 있는 날 #5. 고상지 콰르텟: 열정과 탱고 [하남]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294535",
-    "title": "BAC 브런치: 피아니스트 박상욱과 함께하는 브런치콘서트 Ⅳ [부천]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF293917",
     "title": "Viva Opera! 노래에 살고 사랑에 살고 [화성]",
     "detectedAt": "2026-08-26T07:37:50+09:00",
@@ -12026,6 +11978,64 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299315",
+    "title": "제35회 전국무용제, 월드 발레 스타 갈라",
+    "detectedAt": "2026-09-07T18:16:03+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "제35회 전국무용제 개막식 및 K-발레 월드스타 갈라",
+        "after": "제35회 전국무용제, 월드 발레 스타 갈라"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299315_260825_112343.png",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299315_260907_121143.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285349",
+    "title": "불편한 편의점2",
+    "detectedAt": "2026-09-07T18:16:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF284594",
+    "title": "장수탕 선녀님 [서울 광진]",
+    "detectedAt": "2026-09-07T18:16:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF235879",
+    "title": "피노키오야 노올자~! [대학로]",
+    "detectedAt": "2026-09-07T18:16:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-27"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
       }
     ]
   }
