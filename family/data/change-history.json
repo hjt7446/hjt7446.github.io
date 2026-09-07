@@ -1,257 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF293917",
-    "title": "Viva Opera! 노래에 살고 사랑에 살고 [화성]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF280838",
-    "title": "제179회 부천시립합창단 정기연주회: 광야에서 바다로 [부천]",
-    "detectedAt": "2026-08-26T07:37:50+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299090",
-    "title": "옛날 옛적에 말이야 [대학로]",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298710",
-    "title": "몽상가들 연극 페스티벌, 순환: 비우고 채우며 흐르다, 극단 이단아의 잊지 마, 숨비!",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298623",
-    "title": "제2회 전유나 가야금 독주회: 영산회상",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298615",
-    "title": "만약, 오늘 밤 이 세상에서 크리스마스가 사라진다면",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298613",
-    "title": "만약, 오늘 밤 이 세상에서 메이드가 사라진다면",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298471",
-    "title": "월드비전합창단 지역반 정기연주회: 함께",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298386",
-    "title": "김소연 거문고 독주회: 자진한잎",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298299",
-    "title": "제6회 짧은 대본 페스티벌",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298181",
-    "title": "영 아티스트 콘서트 (Young Artist Concert)",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297859",
-    "title": "배리어 프리 & 센서리-프렌들리 음악회: 감각의 숲에서 피터를 만나다",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297825",
-    "title": "아정빌라",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297810",
-    "title": "프레스티지 콘서트",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297767",
-    "title": "제16회 춤 & 판고무신춤축제, 고무신춤축제",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297691",
-    "title": "오하라 창작 발표회 Ⅰ. 아무것도 아닌 게 아니었다",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297612",
-    "title": "푸르지오아트홀 수요초대석38, 리에종 앙상블 정기공연: THE BRIDGE",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297599",
-    "title": "칼립소의 섬",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297446",
-    "title": "월간 피오레, 황선용 피아니스트 (8월)",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297441",
-    "title": "316 앙상블 창단 15주년 정기 연주회",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297319",
-    "title": "오정해의 사랑방 풍류: 개비전",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297318",
     "title": "한지영 & 심선혜 피아노 듀오 연주회",
     "detectedAt": "2026-08-27T12:05:16+09:00",
@@ -12035,6 +11783,258 @@
       {
         "field": "sourceStatus",
         "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300344",
+    "title": "제33회 덕원예술고등학교 정기연주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299932",
+    "title": "Aurea.S: 소리로 이어진 우리, 숙명의 울림",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299837",
+    "title": "제25회 이화쳄버오케스트라 정기연주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299320",
+    "title": "서리풀 악동 문화공연, 호랑이와 곶감 (9월)",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299234",
+    "title": "안수민 바로크 플루트 독주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299116",
+    "title": "제20회 한국 교수 콰이어 정기 연주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298972",
+    "title": "세번째 그린절 [서울]",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298902",
+    "title": "먼데이 프로젝트 IN 라이브 클럽, bendersea 단독 콘서트",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298847",
+    "title": "황인정 & 권현진 피아노 듀오 리사이틀",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298248",
+    "title": "토슈즈에 새겨진 시간, 조윤라 60년의 발레: 어제 같은 오늘 그리고 내일은 Ⅲ",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298032",
+    "title": "난세: 정도전과 이방원의 이야기 [대학로]",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297848",
+    "title": "보아 트리오 앙상블 창단연주회: 우리의 첫 울림",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297627",
+    "title": "장혜진 바이올린 독주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297164",
+    "title": "변정은 피아노 독주회",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297150",
+    "title": "코리안 영 아티스트 시리즈 Ⅵ, 김현서 바이올린 리사이틀",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296603",
+    "title": "Eirene (에이레네) : 찬양의 물결",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296586",
+    "title": "제1195회 하우스콘서트, 홍석영 (Piano)",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296414",
+    "title": "가장 아름다운 노래",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296362",
+    "title": "사상에 빠진 밤 (思想に溺れた夜) 원맨 라이브: BAND ADDICT TOUR [서울]",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296075",
+    "title": "제29회 서울세계무용축제, 아함아트프로젝트: 뉘엿 뉘엿-아스라히",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295491",
+    "title": "서가콘서트, 셜록홈즈 [수원]",
+    "detectedAt": "2026-09-08T00:45:42+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
         "after": "공연중"
       }
     ]
