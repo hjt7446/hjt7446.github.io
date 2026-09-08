@@ -1,89 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297318",
-    "title": "한지영 & 심선혜 피아노 듀오 연주회",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297306",
-    "title": "창작ing, 수난이대",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297266",
-    "title": "국악 플러그인 (Gugak Plug in) vol.3",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297240",
-    "title": "EBEN: 다윗, 무기를 든 소년 [대학로]",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297209",
-    "title": "피아니스트 최용석 독주회",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297207",
-    "title": "홍현수 12가사 연구회 네 번째 무대, The Classic: 앙상블 12가사",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297195",
-    "title": "FLOW, BLOW, SHADOW",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297152",
     "title": "Stained Glass 2",
     "detectedAt": "2026-08-27T12:05:16+09:00",
@@ -12036,6 +11952,105 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300203",
+    "title": "서민정 바이올린 독주회",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "runtime",
+        "before": "",
+        "after": "1시간 30분"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF292831",
+    "title": "이은결 30주년: ONE OF ONE [서울]",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "이은결 30주년: ONE OF ONE",
+        "after": "이은결 30주년: ONE OF ONE [서울]"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF292831_260609_112029.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF292831_260908_160702.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285839",
+    "title": "불편한 편의점1 [대학로]",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF285839_260611_144043.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF285839_260908_161105.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF276681",
+    "title": "아빠와 딸 [대학로]",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-30",
+        "after": "2026-09-30"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF270484",
+    "title": "영시기 [서울 성수]",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-08-29",
+        "after": "2026-09-23"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "48개월 이상",
+        "after": "36개월 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299118",
+    "title": "제28회 생생 춤 페스티벌, 안무가 매칭 프로젝트 [고양]",
+    "detectedAt": "2026-09-08T17:49:20+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "안남근,, 유지향, 조수빈, 정수동, 이정민, 박윤지, 양승관 등",
+        "after": "권재헌, 유가원, 정하늘, 최호정, 안남근, 유지향, 정수동 등"
       }
     ]
   }
