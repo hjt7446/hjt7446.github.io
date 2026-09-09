@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF293917",
-    "title": "Viva Opera! 노래에 살고 사랑에 살고 [화성]",
-    "detectedAt": "2026-08-27T12:05:16+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF280838",
     "title": "제179회 부천시립합창단 정기연주회: 광야에서 바다로 [부천]",
     "detectedAt": "2026-08-27T12:05:16+09:00",
@@ -12051,6 +12039,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285839",
+    "title": "불편한 편의점1 [대학로]",
+    "detectedAt": "2026-09-09T17:56:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
       }
     ]
   }
