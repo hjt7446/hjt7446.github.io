@@ -1,9 +1,9 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF285110",
-    "title": "마티네 콘서트 Ⅲ. 김영하 작가의 여행의 이유, 그리고 음악",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF300479",
+    "title": "달빛 아래, 건반에 쓰는 시: 첫 번째 시, 달빛에 스미다",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -11,9 +11,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF282130",
-    "title": "세종시즌, Gut: Whispering Steps, 무감서기",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF300348",
+    "title": "앙상블 에클라 정기연주회: 선율의 파편: 가을의 모자이크 (09.09)",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -21,9 +21,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF281251",
-    "title": "제830회 KBS교향악단 정기연주회",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF300306",
+    "title": "제16회 강동예술인페스티벌, 제7회 강동구립시니어합창단 정기연주회: 인생, 노래로 꽃 피우다",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -31,9 +31,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF279431",
-    "title": "아름다운 목요일 위대한 작곡가: J.S.바흐 X 한수진 Violin",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299884",
+    "title": "제8회 무용제: 춤으로 번지다",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -41,9 +41,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF277556",
-    "title": "서울시향 체임버 클래식스 V: 고전 빈",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299872",
+    "title": "장한빈 & 박주원 Duo Recital: 고독과 낭만의 변주",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -51,9 +51,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF300480",
-    "title": "RAS페스타, 고양학생 1000인 음악회",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299838",
+    "title": "제11회 소아암환우돕기 자선 음악회: 라온 콘서트",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -61,9 +61,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF300268",
-    "title": "수원여자고등학교 개교 90주년 총동문음악제 [수원]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299716",
+    "title": "운지회 체임버 오케스트라 시리즈 ⅩⅩ",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -71,9 +71,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299759",
-    "title": "ASAC 키움극장, 자라는 자라 [안산]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299544",
+    "title": "파사지오앙상블 X META MUSICA: 프론티어 스피릿 Ⅲ",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -81,9 +81,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299608",
-    "title": "제3회 루체 혼성합창단 정기연주회 [고양]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299418",
+    "title": "아카데미 열정과 나눔, RE & NEW 프로젝트3: 대립과 화합 Ⅱ",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -91,9 +91,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF299236",
-    "title": "안양필하모닉오케스트라 정기연주회",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299358",
+    "title": "라라라온 [스페이스홍]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -101,9 +101,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF298490",
-    "title": "화성시 오케스트라 특별연주회, 콘서트 라운지 Ⅲ: Masterpiece & Classic [화성]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299338",
+    "title": "라라라온 [공상온도]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -111,9 +111,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF298427",
-    "title": "세종국악관현악단의 한낮의 음악회: 여음 Ⅲ. 영화가 그린 단종, 국악의 울림으로 만나다 [군포]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299313",
+    "title": "신무용 100주년, 김백봉 탄생 100년 기념공연: 김백봉, 신무용의 르네상스를 이루다",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -121,9 +121,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF298423",
-    "title": "제75회 성남 시립 국악단 정기 연주회 [성남]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299262",
+    "title": "idol wave, THE Starlight Orbit: QUIPAO ORBIT (09)",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -131,9 +131,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF298027",
-    "title": "판타스틱 애니멀즈 [경기 광주]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299256",
+    "title": "황수연 피아노 독주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -141,9 +141,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF297889",
-    "title": "과천시립교향악단 콘서트시리즈5, 심선민과 최재혁의 새로운 시대 [과천]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299230",
+    "title": "싱잉 앰배서더스 오브 코리아 창단 연주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -151,9 +151,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF296176",
-    "title": "밴드 날다: 내 귀에 안성맞춤 [안성]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299155",
+    "title": "제44회 칸티쿰합창단 정기연주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -161,9 +161,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF296028",
-    "title": "제12회 고양국제무용제",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299154",
+    "title": "원혜정의 다섯번째 독창회: 비로소",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -171,9 +171,9 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF295531",
-    "title": "마티네 콘서트, 그랜드 투어: 무대 위 세계여행 Ⅲ. 쿠바 [평택]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299107",
+    "title": "잔을 채우는 소리: 판소리 X 성악 콜라보 콘서트",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -181,9 +181,269 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF294872",
-    "title": "마티네 콘서트, 미술관으로 간 클래식 #3. 미국 [하남]",
-    "detectedAt": "2026-09-09T23:27:32+09:00",
+    "performanceId": "kopis-PF299098",
+    "title": "온: 콘서트: 사랑, 그 모든 이름으로",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298988",
+    "title": "양금, 산조 나들이",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298810",
+    "title": "긴긴밤 [대학로]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298762",
+    "title": "영원한 평화 [대학로]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298680",
+    "title": "고요한 소란: 평안하게 하라",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298599",
+    "title": "잽, 잽-투! [대학로]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298248",
+    "title": "토슈즈에 새겨진 시간, 조윤라 60년의 발레: 어제 같은 오늘 그리고 내일은 Ⅲ",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298203",
+    "title": "소프라노 이지현 독창회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298183",
+    "title": "김도은 피아노 리사이틀",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298134",
+    "title": "제46회 현대무용단-탐 정기공연: 플러스 아니면 마이너스",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297899",
+    "title": "국립국악원 창작악단 기획공연: 연주자 그리고 작곡가 Ⅲ",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297820",
+    "title": "우리 신화 이야기: 이야기 장수와 도깨비 [대학로]",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297663",
+    "title": "제18회 로고스 앙상블 정기 연주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297500",
+    "title": "나혜수 클라리넷 독주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297414",
+    "title": "수림 뉴 웨이브, 추다혜: 엇숨",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297126",
+    "title": "유소영의 슈베르트 피아노 소나타 전곡 시리즈 2",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297114",
+    "title": "브런치 콘서트 아트리움: 국립예술단체 영아티스트 시리즈, 국립국악관현악단 청년교육단원",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296977",
+    "title": "제29회 서울세계무용축제, 트리플빌 & 그래도, LIVE: 임현정 & 김재덕",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296840",
+    "title": "인피니티 플라잉 (INFINITY FLYING)",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296270",
+    "title": "한화생명과 함께하는 예술의전당 11시 콘서트 (9월)",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296148",
+    "title": "소크라테스 패러독스",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295817",
+    "title": "김정원과 친구들 20주년 기념 콘서트",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295608",
+    "title": "제11회 M 클래식 축제, 백건우 피아노 리사이틀",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294889",
+    "title": "제8회 어텀실내악페스티벌, 소리의 결: Sound in Motion, 브람스의 세개의 그림자",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294887",
+    "title": "제8회 어텀실내악페스티벌: 소리의 결 - Sound in Motion, 뮤지엄콘서트",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294780",
+    "title": "피에르 벤수잔 내한공연",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294052",
+    "title": "제118회 강남심포니오케스트라 정기연주회",
+    "detectedAt": "2026-09-10T09:06:04+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
