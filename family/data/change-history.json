@@ -1,77 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296694",
-    "title": "광명 전통예술 플렛폼 Vol.1 춤 & 사운드: 시그날",
-    "detectedAt": "2026-08-28T00:08:21+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296447",
-    "title": "제223회 성남시립교향악단 정기 연주회 [성남]",
-    "detectedAt": "2026-08-28T00:08:21+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294066",
-    "title": "개굴개굴 고래고래 [의정부]",
-    "detectedAt": "2026-08-28T00:08:21+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299429",
-    "title": "제8회 좌창, 깊은사랑, 유지숙의 서도소리: 옛 노래를 부르다",
-    "detectedAt": "2026-08-29T06:10:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299187",
-    "title": "Rayul Summer Festival Concert: 우리歌 스트링",
-    "detectedAt": "2026-08-29T06:10:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299162",
-    "title": "토요 클래식의 밤, 해설이 있는 클래식: Risonanze da Piacenza 피아첸짜의 울림",
-    "detectedAt": "2026-08-29T06:10:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299112",
     "title": "기억의 바림: 여덟개의 사랑 그리고 여덟개의 곡",
     "detectedAt": "2026-08-29T06:10:03+09:00",
@@ -12051,6 +11979,93 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298140",
+    "title": "제4회 PLOT STAGE, 나는 선인이다",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "나는 선인이다",
+        "after": "제4회 PLOT STAGE, 나는 선인이다"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF278194",
+    "title": "남주를 부탁해",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-06",
+        "after": "2026-11-08"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF254868",
+    "title": "급식왕: 급식이 사라졌다",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-05",
+        "after": "2026-11-07"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF252877",
+    "title": "드립소년단 [대학로]",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-06",
+        "after": "2026-10-04"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF244959",
+    "title": "아기돼지삼형제: 늑대숲 또옹돼지 원정대 [대학로]",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF235879",
+    "title": "피노키오야 노올자~! [대학로]",
+    "detectedAt": "2026-09-10T17:54:18+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-31"
       }
     ]
   }
