@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298582",
-    "title": "제9회 생생우리음악축제, 본축제 [나마네]",
-    "detectedAt": "2026-08-29T06:10:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298573",
     "title": "철조망: METAL SYNDICATE NETWORK, 철조망V [수원]",
     "detectedAt": "2026-08-29T06:10:03+09:00",
@@ -12066,6 +12054,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299315",
+    "title": "제35회 전국무용제, 월드 발레 스타 갈라",
+    "detectedAt": "2026-09-11T17:53:07+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 7세 이상",
+        "after": "만 8세 이상"
       }
     ]
   }
