@@ -1,113 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF173894",
-    "title": "프리즌 [H씨어터]",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF152141",
-    "title": "북극곰 예술여행",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297456",
-    "title": "뮤직 인 시네마 [용인]",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297111",
-    "title": "풍화자무 [안양]",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296996",
-    "title": "제12회 플레이어즈 필하모닉 오케스트라 정기연주회 [성남]",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293820",
-    "title": "아리와 이도가 추어주는 판소리",
-    "detectedAt": "2026-09-01T10:13:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299338",
-    "title": "라라라온 [공상온도]",
-    "detectedAt": "2026-09-01T18:21:39+09:00",
-    "changes": [
-      {
-        "field": "runtime",
-        "before": "",
-        "after": "1시간 40분"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298269",
-    "title": "리딩 쇼케이스, 더 스윙: 이아고의 세상 [대학로]",
-    "detectedAt": "2026-09-01T23:45:49+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298110",
-    "title": "한국가곡학회 30주년 기념 연주회",
-    "detectedAt": "2026-09-01T23:45:49+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298051",
     "title": "이지혜 창작곡발표회: WIRE ACT",
     "detectedAt": "2026-09-01T23:45:49+09:00",
@@ -12061,6 +11953,114 @@
     "performanceId": "kopis-PF285960",
     "title": "라푼젤 [과천]",
     "detectedAt": "2026-09-13T08:57:00+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297525",
+    "title": "겨울왕국 [파주]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297261",
+    "title": "피터팬 [부천]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297201",
+    "title": "프랑켄슈타인: 더 뮤지컬 콘서트 [성남]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297026",
+    "title": "어느 멋진 날 with 뷰티풀데이 앙상블의 아름다운 동행 [고양]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296997",
+    "title": "정글북 [수원]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296595",
+    "title": "토끼와 거북이 [부천]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296021",
+    "title": "헬로카봇: 카봇크루가 되어줘! [하남]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295573",
+    "title": "제2회 화성특례시 남양성모성지 클래식 음악제, 국립합창단 & 강남심포니오케스트라: 주페, 레퀴엠 [화성]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF289985",
+    "title": "back number 내한공연: Grateful Yesterdays Tour [서울]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
     "changes": [
       {
         "field": "sourceStatus",

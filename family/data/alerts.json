@@ -1,5 +1,95 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297525",
+    "title": "겨울왕국 [파주]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297261",
+    "title": "피터팬 [부천]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297201",
+    "title": "프랑켄슈타인: 더 뮤지컬 콘서트 [성남]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297026",
+    "title": "어느 멋진 날 with 뷰티풀데이 앙상블의 아름다운 동행 [고양]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296997",
+    "title": "정글북 [수원]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296595",
+    "title": "토끼와 거북이 [부천]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296021",
+    "title": "헬로카봇: 카봇크루가 되어줘! [하남]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295573",
+    "title": "제2회 화성특례시 남양성모성지 클래식 음악제, 국립합창단 & 강남심포니오케스트라: 주페, 레퀴엠 [화성]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF289985",
+    "title": "back number 내한공연: Grateful Yesterdays Tour [서울]",
+    "detectedAt": "2026-09-13T23:16:24+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
