@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF279450",
-    "title": "아름다운 목요일: 고요, 그 너머에: 조진주 Violin",
-    "detectedAt": "2026-09-03T09:05:18+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298071",
     "title": "나는 이따금 여름이 그리울 때 보일러를 켜 [인천]",
     "detectedAt": "2026-09-03T09:05:18+09:00",
@@ -12051,6 +12039,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF260200",
+    "title": "알사탕",
+    "detectedAt": "2026-09-14T18:47:16+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-25"
       }
     ]
   }
