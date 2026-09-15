@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299363",
-    "title": "듣는 애도, 살롱 음악회: 피아노 앞의 죽음",
-    "detectedAt": "2026-09-04T08:58:54+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299343",
-    "title": "유세형 & 안태준 피아노 하프 리사이틀",
-    "detectedAt": "2026-09-04T08:58:54+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299278",
     "title": "쌀롱드무지끄, SOP mezzo RANO",
     "detectedAt": "2026-09-04T08:58:54+09:00",
@@ -12041,6 +12017,30 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299099",
+    "title": "제14회 GAF 공연예술제, 솔리다리오스",
+    "detectedAt": "2026-09-15T18:21:46+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299099_260821_144300.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299099_260915_144834.png"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300525",
+    "title": "괸돌클럽 [인천]",
+    "detectedAt": "2026-09-15T18:21:46+09:00",
+    "changes": [
+      {
+        "field": "venueId",
+        "before": "kopis-FC005068",
+        "after": "kopis-FC003568"
       }
     ]
   }

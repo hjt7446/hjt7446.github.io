@@ -1,5 +1,25 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299099",
+    "title": "제14회 GAF 공연예술제, 솔리다리오스",
+    "detectedAt": "2026-09-15T18:21:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "poster"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300525",
+    "title": "괸돌클럽 [인천]",
+    "detectedAt": "2026-09-15T18:21:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "venueId"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
