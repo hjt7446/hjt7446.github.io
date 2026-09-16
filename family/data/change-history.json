@@ -1,82 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296627",
-    "title": "인천아리랑 연가 [인천]",
-    "detectedAt": "2026-09-04T08:58:54+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF284162",
-    "title": "옥탑재즈 Ⅳ, SM JAZZ TRIO",
-    "detectedAt": "2026-09-04T08:58:54+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF286005",
-    "title": "삐삐: 기억을 담는 작은 상자 [대학로]",
-    "detectedAt": "2026-09-04T17:47:38+09:00",
-    "changes": [
-      {
-        "field": "endDate",
-        "before": "2026-08-30",
-        "after": "2026-09-27"
-      },
-      {
-        "field": "sourceStatus",
-        "before": "공연완료",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300059",
-    "title": "블루아워 재즈클럽, 한상원 FUNK BAND",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300025",
-    "title": "서울시 청소년 국악단 프로젝트 오케스트라",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299796",
-    "title": "미네소타 컨템퍼러리 앙상블 MCE 정기연주회",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299785",
     "title": "MADLY MEDLEY",
     "detectedAt": "2026-09-05T08:57:35+09:00",
@@ -12036,6 +11959,78 @@
     "performanceId": "kopis-PF294892",
     "title": "살롱 드 아트리움 시즌 Ⅵ. 바실리 칸딘스키 색체 연구: 동심원이 있는 사각형 (9월) [수원]",
     "detectedAt": "2026-09-15T23:53:57+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300965",
+    "title": "우즈베키스탄 문화의 날 기념 콘서트 (UZBEKISTAN CULTURE DAY)",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300570",
+    "title": "권오빈 클라리넷 독주회: Thanks & Joy",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300509",
+    "title": "프로젝트 소동의 여섯번째 프로젝트: 제 2지구",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300380",
+    "title": "바리톤 손승혁 독창회: 한국가곡, 100년의 시간을 노래하다",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300224",
+    "title": "문학주간, 곁눈질 [아르코꿈밭극장]",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300220",
+    "title": "문학주간, 곁눈질 [아르코예술극장]",
+    "detectedAt": "2026-09-16T09:10:39+09:00",
     "changes": [
       {
         "field": "sourceStatus",
