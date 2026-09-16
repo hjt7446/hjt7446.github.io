@@ -1,62 +1,12 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF300965",
-    "title": "우즈베키스탄 문화의 날 기념 콘서트 (UZBEKISTAN CULTURE DAY)",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
+    "performanceId": "kopis-PF280368",
+    "title": "보물찾기 [대학로]",
+    "detectedAt": "2026-09-16T18:14:47+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300570",
-    "title": "권오빈 클라리넷 독주회: Thanks & Joy",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300509",
-    "title": "프로젝트 소동의 여섯번째 프로젝트: 제 2지구",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300380",
-    "title": "바리톤 손승혁 독창회: 한국가곡, 100년의 시간을 노래하다",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300224",
-    "title": "문학주간, 곁눈질 [아르코꿈밭극장]",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300220",
-    "title": "문학주간, 곁눈질 [아르코예술극장]",
-    "detectedAt": "2026-09-16T09:10:39+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
+      "endDate"
     ]
   },
   {
