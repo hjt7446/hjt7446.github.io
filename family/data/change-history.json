@@ -1,77 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF294882",
-    "title": "더 스카웃: 다시 태어나는 별, 이승철 그리고 다시 태어난 별들",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294624",
-    "title": "알라딘 [서울 영등포]",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294344",
-    "title": "금호영아티스트콘서트, 이소정 가야금 독주회",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293279",
-    "title": "클래식 레볼루션, 수원시향의 브람스 교향곡 제1번 (09.04)",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF292233",
-    "title": "금호영아티스트콘서트, 고유정 오보에 독주회",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF282084",
-    "title": "세종시즌, 창작 국악 시리즈: 신풍류전",
-    "detectedAt": "2026-09-05T08:57:35+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298958",
     "title": "CHORDART CLASSIC X ROCK SERIES, CLOCK [인천 부평]",
     "detectedAt": "2026-09-05T08:57:35+09:00",
@@ -12036,6 +11964,78 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300615",
+    "title": "한희준 피아노 독주회",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 6세 이상",
+        "after": "만 7세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300496",
+    "title": "지역사회와 함께하는 성신학원 창립 90주년 성신필하모닉 연주회",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300496_260909_143519.png",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300496_260917_140825.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299473",
+    "title": "서울 아카데미 앙상블 청소년과 함께 하는 음악회",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "서울 아카데미 앙상블: 청소년과 함께 하는 음악회",
+        "after": "서울 아카데미 앙상블 청소년과 함께 하는 음악회"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296265",
+    "title": "옹알스 [대학로]",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF270484",
+    "title": "영시기 [서울 성수]",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-23",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF175093",
+    "title": "뷰티풀라이프",
+    "detectedAt": "2026-09-17T18:23:19+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
       }
     ]
   }
