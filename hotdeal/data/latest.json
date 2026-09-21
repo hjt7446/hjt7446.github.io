@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-21T10:20:56+09:00",
-  "sourceStatus": "정상 · 20개 글 확인 · 신규 조건일치 1건",
+  "updatedAt": "2026-09-22T07:13:11+09:00",
+  "sourceStatus": "오류 · 브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; HTTP 오류: hotdeal.zip HTTP 403",
   "matches": [
     {
       "id": "35d6",
