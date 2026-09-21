@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297871",
-    "title": "적재 LIVE SESSION: in s c ap e",
-    "detectedAt": "2026-09-11T09:01:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297682",
-    "title": "ENSEMBLE VEN 앙상블밴 콘서트: 사랑과 열정의 공존",
-    "detectedAt": "2026-09-11T09:01:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297663",
-    "title": "제18회 로고스 앙상블 정기 연주회",
-    "detectedAt": "2026-09-11T09:01:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297575",
-    "title": "존박 콘서트: BREAK!",
-    "detectedAt": "2026-09-11T09:01:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297518",
     "title": "제2회 김한백 소금 독주회: 소금창고 프로젝트 Ⅱ",
     "detectedAt": "2026-09-11T09:01:42+09:00",
@@ -11996,6 +11948,54 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300770",
+    "title": "All Day, JAZZ SHOW! (올데이, 재즈쇼!) DAY (1부) (10.04)",
+    "detectedAt": "2026-09-21T18:51:51+09:00",
+    "changes": [
+      {
+        "field": "price",
+        "before": "전석 20,000원",
+        "after": "2인 런치패키지 88,000원, 일반티켓 20,000원"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299632",
+    "title": "서울어텀페스타, 제4회 모두의 풍류: 인왕산",
+    "detectedAt": "2026-09-21T18:51:51+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "고석진, 모재민, 하동민, 이완, 서현 등",
+        "after": "모재민, 이정화, 하동민, 강신의, 고민경, 임은비, 서현 등"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286497",
+    "title": "김종욱 찾기 [대학로]",
+    "detectedAt": "2026-09-21T18:51:51+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF235543",
+    "title": "난타 [명동]",
+    "detectedAt": "2026-09-21T18:51:51+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-12-31"
       }
     ]
   }
