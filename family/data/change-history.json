@@ -1,209 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299404",
-    "title": "제10회 서울 주니어 합창단 정기 연주회",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299360",
-    "title": "장애인 밴드 우박이지 콘서트: 우리의 시간을 듣다 [대학로]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299348",
-    "title": "HEEBIN 싱글 발매 단독 공연: 스며드는 시간",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299211",
-    "title": "서울선율 윈드 오케스트라 정기연주회: 선율이 읽어주는 동화책",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299208",
-    "title": "BEYOND K-POP: Jazz Interpretation",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299191",
-    "title": "제58회 서울음악제",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299181",
-    "title": "The LOW'ist NIGHT OUT vol.1",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299150",
-    "title": "TONE Studio Stay-easy, 모허",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299144",
-    "title": "Edit-opia (에디토피아)",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299136",
-    "title": "피아니스트 고연경 & 오르가니스트 이예원 듀오 콘서트",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299134",
-    "title": "프레미오 파올로 보르치아니 국제 현악 사중주 콩쿠르 투어: 이든 콰르텟",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299106",
-    "title": "매기네 정원에 놀러와 Vol. 1",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299077",
-    "title": "TONE STUDIO LIVE, off the menu",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299053",
-    "title": "안희수 단독 공연: 머물 수 있는 곳",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298934",
-    "title": "숲세권 라이브: 한빈 (TEMPEST) RELEASE AFTER PARTY: Palm Tree",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298920",
-    "title": "박강수 콘서트: 가을이라 하겠네",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298911",
-    "title": "국가무형유산 종묘제례악 보태평·정대업 일무전장 열한 번째 연작: 팔풍의 몸짓, 일무",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298898",
     "title": "컨템포러리 국악그룹 울림, 사계",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11996,6 +11792,210 @@
         "field": "endDate",
         "before": "2026-09-30",
         "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299368",
+    "title": "제9회 서울국제댄스페스티벌 인 탱크, 릴레이 공연 2부 (09.23)",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299326",
+    "title": "제9회 서울국제댄스페스티벌 인 탱크, 릴레이 공연 2부",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299315",
+    "title": "제35회 전국무용제, 월드 발레 스타 갈라",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298803",
+    "title": "성보경 피아노 독주회",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298682",
+    "title": "고요한 풍류 Ⅰ, 서용석의 담",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298340",
+    "title": "피아니스트 이호열의 슈베르트 소나타 전곡 시리즈 Ⅰ",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298122",
+    "title": "Project 9의 시리즈 1. Beethoven Symphony 9: Choral",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298040",
+    "title": "김수연 바이올린 독주회: 회상",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298016",
+    "title": "김유상 피아노 독주회: The WARS",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296778",
+    "title": "한불 수교 140주년 기념 공연, 아르테늄 브라스밴드 마스터즈 시리즈",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF294547",
+    "title": "에스토니아 국립 오케스트라 with 선우예권",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297585",
+    "title": "커피콘서트 Ⅶ. 창작판소리: 음메-기살아!",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300567",
+    "title": "광명심포니오케스트라 평화콘서트: 평화잇다",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299740",
+    "title": "남양주 시립 합창단, 해설이 있는 음악회 [2주차 다산아트홀]",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299379",
+    "title": "싸운드 써커스 [파주]",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297951",
+    "title": "쪽빛 황혼 [안성]",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296571",
+    "title": "비손: 우리소리 바라지 [수원]",
+    "detectedAt": "2026-09-22T23:42:34+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
       }
     ]
   }
