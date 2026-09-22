@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299417",
-    "title": "음악그룹 나무 콘서트: The Second Ring",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299404",
     "title": "제10회 서울 주니어 합창단 정기 연주회",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11996,6 +11984,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293705",
+    "title": "2호선 세입자 [JS아트홀]",
+    "detectedAt": "2026-09-22T18:15:16+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
       }
     ]
   }
