@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297960",
-    "title": "김하은 바이올린 독주회",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF297838",
-    "title": "이정은 피아노 독주회: 베토벤 피아노 소나타 전곡시리즈 Ⅵ. 초월 (超越)",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297789",
     "title": "퀸 엘리자베스 콩쿠르 위너 콘서트: 에토레 파가노 무반주 첼로 리사이틀",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11996,6 +11972,30 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299413",
+    "title": "푸르지오 아트홀 수요 초대석 43. 소프라노 신효진 독창회, 헌정: 로베르트와 클라라 사랑으로 노래하다",
+    "detectedAt": "2026-09-23T18:16:02+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "푸르지오 아트홀 수요 초대석 38. 소프라노 신효진 독창회, 헌정: 로베르트와 클라라 사랑으로 노래하다",
+        "after": "푸르지오 아트홀 수요 초대석 43. 소프라노 신효진 독창회, 헌정: 로베르트와 클라라 사랑으로 노래하다"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF234521",
+    "title": "사춘기메들리 [대학로]",
+    "detectedAt": "2026-09-23T18:16:02+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-10-31"
       }
     ]
   }
