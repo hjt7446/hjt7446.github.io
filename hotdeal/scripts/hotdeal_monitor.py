@@ -34,8 +34,10 @@ PRICE_RE = re.compile(
     r"(?<!\d)(\d{1,3}(?:,\d{3})+|\d{4,9})\s*원"
 )
 
+# 수정: 기존 4~8자리 hex만 허용하던 것을
+# 영문/숫자 4~32자리까지 허용
 DETAIL_PATH_RE = re.compile(
-    r"-[0-9a-fA-F]{4,8}/?$"
+    r"-[0-9a-zA-Z]{4,32}/?$"
 )
 
 
@@ -229,7 +231,7 @@ def fetch_html_browser(url: str) -> str:
                 () => Array.from(
                     document.querySelectorAll('a[href]')
                 ).some(
-                    a => /-[0-9a-fA-F]{4,8}\/?(?:[?#].*)?$/.test(a.href)
+                    a => /-[0-9a-zA-Z]{4,32}\\/?(?:[?#].*)?$/.test(a.href)
                 )
                 """,
                 timeout=15000,
@@ -335,8 +337,6 @@ def candidate_container(anchor):
                 )
             )
 
-            # 지나치게 큰 부모는 게시글 카드가 아니라
-            # 게시글 목록일 가능성이 크므로 제외
             if len(text) <= 700:
                 return node
 
@@ -346,7 +346,6 @@ def candidate_container(anchor):
             None,
         )
 
-    # 안전하게 링크의 바로 위쪽 요소까지만 사용
     parent = getattr(
         anchor,
         "parent",
@@ -357,15 +356,6 @@ def candidate_container(anchor):
 
 
 def title_from_url(url: str) -> str:
-    """
-    hotdeal.zip URL slug에서 제목을 복구하는 fallback.
-
-    예:
-    /신라면-20봉-1234abcd
-    ->
-    신라면 20봉
-    """
-
     try:
         path = unquote(
             urlparse(url).path
@@ -377,7 +367,7 @@ def title_from_url(url: str) -> str:
         slug = path.split("/")[-1]
 
         slug = re.sub(
-            r"-[0-9a-fA-F]{4,8}$",
+            r"-[0-9a-zA-Z]{4,32}$",
             "",
             slug,
         )
@@ -400,15 +390,7 @@ def title_from(
     container,
     absolute_url: str = "",
 ) -> str:
-    """
-    제목은 반드시 해당 링크 자체를 우선한다.
 
-    부모 컨테이너의 첫 번째 h2/h3를 먼저 읽으면
-    같은 목록 안의 모든 링크 제목이 똑같아지는
-    문제가 발생할 수 있다.
-    """
-
-    # 1. 링크 title 속성
     title_attr = (
         anchor.get("title")
         or ""
@@ -422,7 +404,6 @@ def title_from(
             title_attr
         ).strip()
 
-    # 2. 링크 aria-label
     aria_label = (
         anchor.get("aria-label")
         or ""
@@ -436,7 +417,6 @@ def title_from(
             aria_label
         ).strip()
 
-    # 3. 링크 자체의 텍스트
     anchor_text = anchor.get_text(
         " ",
         strip=True,
@@ -461,7 +441,6 @@ def title_from(
                 anchor_text
             ).strip()
 
-    # 4. 부모 안에서 이 링크와 가까운 제목 탐색
     if container:
         selectors = [
             "h1",
@@ -480,9 +459,6 @@ def title_from(
                 "select",
             ) else []
 
-            # 여러 제목이 존재하면
-            # 큰 게시글 목록을 잘못 잡았을 가능성이 있으므로
-            # 첫 번째 것을 무조건 쓰지 않는다.
             if len(elements) != 1:
                 continue
 
@@ -501,7 +477,6 @@ def title_from(
                     candidate
                 ).strip()
 
-    # 5. 마지막 fallback: URL slug
     url_title = title_from_url(
         absolute_url
     )
@@ -672,8 +647,6 @@ def parse_deals(
         }:
             continue
 
-        # rawText는 가격/판매처 등 참고 정보용이다.
-        # 키워드 필터에는 절대 사용하지 않는다.
         if container:
             raw_text = container.get_text(
                 " ",
@@ -685,8 +658,6 @@ def parse_deals(
                 strip=True,
             )
 
-        # 지나치게 큰 부모 DOM을 잡았을 경우
-        # 주변 게시물 내용이 섞이는 것을 최소화한다.
         if len(raw_text) > 700:
             raw_text = anchor.get_text(
                 " ",
@@ -699,8 +670,9 @@ def parse_deals(
             .split("-")[-1]
         )
 
+        # 수정: 기존 4~8자리 hex 제한 제거
         if not re.fullmatch(
-            r"[0-9a-fA-F]{4,8}",
+            r"[0-9a-zA-Z]{4,32}",
             deal_id,
         ):
             deal_id = hashlib.sha1(
@@ -734,8 +706,6 @@ def parse_deals(
             deals[deal_id] = deal
             continue
 
-        # 같은 게시글 URL이 여러 번 HTML에 나타날 경우
-        # 제목 자체가 더 구체적인 항목을 우선한다.
         if len(
             normalize(deal.title)
         ) > len(
@@ -802,16 +772,6 @@ def matches_rule(
     ):
         return False
 
-    # ★ 핵심 수정 ★
-    #
-    # 기존:
-    # deal.title + deal.rawText
-    #
-    # rawText에는 주변 게시글의 텍스트가 섞일 수 있으므로
-    # 라면 게시물 주변에 있는 카메라/체중계까지
-    # 라면 조건으로 매칭되는 문제가 발생했다.
-    #
-    # 반드시 '해당 게시물 제목'으로만 키워드를 검사한다.
     text = normalize(
         deal.title
     )
@@ -1187,7 +1147,6 @@ def main() -> int:
             ],
         }
 
-        # 첫 실행 또는 신규 매치가 있을 때만 저장
         if first_run or found:
             save_json(
                 DATA_PATH,
