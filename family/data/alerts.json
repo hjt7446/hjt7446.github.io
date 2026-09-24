@@ -1,45 +1,5 @@
 [
   {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301472",
-    "title": "제9회 서울국제댄스페스티벌 인 탱크, 폐막 초청공연",
-    "detectedAt": "2026-09-24T09:25:23+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301429",
-    "title": "김연진의 춤, Re: motion 몸의 되감김",
-    "detectedAt": "2026-09-24T09:25:23+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301391",
-    "title": "영산아트홀 전문연주자 시리즈, 김귀임 피아노 독주회",
-    "detectedAt": "2026-09-24T09:25:23+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301084",
-    "title": "LIVE in SETi vol.95",
-    "detectedAt": "2026-09-24T09:25:23+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
