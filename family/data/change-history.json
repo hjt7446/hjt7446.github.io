@@ -1,65 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300290",
-    "title": "제31회 서곶문화예술제, 고도를 기다리며",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300133",
-    "title": "로봇 특공대 [인천]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299665",
-    "title": "도상지무: 흐르는 길에 머무니, 다시 길이 열린다 [인천]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299192",
-    "title": "수봉산의 잃어버린 황금 악보를 찾아라! [인천]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298980",
-    "title": "앙상블 다온음자리표 기획 공연, Revival: 화개화락 [인천]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298600",
     "title": "실험실 콘서트 [인천]",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11991,6 +11931,66 @@
     "performanceId": "kopis-PF301084",
     "title": "LIVE in SETi vol.95",
     "detectedAt": "2026-09-24T09:25:23+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301072",
+    "title": "강신일 모놀로그",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300346",
+    "title": "제4회 월드 판소리 페스티벌, 청년 소리꾼 판소리 100일 독공 지원사업 결과발표회: 고선화의 적벽가 완창",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299645",
+    "title": "국립국악원 추석공연: 휘영청 둥근 달",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298946",
+    "title": "제4회 이데아 프로젝트: 천인교향곡",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297948",
+    "title": "박찬호 피아노 독주회",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
     "changes": [
       {
         "field": "sourceStatus",

@@ -1,5 +1,55 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301072",
+    "title": "강신일 모놀로그",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300346",
+    "title": "제4회 월드 판소리 페스티벌, 청년 소리꾼 판소리 100일 독공 지원사업 결과발표회: 고선화의 적벽가 완창",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299645",
+    "title": "국립국악원 추석공연: 휘영청 둥근 달",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298946",
+    "title": "제4회 이데아 프로젝트: 천인교향곡",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297948",
+    "title": "박찬호 피아노 독주회",
+    "detectedAt": "2026-09-24T23:56:11+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
