@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF292348",
-    "title": "구스타보 히메노 & 룩셈부르크 필하모닉",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF292148",
-    "title": "금호영아티스트콘서트, 천민재 피아노 독주회",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF283088",
-    "title": "함신익과 심포니 송 마스터즈 시리즈 Ⅴ, 전람회의 그림",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF277365",
-    "title": "서울시향 최수열의 스크랴빈 교향곡 4번",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300290",
     "title": "제31회 서곶문화예술제, 고도를 기다리며",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11991,6 +11943,54 @@
     "performanceId": "kopis-PF297951",
     "title": "쪽빛 황혼 [안성]",
     "detectedAt": "2026-09-23T23:55:00+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301472",
+    "title": "제9회 서울국제댄스페스티벌 인 탱크, 폐막 초청공연",
+    "detectedAt": "2026-09-24T09:25:23+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301429",
+    "title": "김연진의 춤, Re: motion 몸의 되감김",
+    "detectedAt": "2026-09-24T09:25:23+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301391",
+    "title": "영산아트홀 전문연주자 시리즈, 김귀임 피아노 독주회",
+    "detectedAt": "2026-09-24T09:25:23+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301084",
+    "title": "LIVE in SETi vol.95",
+    "detectedAt": "2026-09-24T09:25:23+09:00",
     "changes": [
       {
         "field": "sourceStatus",
