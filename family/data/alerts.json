@@ -1,5 +1,155 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301358",
+    "title": "WUMUJI 추석 특별 기획, 달, 달, 달",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301232",
+    "title": "ioonight vol.3: Yellow DAY",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300873",
+    "title": "격조콘 스페셜: 정수민 X 우희준",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300346",
+    "title": "제4회 월드 판소리 페스티벌, 청년 소리꾼 판소리 100일 독공 지원사업 결과발표회: 고선화의 적벽가 완창",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300099",
+    "title": "TONE STUDIO LIVE, HYANG",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299727",
+    "title": "Redoor 단독콘서트: Memory",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299645",
+    "title": "국립국악원 추석공연: 휘영청 둥근 달",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299308",
+    "title": "리움챔버오케스트라, 그랜드 콘체르토 콘서트 Ⅳ",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298410",
+    "title": "이지영 플루트 독주회",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298346",
+    "title": "신비한 샌드매직쇼: 사라진 모래상자 [서울 영등포]",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297998",
+    "title": "엔텐바흐 오리지널 밴드: 피치 콘서트",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295999",
+    "title": "국립국악관현악단, 추석엔 국악가요",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294960",
+    "title": "TAKUYA KIMURA Live Tour: Checkpoint in Seoul",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298567",
+    "title": "알라딘 [부천]",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297661",
+    "title": "신비한 샌드매직쇼: 사라진 모래상자 [고양]",
+    "detectedAt": "2026-09-26T00:10:07+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",
