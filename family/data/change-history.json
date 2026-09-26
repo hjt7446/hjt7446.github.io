@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298840",
-    "title": "피아니스트 천필우 독주회: 해설이 있는 슈만과 클라라, 그들의 사랑이 머문 선율 [화성]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298689",
-    "title": "놓칠 수 없는 국공립예술단 모음.ZIP #4. 국립국악원, 한국의 흥과 신명 [김포]",
-    "detectedAt": "2026-09-12T09:10:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298652",
     "title": "나는 코다입니다 [수원]",
     "detectedAt": "2026-09-12T09:10:07+09:00",
@@ -11991,6 +11967,30 @@
     "performanceId": "kopis-PF297661",
     "title": "신비한 샌드매직쇼: 사라진 모래상자 [고양]",
     "detectedAt": "2026-09-26T00:10:07+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296634",
+    "title": "피터팬 [안산]",
+    "detectedAt": "2026-09-26T23:22:09+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295720",
+    "title": "사과가 쿵! [평택]",
+    "detectedAt": "2026-09-26T23:22:09+09:00",
     "changes": [
       {
         "field": "sourceStatus",
