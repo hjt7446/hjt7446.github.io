@@ -1,9 +1,9 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF296634",
-    "title": "피터팬 [안산]",
-    "detectedAt": "2026-09-26T23:22:09+09:00",
+    "performanceId": "kopis-PF301596",
+    "title": "보름달이 뜨는 밤, 공연장에서 기다릴게!",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
@@ -11,9 +11,169 @@
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF295720",
-    "title": "사과가 쿵! [평택]",
-    "detectedAt": "2026-09-26T23:22:09+09:00",
+    "performanceId": "kopis-PF301372",
+    "title": "Over The Shoulder 특별편: 펑. 펑. 펑. 펑!",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301358",
+    "title": "WUMUJI 추석 특별 기획, 달, 달, 달",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301232",
+    "title": "ioonight vol.3: Yellow DAY",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301205",
+    "title": "IDOL PALETTE Vol.69: 2026 한가위",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300873",
+    "title": "격조콘 스페셜: 정수민 X 우희준",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300260",
+    "title": "송희태 콘서트: 별꽃 필 무렵",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300248",
+    "title": "일요, 마티네 콘서트, 트리오이화: From Beethoven to Brahms",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300161",
+    "title": "조희영 가야금 독주회: 빛의 가락 Ⅱ",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300099",
+    "title": "TONE STUDIO LIVE, HYANG",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299897",
+    "title": "아람북스x오감클래식, 베이비올 명화음악 X 오감클래식 콘서트 [서울 송파] (9월)",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299835",
+    "title": "레드불 비씨원 사이퍼 코리아 Red Bull BC One Cypher Korea",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299308",
+    "title": "리움챔버오케스트라, 그랜드 콘체르토 콘서트 Ⅳ",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298410",
+    "title": "이지영 플루트 독주회",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297535",
+    "title": "신카이 마코토 하이라이트 필름 콘서트 [서울 송파]",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295978",
+    "title": "세계 음악극 축제, 혜성컴퍼니: 백만사",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294960",
+    "title": "TAKUYA KIMURA Live Tour: Checkpoint in Seoul",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299282",
+    "title": "알앤제이 (R & J) [양평]",
+    "detectedAt": "2026-09-27T09:27:46+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "sourceStatus"
