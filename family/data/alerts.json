@@ -1,5 +1,45 @@
 [
   {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF285591",
+    "title": "저항: 찬송이 된 사람들",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF276681",
+    "title": "아빠와 딸 [대학로]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299118",
+    "title": "제28회 생생 춤 페스티벌, 안무가 매칭 프로젝트 [고양]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "cast"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF257643",
+    "title": "마하랑 떠나요, 수도SONG 세계여행 [고양]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
     "type": "WATCH_MATCH",
     "performanceId": "kopis-PF297819",
     "title": "넘버블록스 [서울 (앵콜) ]",

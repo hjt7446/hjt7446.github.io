@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299144",
-    "title": "Edit-opia (에디토피아)",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299136",
-    "title": "피아니스트 고연경 & 오르가니스트 이예원 듀오 콘서트",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299122",
-    "title": "제19회 K-Ballet World, 제19회 청소년 발레 페스티벌",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299106",
-    "title": "매기네 정원에 놀러와 Vol. 1",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299104",
     "title": "더 보울스 정규 4집 발매기념 단독공연: General Crowd",
     "detectedAt": "2026-09-13T08:57:00+09:00",
@@ -11996,6 +11948,54 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285591",
+    "title": "저항: 찬송이 된 사람들",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-12-19"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF276681",
+    "title": "아빠와 딸 [대학로]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299118",
+    "title": "제28회 생생 춤 페스티벌, 안무가 매칭 프로젝트 [고양]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "권재헌, 유가원, 정하늘, 최호정, 안남근, 유지향, 정수동 등",
+        "after": ""
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF257643",
+    "title": "마하랑 떠나요, 수도SONG 세계여행 [고양]",
+    "detectedAt": "2026-09-28T19:49:00+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-10-31"
       }
     ]
   }
