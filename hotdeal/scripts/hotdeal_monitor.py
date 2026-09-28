@@ -107,12 +107,21 @@ def fetch_html_http(url: str) -> str:
             "application/xml;q=0.9,"
             "image/avif,image/webp,*/*;q=0.8"
         ),
-        "Accept-Language": (
-            "ko-KR,ko;q=0.9,en-US;q=0.7,en;q=0.6"
-        ),
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
         "Cache-Control": "no-cache",
         "Pragma": "no-cache",
         "Referer": "https://www.google.com/",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/140.0.0.0 Safari/537.36"
+        ),
     }
 
     kwargs = {
@@ -129,7 +138,23 @@ def fetch_html_http(url: str) -> str:
         **kwargs,
     )
 
+    print(
+        "INFO: HTTP 응답 "
+        f"status={response.status_code}, "
+        f"url={response.url}, "
+        f"length={len(response.text or '')}"
+    )
+
     if response.status_code != 200:
+        body_preview = (
+            response.text or ""
+        )[:1000].replace("\n", " ")
+
+        print(
+            "INFO: HTTP 오류 응답 내용: "
+            f"{body_preview}"
+        )
+
         raise RuntimeError(
             f"hotdeal.zip HTTP {response.status_code}"
         )
@@ -137,6 +162,11 @@ def fetch_html_http(url: str) -> str:
     text = response.text
 
     if len(text) < 1000:
+        print(
+            "INFO: 짧은 HTTP 응답: "
+            + text[:1000].replace("\n", " ")
+        )
+
         raise RuntimeError(
             "응답 HTML이 비정상적으로 짧습니다"
         )
@@ -188,7 +218,9 @@ def fetch_html_browser(url: str) -> str:
         browser = p.chromium.launch(
             headless=True,
             args=[
-                "--disable-blink-features=AutomationControlled"
+                "--disable-blink-features=AutomationControlled",
+                "--disable-dev-shm-usage",
+                "--no-sandbox",
             ],
         )
 
@@ -196,25 +228,66 @@ def fetch_html_browser(url: str) -> str:
             locale="ko-KR",
             timezone_id="Asia/Seoul",
             viewport={
-                "width": 1365,
-                "height": 900,
+                "width": 1920,
+                "height": 1080,
             },
             user_agent=(
                 "Mozilla/5.0 "
-                "(X11; Linux x86_64) "
+                "(Windows NT 10.0; Win64; x64) "
                 "AppleWebKit/537.36 "
                 "(KHTML, like Gecko) "
-                "Chrome/139.0.0.0 "
+                "Chrome/140.0.0.0 "
                 "Safari/537.36"
             ),
+            extra_http_headers={
+                "Accept-Language": (
+                    "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7"
+                ),
+            },
         )
 
         page = context.new_page()
 
-        page.goto(
+        # navigator.webdriver 숨김
+        page.add_init_script(
+            """
+            Object.defineProperty(
+                navigator,
+                'webdriver',
+                {
+                    get: () => undefined
+                }
+            );
+
+            Object.defineProperty(
+                navigator,
+                'languages',
+                {
+                    get: () => ['ko-KR', 'ko', 'en-US', 'en']
+                }
+            );
+
+            Object.defineProperty(
+                navigator,
+                'platform',
+                {
+                    get: () => 'Win32'
+                }
+            );
+            """
+        )
+
+        response = page.goto(
             url,
             wait_until="domcontentloaded",
             timeout=45000,
+        )
+
+        print(
+            "INFO: Playwright 응답 "
+            f"status={response.status if response else 'unknown'}, "
+            f"url={page.url}, "
+            f"title={page.title()!r}"
         )
 
         try:
@@ -225,21 +298,58 @@ def fetch_html_browser(url: str) -> str:
         except Exception:
             pass
 
+        # JS 렌더링 여유
+        page.wait_for_timeout(5000)
+
         try:
             page.wait_for_function(
                 """
                 () => Array.from(
                     document.querySelectorAll('a[href]')
                 ).some(
-                    a => /-[0-9a-zA-Z]{4,32}\\/?(?:[?#].*)?$/.test(a.href)
+                    a =>
+                    /-[0-9a-zA-Z]{4,32}\\/?(?:[?#].*)?$/
+                    .test(a.href)
                 )
                 """,
                 timeout=15000,
             )
         except Exception:
-            page.wait_for_timeout(5000)
+            print(
+                "INFO: Playwright에서 핫딜 링크 "
+                "대기 시간 초과"
+            )
 
         content = page.content()
+
+        print(
+            "INFO: Playwright HTML "
+            f"length={len(content)}"
+        )
+
+        if not looks_like_deal_list(
+            content,
+            url,
+        ):
+            body_text = ""
+
+            try:
+                body_text = page.locator(
+                    "body"
+                ).inner_text(
+                    timeout=5000
+                )
+            except Exception:
+                pass
+
+            body_preview = (
+                body_text or content
+            )[:1500].replace("\n", " ")
+
+            print(
+                "INFO: Playwright 페이지 내용: "
+                f"{body_preview}"
+            )
 
         browser.close()
 
