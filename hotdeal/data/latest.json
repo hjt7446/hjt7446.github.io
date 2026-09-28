@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-09-28T10:52:44+09:00",
-  "sourceStatus": "오류 · 브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; HTTP 오류: hotdeal.zip HTTP 403",
+  "updatedAt": "2026-09-28T11:28:44+09:00",
+  "sourceStatus": "정상 · 4개 글 확인 · 신규 조건일치 3건",
   "matches": [
+    {
+      "id": "fffe",
+      "title": "네스프레소 버츄오 캡슐 더블에스프레소 돌체 40개 - 오리지널캡슐도있음 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%EB%B2%84%EC%B8%84%EC%98%A4-%EC%BA%A1%EC%8A%90-%EB%8D%94%EB%B8%94%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%EB%8F%8C%EC%B2%B4-40%EA%B0%9C-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90%EC%BA%A1%EC%8A%90%EB%8F%84%EC%9E%88%EC%9D%8C-fffe",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-09-28T11:28:44+09:00"
+    },
+    {
+      "id": "600d",
+      "title": "네스프레소 스타벅스 캡슐커피 10캡슐 5+4박스 골라담기 (+스타벅스 그린 머그 350ml 증정) - 핫딜모음",
+      "url": "https://hotdeal.zip/%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90%EC%BB%A4%ED%94%BC-10%EC%BA%A1%EC%8A%90-5-4%EB%B0%95%EC%8A%A4-%EA%B3%A8%EB%9D%BC%EB%8B%B4%EA%B8%B0-%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EA%B7%B8%EB%A6%B0-%EB%A8%B8%EA%B7%B8-350ml-%EC%A6%9D%EC%A0%95-600d",
+      "price": 56620,
+      "category": "식품",
+      "store": "",
+      "community": "FM코리아",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-09-28T11:28:44+09:00"
+    },
+    {
+      "id": "aa4b",
+      "title": "보르보네 네스프레소 호환 커피 100캡슐 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EB%B3%B4%EB%A5%B4%EB%B3%B4%EB%84%A4-%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%ED%98%B8%ED%99%98-%EC%BB%A4%ED%94%BC-100%EC%BA%A1%EC%8A%90-aa4b",
+      "price": null,
+      "category": "",
+      "store": "롯데온",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-09-28T11:28:44+09:00"
+    },
     {
       "id": "35d6",
       "title": "식품 지마켓 뽐뿌 카누 네스프레소 호환캡슐 6팩 총 60캡슐 21,900원 12분전 10:08",
