@@ -12,7 +12,13 @@ from dataclasses import dataclass, asdict
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse, unquote
+from urllib.parse import (
+    urljoin,
+    urlparse,
+    unquote,
+    quote_plus,
+    parse_qs,
+)
 
 from bs4 import BeautifulSoup
 
@@ -355,24 +361,361 @@ def fetch_html_browser(url: str) -> str:
 
         return content
 
+def build_search_terms(
+    config: dict[str, Any],
+) -> list[str]:
 
-def fetch_html(url: str) -> str:
+    terms: list[str] = []
+
+    for rule in config.get(
+        "rules",
+        [],
+    ):
+        if not rule.get(
+            "enabled",
+            True,
+        ):
+            continue
+
+        for key in (
+            "keywordsAll",
+            "keywordsAny",
+        ):
+            for value in rule.get(
+                key,
+                [],
+            ):
+                value = str(
+                    value
+                ).strip()
+
+                if (
+                    value
+                    and value not in terms
+                ):
+                    terms.append(
+                        value
+                    )
+
+    # 검색 요청이 너무 많아지는 것 방지
+    return terms[:10]
+
+
+def extract_duckduckgo_url(
+    href: str,
+) -> str:
+
+    href = (
+        href or ""
+    ).strip()
+
+    if not href:
+        return ""
+
+    # //duckduckgo.com/l/?uddg=...
+    if href.startswith("//"):
+        parsed = urlparse(
+            "https:" + href
+        )
+    else:
+        parsed = urlparse(
+            href
+        )
+
+    if (
+        "duckduckgo.com"
+        in parsed.netloc
+    ):
+        query = parse_qs(
+            parsed.query
+        )
+
+        target = (
+            query.get(
+                "uddg",
+                [],
+            )
+        )
+
+        if target:
+            return target[0]
+
+    return href
+
+
+def fetch_html_search_fallback(
+    config: dict[str, Any],
+) -> str:
+
+    """
+    hotdeal.zip 직접 접근이 403으로 막힌 경우
+    DuckDuckGo 검색 결과에서 hotdeal.zip 상세 URL을
+    찾아 기존 parse_deals()에서 읽을 수 있는 HTML로 만든다.
+    """
+
+    terms = build_search_terms(
+        config
+    )
+
+    if not terms:
+        terms = [
+            "핫딜",
+        ]
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 "
+            "(Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 "
+            "(KHTML, like Gecko) "
+            "Chrome/140.0.0.0 "
+            "Safari/537.36"
+        ),
+        "Accept": (
+            "text/html,application/xhtml+xml,"
+            "application/xml;q=0.9,*/*;q=0.8"
+        ),
+        "Accept-Language": (
+            "ko-KR,ko;q=0.9,"
+            "en-US;q=0.8,en;q=0.7"
+        ),
+    }
+
+    seen: set[str] = set()
+
+    cards: list[str] = []
+
+    for term in terms:
+
+        query = (
+            f'site:hotdeal.zip "{term}"'
+        )
+
+        search_url = (
+            "https://html.duckduckgo.com/html/"
+            "?q="
+            + quote_plus(query)
+        )
+
+        print(
+            "INFO: 검색 fallback 시작 "
+            f"keyword={term!r}"
+        )
+
+        try:
+            kwargs = {
+                "headers": headers,
+                "timeout": 30,
+                "allow_redirects": True,
+            }
+
+            if HAS_CURL_CFFI:
+                kwargs[
+                    "impersonate"
+                ] = "chrome"
+
+            response = http_requests.get(
+                search_url,
+                **kwargs,
+            )
+
+            print(
+                "INFO: DuckDuckGo 응답 "
+                f"keyword={term!r}, "
+                f"status={response.status_code}, "
+                f"length="
+                f"{len(response.text or '')}"
+            )
+
+            if (
+                response.status_code
+                != 200
+            ):
+                continue
+
+            soup = BeautifulSoup(
+                response.text,
+                "html.parser",
+            )
+
+            results = soup.select(
+                ".result"
+            )
+
+            print(
+                "INFO: DuckDuckGo 검색결과 "
+                f"{len(results)}개"
+            )
+
+            for result in results:
+
+                anchor = (
+                    result.select_one(
+                        "a.result__a"
+                    )
+                )
+
+                if not anchor:
+                    continue
+
+                href = (
+                    anchor.get(
+                        "href",
+                        "",
+                    )
+                    or ""
+                )
+
+                href = (
+                    extract_duckduckgo_url(
+                        href
+                    )
+                )
+
+                if not href:
+                    continue
+
+                parsed = urlparse(
+                    href
+                )
+
+                host = (
+                    parsed.netloc
+                    .lower()
+                )
+
+                if host not in {
+                    "hotdeal.zip",
+                    "www.hotdeal.zip",
+                }:
+                    continue
+
+                # /search/... 같은 페이지 제외
+                # 실제 핫딜 상세 페이지만 사용
+                if not DETAIL_PATH_RE.search(
+                    parsed.path
+                ):
+                    continue
+
+                clean_url = (
+                    "https://hotdeal.zip"
+                    + parsed.path
+                )
+
+                if clean_url in seen:
+                    continue
+
+                seen.add(
+                    clean_url
+                )
+
+                title = (
+                    anchor.get_text(
+                        " ",
+                        strip=True,
+                    )
+                )
+
+                if not title:
+                    title = title_from_url(
+                        clean_url
+                    )
+
+                snippet_element = (
+                    result.select_one(
+                        ".result__snippet"
+                    )
+                )
+
+                snippet = ""
+
+                if snippet_element:
+                    snippet = (
+                        snippet_element
+                        .get_text(
+                            " ",
+                            strip=True,
+                        )
+                    )
+
+                raw_text = (
+                    f"{title} {snippet}"
+                ).strip()
+
+                cards.append(
+                    "<article "
+                    "class=\"deal-card\">"
+                    f"<a href=\""
+                    f"{html.escape(clean_url, quote=True)}"
+                    f"\" title=\""
+                    f"{html.escape(title, quote=True)}"
+                    "\">"
+                    f"{html.escape(title)}"
+                    "</a>"
+                    f"<span>"
+                    f"{html.escape(raw_text)}"
+                    "</span>"
+                    "</article>"
+                )
+
+        except Exception as exc:
+            print(
+                "INFO: 검색 fallback 오류 "
+                f"keyword={term!r}: "
+                f"{exc}"
+            )
+
+    if not cards:
+        raise RuntimeError(
+            "검색엔진 fallback에서도 "
+            "hotdeal.zip 상세 링크를 "
+            "찾지 못했습니다"
+        )
+
+    print(
+        "INFO: 검색엔진 fallback 성공 "
+        f"{len(cards)}개 상세 링크 확보"
+    )
+
+    return (
+        "<!doctype html>"
+        "<html>"
+        "<body>"
+        + "".join(cards)
+        + "</body>"
+        "</html>"
+    )
+
+
+def fetch_html(
+    url: str,
+    config: dict[str, Any],
+) -> str:
+
     http_error = None
+    browser_error = None
 
+    # 1차
+    # 일반 HTTP 요청
     try:
-        text = fetch_html_http(url)
+        text = fetch_html_http(
+            url
+        )
 
         if looks_like_deal_list(
             text,
             url,
         ):
             print(
-                "INFO: HTTP HTML에서 핫딜 링크 확인"
+                "INFO: HTTP HTML에서 "
+                "핫딜 링크 확인"
             )
+
             return text
 
         print(
-            "INFO: 초기 HTML에 핫딜 링크가 없어 "
+            "INFO: 초기 HTML에 "
+            "핫딜 링크가 없어 "
             "브라우저 렌더링으로 전환"
         )
 
@@ -380,32 +723,75 @@ def fetch_html(url: str) -> str:
         http_error = exc
 
         print(
-            f"INFO: HTTP 수집 실패({exc}); "
+            f"INFO: HTTP 수집 실패"
+            f"({exc}); "
             "브라우저 렌더링으로 전환"
         )
 
-    rendered = fetch_html_browser(url)
-
-    if not looks_like_deal_list(
-        rendered,
-        url,
-    ):
-        suffix = (
-            f"; HTTP 오류: {http_error}"
-            if http_error
-            else ""
+    # 2차
+    # Playwright
+    try:
+        rendered = fetch_html_browser(
+            url
         )
 
-        raise RuntimeError(
-            "브라우저 렌더링 후에도 핫딜 링크를 "
-            f"찾지 못했습니다{suffix}"
+        if looks_like_deal_list(
+            rendered,
+            url,
+        ):
+            print(
+                "INFO: 브라우저 렌더링 "
+                "HTML에서 핫딜 링크 확인"
+            )
+
+            return rendered
+
+        browser_error = RuntimeError(
+            "브라우저 렌더링 후에도 "
+            "핫딜 링크를 찾지 못했습니다"
         )
+
+    except Exception as exc:
+        browser_error = exc
 
     print(
-        "INFO: 브라우저 렌더링 HTML에서 핫딜 링크 확인"
+        "INFO: 브라우저 수집도 실패; "
+        "검색엔진 fallback으로 전환"
     )
 
-    return rendered
+    # 3차
+    # 검색엔진 fallback
+    try:
+        search_html = (
+            fetch_html_search_fallback(
+                config
+            )
+        )
+
+        if looks_like_deal_list(
+            search_html,
+            url,
+        ):
+            print(
+                "INFO: 검색엔진 fallback "
+                "HTML에서 핫딜 링크 확인"
+            )
+
+            return search_html
+
+        raise RuntimeError(
+            "검색 HTML 생성 후에도 "
+            "핫딜 링크 없음"
+        )
+
+    except Exception as search_error:
+
+        raise RuntimeError(
+            "모든 수집 경로 실패; "
+            f"HTTP={http_error}; "
+            f"browser={browser_error}; "
+            f"search={search_error}"
+        ) from search_error
 
 
 def candidate_container(anchor):
@@ -1115,8 +1501,9 @@ def main() -> int:
             )
         else:
             source_html = fetch_html(
-                source_url
-            )
+    source_url,
+    config,
+)
 
         deals = parse_deals(
             source_html,
