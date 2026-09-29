@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298382",
-    "title": "온: 콘서트, 벨 앙상블 (Belle Ensemble) : 프리즘 (Prism)",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298350",
-    "title": "제5회 세종대학교 융합예술 대학원 동문 음악회",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298267",
-    "title": "브런치콘서트 11시11분, 글래스고 장미: 찰스 레니 매킨토시 & 마가렛 맥도널드",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298263",
     "title": "임정희 X 김보경 합동 콘서트: 우리의 BGM",
     "detectedAt": "2026-09-13T08:57:00+09:00",
@@ -12006,6 +11970,42 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301621",
+    "title": "파인 다이닝 [서울 종로]",
+    "detectedAt": "2026-09-29T19:36:25+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "전체 관람가",
+        "after": "만 6세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301400",
+    "title": "에코스테이지크루 정기연주회: 싱잉볼, 낙원으로",
+    "detectedAt": "2026-09-29T19:36:25+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301400_260921_131433.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301400_260929_154836.png"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285349",
+    "title": "불편한 편의점2",
+    "detectedAt": "2026-09-29T19:36:25+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
       }
     ]
   }
