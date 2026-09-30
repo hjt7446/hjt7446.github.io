@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298840",
-    "title": "피아니스트 천필우 독주회: 해설이 있는 슈만과 클라라, 그들의 사랑이 머문 선율 [화성]",
-    "detectedAt": "2026-09-13T08:57:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298652",
     "title": "나는 코다입니다 [수원]",
     "detectedAt": "2026-09-13T08:57:00+09:00",
@@ -12006,6 +11994,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295863",
+    "title": "인터스텔라 필름콘서트 [서울]",
+    "detectedAt": "2026-09-30T19:25:56+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "",
+        "after": "마틴 겔너, 찰리 앤드류스 등"
       }
     ]
   }
