@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T08:44:02+09:00",
+  "updatedAt": "2026-10-02T06:07:50+09:00",
   "sourceStatus": "오류 · 모든 수집 경로 실패; HTTP=hotdeal.zip HTTP 403; browser=브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; search=검색엔진 fallback에서도 hotdeal.zip 상세 링크를 찾지 못했습니다",
   "matches": [
     {
