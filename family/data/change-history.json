@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299626",
-    "title": "(사) 한국고전무용중앙협회, 동행: 전통의 깊이, 30년의 화답",
-    "detectedAt": "2026-09-15T01:19:07+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299610",
     "title": "먼데이프로젝트 시즌9: LIFE IS NOISE, 서울전자음악단 단독 콘서트",
     "detectedAt": "2026-09-15T01:19:07+09:00",
@@ -12021,6 +12009,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285839",
+    "title": "불편한 편의점1 [대학로]",
+    "detectedAt": "2026-10-02T19:26:55+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
       }
     ]
   }
