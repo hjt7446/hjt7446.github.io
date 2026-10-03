@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-02T06:07:50+09:00",
-  "sourceStatus": "오류 · 모든 수집 경로 실패; HTTP=hotdeal.zip HTTP 403; browser=브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; search=검색엔진 fallback에서도 hotdeal.zip 상세 링크를 찾지 못했습니다",
+  "updatedAt": "2026-10-03T14:48:04+09:00",
+  "sourceStatus": "정상 · 6개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "301e",
+      "title": "일리 캡슐커피 인텐소 다크 30P x 3팩 총 90캡슐 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%9D%BC%EB%A6%AC-%EC%BA%A1%EC%8A%90%EC%BB%A4%ED%94%BC-%EC%9D%B8%ED%85%90%EC%86%8C-%EB%8B%A4%ED%81%AC-30p-x-3%ED%8C%A9-%EC%B4%9D-90%EC%BA%A1%EC%8A%90-301e",
+      "price": 39000,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-03T14:48:04+09:00"
+    },
     {
       "id": "fffe",
       "title": "네스프레소 버츄오 캡슐 더블에스프레소 돌체 40개 - 오리지널캡슐도있음 - 핫딜모음",
