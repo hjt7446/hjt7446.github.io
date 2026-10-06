@@ -17,6 +17,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -122,7 +123,10 @@ def request_xml(
 
     for attempt in range(4):
         try:
-            with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+            with urllib.request.urlopen(
+                request,
+                timeout=TIMEOUT,
+            ) as response:
                 payload = response.read()
 
             root = ET.fromstring(payload)
@@ -130,16 +134,62 @@ def request_xml(
             return_code = root.findtext(".//returncode")
 
             if return_code not in (None, "00"):
-                message = root.findtext(".//errmsg") or "API error"
-                raise RuntimeError(message)
+                message = (
+                    root.findtext(".//errmsg")
+                    or root.findtext(".//returnmsg")
+                    or "API error"
+                )
+
+                raise RuntimeError(
+                    f"KOPIS API error "
+                    f"code={return_code} "
+                    f"message={message}"
+                )
 
             return root
 
+        except urllib.error.HTTPError as exc:
+            try:
+                body = exc.read().decode(
+                    "utf-8",
+                    errors="replace",
+                )
+            except Exception:
+                body = ""
+
+            # service(API KEY)는 params에 없기 때문에
+            # 아래 로그에는 API KEY가 출력되지 않는다.
+            last_error = RuntimeError(
+                f"HTTP {exc.code} "
+                f"path={path} "
+                f"params={params} "
+                f"body={body[:2000]}"
+            )
+
+        except urllib.error.URLError as exc:
+            last_error = RuntimeError(
+                f"URL error "
+                f"path={path} "
+                f"params={params} "
+                f"reason={exc.reason}"
+            )
+
+        except ET.ParseError as exc:
+            last_error = RuntimeError(
+                f"XML parse error "
+                f"path={path} "
+                f"params={params}: {exc}"
+            )
+
         except Exception as exc:
             last_error = exc
+
+        if attempt < 3:
             time.sleep(1.4 * (attempt + 1))
 
-    raise RuntimeError(f"KOPIS request failed {path}: {last_error}")
+    raise RuntimeError(
+        f"KOPIS request failed {path}: {last_error}"
+    )
 
 
 def ymd(value: str) -> str | None:
@@ -474,58 +524,113 @@ def fetch_list() -> list[dict[str, str]]:
     seen: set[str] = set()
 
     print(
-        f"[sync] target=서울/인천/경기 range={start}..{end}",
+        f"[sync] target=서울/인천/경기 "
+        f"range={start}..{end}",
         flush=True,
     )
 
+    # KOPIS 공연목록 API의 조회기간 제한을 고려해서
+    # 최대 31일 단위로 나누어 조회한다.
+    chunk_days = 31
+
     for region_name, region_code in CAPITAL_REGIONS.items():
-        for page in range(1, MAX_PAGES + 1):
-            params = {
-                "stdate": start.strftime("%Y%m%d"),
-                "eddate": end.strftime("%Y%m%d"),
-                "cpage": page,
-                "rows": PAGE_SIZE,
-                "signgucode": region_code,
-            }
+        chunk_start = start
 
-            items = request_xml(
-                "pblprfr",
-                params,
-            ).findall(".//db")
-
-            if not items:
-                break
-
-            added = 0
-
-            for item in items:
-                row = {
-                    child.tag: (child.text or "").strip()
-                    for child in item
-                }
-
-                performance_id = row.get("mt20id")
-
-                if (
-                    performance_id
-                    and performance_id not in seen
-                ):
-                    seen.add(performance_id)
-                    rows.append(row)
-                    added += 1
+        while chunk_start <= end:
+            # 시작일 포함 31일이므로 +30일
+            chunk_end = min(
+                chunk_start + timedelta(days=chunk_days - 1),
+                end,
+            )
 
             print(
-                f"[sync] {region_name} page {page}: "
-                f"received={len(items)} "
-                f"added={added} "
-                f"total={len(rows)}",
+                f"[sync] {region_name} "
+                f"range={chunk_start}..{chunk_end}",
                 flush=True,
             )
 
-            if len(items) < PAGE_SIZE:
-                break
+            for page in range(1, MAX_PAGES + 1):
+                params = {
+                    "stdate": chunk_start.strftime("%Y%m%d"),
+                    "eddate": chunk_end.strftime("%Y%m%d"),
+                    "cpage": page,
+                    "rows": PAGE_SIZE,
+                    "signgucode": region_code,
+                }
+
+                try:
+                    root = request_xml(
+                        "pblprfr",
+                        params,
+                    )
+                except Exception as exc:
+                    print(
+                        f"[sync] list failed "
+                        f"region={region_name} "
+                        f"range={chunk_start}..{chunk_end} "
+                        f"page={page}: {exc}",
+                        file=sys.stderr,
+                        flush=True,
+                    )
+                    raise
+
+                items = root.findall(".//db")
+
+                if not items:
+                    print(
+                        f"[sync] {region_name} "
+                        f"{chunk_start}..{chunk_end} "
+                        f"page {page}: no data",
+                        flush=True,
+                    )
+                    break
+
+                added = 0
+
+                for item in items:
+                    row = {
+                        child.tag: (
+                            child.text or ""
+                        ).strip()
+                        for child in item
+                    }
+
+                    performance_id = row.get("mt20id")
+
+                    if (
+                        performance_id
+                        and performance_id not in seen
+                    ):
+                        seen.add(performance_id)
+                        rows.append(row)
+                        added += 1
+
+                print(
+                    f"[sync] {region_name} "
+                    f"{chunk_start}..{chunk_end} "
+                    f"page {page}: "
+                    f"received={len(items)} "
+                    f"added={added} "
+                    f"total={len(rows)}",
+                    flush=True,
+                )
+
+                # PAGE_SIZE보다 적게 왔으면
+                # 마지막 페이지
+                if len(items) < PAGE_SIZE:
+                    break
+
+                time.sleep(DELAY)
+
+            # 다음 조회 구간
+            chunk_start = chunk_end + timedelta(days=1)
 
             time.sleep(DELAY)
+
+    print(
+        f"[sync] list completed total={len(rows)}",
+        flush=True,
+    )
 
     return rows
 
