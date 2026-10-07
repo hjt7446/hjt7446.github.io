@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF297486",
-    "title": "제29회 서울세계무용축제, 골든 몽키: 칸티코",
-    "detectedAt": "2026-09-19T09:11:40+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF297410",
     "title": "서울아트센터 도암 토요콘서트, VIOLIN 하유나 (9월)",
     "detectedAt": "2026-09-19T09:11:40+09:00",
@@ -12021,6 +12009,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF260200",
+    "title": "알사탕",
+    "detectedAt": "2026-10-07T20:00:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-25",
+        "after": "2026-11-29"
       }
     ]
   }
