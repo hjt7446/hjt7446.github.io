@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300702",
-    "title": "눈",
-    "detectedAt": "2026-09-20T09:05:01+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300659",
-    "title": "서울 커넥트 스테이지 ON, 전통 (15시)",
-    "detectedAt": "2026-09-20T09:05:01+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300649",
     "title": "덩더쿵! 어린이 궁중 음악대",
     "detectedAt": "2026-09-20T09:05:01+09:00",
@@ -12021,6 +11997,50 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293558",
+    "title": "타임 [대학로]",
+    "detectedAt": "2026-10-08T20:17:33+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-30",
+        "after": "2026-11-29"
+      },
+      {
+        "field": "price",
+        "before": "전석 60,000원",
+        "after": "전석 45,000원"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293558_260810_160336.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293558_261008_113442.gif"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF238631",
+    "title": "내일은 내일에게 [대학로]",
+    "detectedAt": "2026-10-08T20:17:33+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-09-27",
+        "after": "2026-11-29"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
       }
     ]
   }
