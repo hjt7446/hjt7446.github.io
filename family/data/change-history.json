@@ -1,363 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296634",
-    "title": "피터팬 [안산]",
-    "detectedAt": "2026-09-28T00:06:36+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295720",
-    "title": "사과가 쿵! [평택]",
-    "detectedAt": "2026-09-28T00:06:36+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295568",
-    "title": "아기돼지삼형제 [수원]",
-    "detectedAt": "2026-09-28T00:06:36+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF285591",
-    "title": "저항: 찬송이 된 사람들",
-    "detectedAt": "2026-09-28T19:49:00+09:00",
-    "changes": [
-      {
-        "field": "endDate",
-        "before": "2026-10-31",
-        "after": "2026-12-19"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF276681",
-    "title": "아빠와 딸 [대학로]",
-    "detectedAt": "2026-09-28T19:49:00+09:00",
-    "changes": [
-      {
-        "field": "endDate",
-        "before": "2026-09-30",
-        "after": "2026-10-31"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299118",
-    "title": "제28회 생생 춤 페스티벌, 안무가 매칭 프로젝트 [고양]",
-    "detectedAt": "2026-09-28T19:49:00+09:00",
-    "changes": [
-      {
-        "field": "cast",
-        "before": "권재헌, 유가원, 정하늘, 최호정, 안남근, 유지향, 정수동 등",
-        "after": ""
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF257643",
-    "title": "마하랑 떠나요, 수도SONG 세계여행 [고양]",
-    "detectedAt": "2026-09-28T19:49:00+09:00",
-    "changes": [
-      {
-        "field": "endDate",
-        "before": "2026-09-30",
-        "after": "2026-10-31"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301613",
-    "title": "라라라온 [사운드마인드]",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "startDate",
-        "before": "2026-09-17",
-        "after": "2026-10-07"
-      },
-      {
-        "field": "endDate",
-        "before": "2030-12-31",
-        "after": "2026-10-07"
-      },
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연예정"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301493",
-    "title": "천탈쌀롱: 탈춤은 어떻게 오늘이 되는가? (9월)",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301464",
-    "title": "MU&A 스튜디오 기획 시리즈, 피아니스트 노예진 리사이틀",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301224",
-    "title": "제18회 우리춤 대축제",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301219",
-    "title": "윤철희 피아노 리사이틀",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301010",
-    "title": "라라라온 [프리즘홀]",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300874",
-    "title": "오늘도 아이돌 vol.37",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300860",
-    "title": "라라미 댄스 페스티벌 [서울]",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300724",
-    "title": "오르페우스 오페라단 10주년 기념 오페라 갈라 콘서트",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300713",
-    "title": "먼데이프로젝트 시즌9: Stardust, 적란운 X love is cycle",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300611",
-    "title": "먼데이프로젝트 시즌9 with 미러볼 뮤직, LUNEDI 앨범 발매 기념 단독 콘서트: ANEW",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300163",
-    "title": "이인혁 하모니스트 연주회",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300054",
-    "title": "부러움마켓",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299804",
-    "title": "라움마티네콘서트, 오페라 갈라 with 커피 칸타타 (9월)",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299798",
-    "title": "바리톤 박건우 독창회: 저녁별 아래, 안부를 묻다",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299344",
-    "title": "유재아 플루트 리사이틀",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298788",
-    "title": "제22주년 윤학원 코랄 기념 연주: 하모니로 드리는 감사의 합창",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298526",
-    "title": "이선미 피아노 독주회",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF296891",
-    "title": "지용 피아노 리사이틀",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300383",
-    "title": "화성시 국악단 두번째 기획공연: 하나의 노래, 우리의 아리랑 [화성]",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300282",
-    "title": "유네스코 · 경기도 세계무형문화유산축전 [수원]",
-    "detectedAt": "2026-09-29T10:49:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301621",
-    "title": "파인 다이닝 [서울 종로]",
-    "detectedAt": "2026-09-29T19:36:25+09:00",
-    "changes": [
-      {
-        "field": "age",
-        "before": "전체 관람가",
-        "after": "만 6세 이상"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF301400",
     "title": "에코스테이지크루 정기연주회: 싱잉볼, 낙원으로",
     "detectedAt": "2026-09-29T19:36:25+09:00",
@@ -12046,6 +11688,354 @@
         "field": "endDate",
         "before": "2026-10-31",
         "after": "2026-11-30"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302639",
+    "title": "SETi FES Vol.41 DAY3",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302581",
+    "title": "김죽현 귀국 피아노 독주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302253",
+    "title": "선화음악동문회 프로젝트 음악회 시리즈 Ⅰ. 성악 페스티벌",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302238",
+    "title": "움직이는 사이",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302209",
+    "title": "청사국악관현악단과 함께 하는 협연의 밤",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302181",
+    "title": "강남색소폰오케스트라 with 최희훈 색소폰 Concert",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302029",
+    "title": "라라라온 [아지토 라이브 홀]",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301940",
+    "title": "먼데이프로젝트 IN 라이브클럽, 이디어츠 단독콘서트",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301937",
+    "title": "중구민을 위한 월요극장 12, 푸른 꽃",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301832",
+    "title": "먼데이프로젝트 시즌9, 청요일 단독 콘서트: 청화수목금토일",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301581",
+    "title": "제198회 인천시립합창단 정기연주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301249",
+    "title": "염희선 피아노 독주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300958",
+    "title": "소프라노 최선미 독창회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300759",
+    "title": "제18회 성악음악학술연구회 정기연구회: 4인 4색",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300747",
+    "title": "국립발레단, 지젤",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300598",
+    "title": "수레바퀴 아래서 [대학로]",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300058",
+    "title": "정푸름 피아노 독주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299768",
+    "title": "제1198회 하우스 콘서트, 소리빛",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299704",
+    "title": "임경원 첼로 독주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299651",
+    "title": "이달의 공연 사운드트립, 박다울 with 신지훈 & 서주영 (10월)",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299539",
+    "title": "정승연 첼로 독주회",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297850",
+    "title": "볼프강 엠마누엘 슈미트 첼로 리사이틀",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297657",
+    "title": "제4회 대한민국국악관현악축제, 성남시립국악단",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297259",
+    "title": "가을밤콘서트",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301055",
+    "title": "한상욱 상임지휘자 취임 기념 음악회, 남양주 필하모닉 심포닉 시리즈 2: 자연의 선율 [남양주]",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300771",
+    "title": "조용필 음악과 함께하는 빛의 베아트리체 [수원]",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300450",
+    "title": "지용 피아노 리사이틀",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "지용 피아노 리사이틀 [시흥]",
+        "after": "지용 피아노 리사이틀"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299475",
+    "title": "머야모야 (오후 2시) [화성] (10월)",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299472",
+    "title": "머야모야 (오전 11시) [화성] (10월)",
+    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
       }
     ]
   }
