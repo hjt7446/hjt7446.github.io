@@ -1,292 +1,54 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF302639",
-    "title": "SETi FES Vol.41 DAY3",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "performanceId": "kopis-PF254868",
+    "title": "급식왕: 급식이 사라졌다",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
+      "poster"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF252877",
+    "title": "드립소년단 [대학로]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate",
       "sourceStatus"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF302581",
-    "title": "김죽현 귀국 피아노 독주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "performanceId": "kopis-PF235543",
+    "title": "난타 [명동]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "endDate"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF302253",
-    "title": "선화음악동문회 프로젝트 음악회 시리즈 Ⅰ. 성악 페스티벌",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "performanceId": "kopis-PF302729",
+    "title": "도깨비 (DOKKAEBI)",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "cast",
+      "poster"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF302238",
-    "title": "움직이는 사이",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
+    "performanceId": "kopis-PF302514",
+    "title": "ONCE UPON A TIME CLASSIC: 미디어 아트와 클래식으로 만나는 지브리와 디즈니 명곡 [인천 계양]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302209",
-    "title": "청사국악관현악단과 함께 하는 협연의 밤",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302181",
-    "title": "강남색소폰오케스트라 with 최희훈 색소폰 Concert",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302029",
-    "title": "라라라온 [아지토 라이브 홀]",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301940",
-    "title": "먼데이프로젝트 IN 라이브클럽, 이디어츠 단독콘서트",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301937",
-    "title": "중구민을 위한 월요극장 12, 푸른 꽃",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301832",
-    "title": "먼데이프로젝트 시즌9, 청요일 단독 콘서트: 청화수목금토일",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301581",
-    "title": "제198회 인천시립합창단 정기연주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301249",
-    "title": "염희선 피아노 독주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300958",
-    "title": "소프라노 최선미 독창회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300759",
-    "title": "제18회 성악음악학술연구회 정기연구회: 4인 4색",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300747",
-    "title": "국립발레단, 지젤",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300598",
-    "title": "수레바퀴 아래서 [대학로]",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300058",
-    "title": "정푸름 피아노 독주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299768",
-    "title": "제1198회 하우스 콘서트, 소리빛",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299704",
-    "title": "임경원 첼로 독주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299651",
-    "title": "이달의 공연 사운드트립, 박다울 with 신지훈 & 서주영 (10월)",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299539",
-    "title": "정승연 첼로 독주회",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF297850",
-    "title": "볼프강 엠마누엘 슈미트 첼로 리사이틀",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF297657",
-    "title": "제4회 대한민국국악관현악축제, 성남시립국악단",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF297259",
-    "title": "가을밤콘서트",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF301055",
-    "title": "한상욱 상임지휘자 취임 기념 음악회, 남양주 필하모닉 심포닉 시리즈 2: 자연의 선율 [남양주]",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300771",
-    "title": "조용필 음악과 함께하는 빛의 베아트리체 [수원]",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF300450",
-    "title": "지용 피아노 리사이틀",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "title"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299475",
-    "title": "머야모야 (오후 2시) [화성] (10월)",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF299472",
-    "title": "머야모야 (오전 11시) [화성] (10월)",
-    "detectedAt": "2026-10-13T11:59:24+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
+      "poster"
     ]
   }
 ]

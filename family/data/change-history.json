@@ -1,65 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF301400",
-    "title": "에코스테이지크루 정기연주회: 싱잉볼, 낙원으로",
-    "detectedAt": "2026-09-29T19:36:25+09:00",
-    "changes": [
-      {
-        "field": "poster",
-        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301400_260921_131433.gif",
-        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301400_260929_154836.png"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF285349",
-    "title": "불편한 편의점2",
-    "detectedAt": "2026-09-29T19:36:25+09:00",
-    "changes": [
-      {
-        "field": "endDate",
-        "before": "2026-10-31",
-        "after": "2026-11-29"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301959",
-    "title": "ATTI: 팝페라 퍼포먼스 톡서트",
-    "detectedAt": "2026-09-30T10:14:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301493",
-    "title": "천탈쌀롱: 탈춤은 어떻게 오늘이 되는가? (9월)",
-    "detectedAt": "2026-09-30T10:14:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301464",
-    "title": "MU&A 스튜디오 기획 시리즈, 피아니스트 노예진 리사이틀",
-    "detectedAt": "2026-09-30T10:14:03+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF301219",
     "title": "윤철희 피아노 리사이틀",
     "detectedAt": "2026-09-30T10:14:03+09:00",
@@ -12036,6 +11976,76 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF254868",
+    "title": "급식왕: 급식이 사라졌다",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF254868_241129_111046.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF254868_261013_163208.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF252877",
+    "title": "드립소년단 [대학로]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-04",
+        "after": "2026-11-14"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF235543",
+    "title": "난타 [명동]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-12-31",
+        "after": "2027-03-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302729",
+    "title": "도깨비 (DOKKAEBI)",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "권민지, 이유주, 양승주, 신대륙, 이승현, 이가영, 복혜원 등",
+        "after": "권민지, 권세현, 복혜원, 신대륙, 양승주, 이가영, 이승현 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302729_261007_141946.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302729_261013_132654.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302514",
+    "title": "ONCE UPON A TIME CLASSIC: 미디어 아트와 클래식으로 만나는 지브리와 디즈니 명곡 [인천 계양]",
+    "detectedAt": "2026-10-13T20:40:37+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302514_261006_134326.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302514_261013_162646.gif"
       }
     ]
   }
