@@ -1,12 +1,24 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF297074",
-    "title": "[취소] 포크 포에버, 사랑과 낭만을 노래하는 포크음악축제 (10.03)",
-    "detectedAt": "2026-10-15T09:27:43+09:00",
+    "performanceId": "kopis-PF299099",
+    "title": "제14회 GAF 공연예술제, 솔리다리오스",
+    "detectedAt": "2026-10-15T18:05:28+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "title"
+      "poster"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298781",
+    "title": "코밈 [서울 서초]",
+    "detectedAt": "2026-10-15T18:05:28+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "price",
+      "cast",
+      "poster"
     ]
   }
 ]

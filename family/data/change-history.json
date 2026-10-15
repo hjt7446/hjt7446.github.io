@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF288742",
-    "title": "사랑해 엄마 [대학로]",
-    "detectedAt": "2026-10-01T10:13:34+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF286762",
-    "title": "제209회 국립합창단 정기연주회: 베토벤 & 슈베르트",
-    "detectedAt": "2026-10-01T10:13:34+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF286575",
     "title": "SAC 월드스타시리즈, 알렉산더 가지예프 피아노 리사이틀",
     "detectedAt": "2026-10-01T10:13:34+09:00",
@@ -12051,6 +12027,40 @@
         "field": "title",
         "before": "포크 포에버, 사랑과 낭만을 노래하는 포크음악축제 (10.03)",
         "after": "[취소] 포크 포에버, 사랑과 낭만을 노래하는 포크음악축제 (10.03)"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299099",
+    "title": "제14회 GAF 공연예술제, 솔리다리오스",
+    "detectedAt": "2026-10-15T18:05:28+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299099_260915_144834.png",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299099_261015_124202.png"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF298781",
+    "title": "코밈 [서울 서초]",
+    "detectedAt": "2026-10-15T18:05:28+09:00",
+    "changes": [
+      {
+        "field": "price",
+        "before": "VIP석 44,000원, R석 39,000원, A석 34,000원",
+        "after": "코밍이석 (VIP)   44,000원, I KILL YOU석 (R)   39,000원, S석 34,000원"
+      },
+      {
+        "field": "cast",
+        "before": "",
+        "after": "박준우"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298781_260818_180555.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298781_261015_111727.jpg"
       }
     ]
   }
