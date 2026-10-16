@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299600",
-    "title": "제18회 에드 무지카 정기연주회",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299448",
     "title": "바이올리니스트 옥유아 바흐 무반주 전곡 시리즈 I",
     "detectedAt": "2026-10-02T10:36:02+09:00",
@@ -12046,6 +12034,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296265",
+    "title": "옹알스 [대학로]",
+    "detectedAt": "2026-10-16T17:57:43+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-08"
       }
     ]
   }

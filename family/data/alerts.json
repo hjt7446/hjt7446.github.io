@@ -1,82 +1,12 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF303385",
-    "title": "제7회 수현의 풍류: 삼죽금보 거문고 줄풍류",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "performanceId": "kopis-PF296265",
+    "title": "옹알스 [대학로]",
+    "detectedAt": "2026-10-16T17:57:43+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF303283",
-    "title": "경이로운 금요일: HEADBANGER’S WEEK, 최춘목 밴드 X 고스턴 X THE HIDDEN ELEPHANT",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF303001",
-    "title": "쌀롱드무지끄: 목소리, 시대의 문장을 입다",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302983",
-    "title": "만약 오늘 밤 이 세상에서 동물이 사라진다면",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302919",
-    "title": "문종인 프로젝트: 작곡가의 방 시리즈 Composer Ⅲ. 김빛나",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302707",
-    "title": "내 생애 첫 페스티벌 기획, 송인 헤리티지 아트 페스티벌",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302603",
-    "title": "재능 혜화 마티네",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF302481",
-    "title": "제195회 아트엠콘서트, 김정은 피아노 리사이틀: 선율에 마음을 싣고",
-    "detectedAt": "2026-10-16T09:17:56+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
+      "endDate"
     ]
   }
 ]
