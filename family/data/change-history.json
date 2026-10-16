@@ -1,101 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300091",
-    "title": "제77회 이탈리아 성악회 정기연주회",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300079",
-    "title": "최정철의 1+1",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300029",
-    "title": "소리없는 정원 [대학로]",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299998",
-    "title": "푸치니 오페라갈라 Viva Puccini, 푸치니 오페라 Turandot 초연 100주년 기념 공연",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299904",
-    "title": "리수스 콰르텟과 함께하는 반도네온 실내악의 밤",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299830",
-    "title": "피아니스트 노민영 독주회",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299773",
-    "title": "김주영 피아니스트 렉처 콘서트: 차이코프스키, 대륙의 울림과 흐느낌",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299726",
-    "title": "제10회 춘천시립국악단 정기공연: 춘천풍류",
-    "detectedAt": "2026-10-02T10:36:02+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299600",
     "title": "제18회 에드 무지카 정기연주회",
     "detectedAt": "2026-10-02T10:36:02+09:00",
@@ -12041,6 +11945,102 @@
     "performanceId": "kopis-PF280782",
     "title": "부천시립예술단 1234 콘서트 Ⅲ, 부천필하모닉오케스트라: 가을, 그리고 전설 Autumn, and Legends",
     "detectedAt": "2026-10-15T23:53:40+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303385",
+    "title": "제7회 수현의 풍류: 삼죽금보 거문고 줄풍류",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303283",
+    "title": "경이로운 금요일: HEADBANGER’S WEEK, 최춘목 밴드 X 고스턴 X THE HIDDEN ELEPHANT",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303001",
+    "title": "쌀롱드무지끄: 목소리, 시대의 문장을 입다",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302983",
+    "title": "만약 오늘 밤 이 세상에서 동물이 사라진다면",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302919",
+    "title": "문종인 프로젝트: 작곡가의 방 시리즈 Composer Ⅲ. 김빛나",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302707",
+    "title": "내 생애 첫 페스티벌 기획, 송인 헤리티지 아트 페스티벌",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302603",
+    "title": "재능 혜화 마티네",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연중",
+        "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302481",
+    "title": "제195회 아트엠콘서트, 김정은 피아노 리사이틀: 선율에 마음을 싣고",
+    "detectedAt": "2026-10-16T09:17:56+09:00",
     "changes": [
       {
         "field": "sourceStatus",
