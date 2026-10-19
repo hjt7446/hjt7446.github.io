@@ -1,125 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300288",
-    "title": "트루바싱어즈 콘서트: VOX 01: AWAKEN [과천]",
-    "detectedAt": "2026-10-06T11:22:30+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299198",
-    "title": "백설공주 [시흥]",
-    "detectedAt": "2026-10-06T11:22:30+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298989",
-    "title": "대한민국 피아노페스티벌, 피아노의 숲 피아노 콘서트 [수원]",
-    "detectedAt": "2026-10-06T11:22:30+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF298107",
-    "title": "대한민국 피아노페스티벌, 율리우스 아살 피아노 리사이틀 [수원]",
-    "detectedAt": "2026-10-06T11:22:30+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF295697",
-    "title": "말안듣는 청개구리 [안산]",
-    "detectedAt": "2026-10-06T11:22:30+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302358",
-    "title": "브릿지온 콘서트 [서울]",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302342",
-    "title": "바리톤 김봉중 정규 앨범 발매 기념 쇼케이스: 내가 사랑하는 클래식",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302295",
-    "title": "CORE SAMPLE (코어샘플)",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302240",
-    "title": "쌀롱드무지끄, Experiment",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF301958",
-    "title": "창악회 기획 초청연주회: CMSS Festival Ⅳ. 대만앙상블 Succession Percussion Group 초청연주회",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF301830",
     "title": "제6회 여주인공 페스티벌, STAY TUNED_빈처",
     "detectedAt": "2026-10-07T10:26:31+09:00",
@@ -12046,6 +11926,131 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303290",
+    "title": "제54회 범음악제, 콘서트 Ⅴ. Kwartludium 초청연주회",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "제54회 범음악제, 콘서트 4. Kwartludium 초청연주회",
+        "after": "제54회 범음악제, 콘서트 Ⅴ. Kwartludium 초청연주회"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303128",
+    "title": "제54회 범음악제, 콘서트 Ⅳ. C-Camerata Taipei 초청연주회",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "제54회 범음악제, 콘서트 3. C-Camerata Taipei 초청연주회",
+        "after": "제54회 범음악제, 콘서트 Ⅳ. C-Camerata Taipei 초청연주회"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303115",
+    "title": "망상유희, ACT 7: FEAST DAY",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "망상유희 주최 공연, ACT 7: FEAST DAY",
+        "after": "망상유희, ACT 7: FEAST DAY"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302866",
+    "title": "망상유희, ACT 6: IF",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "망상유희 주최 공연, ACT 6: IF",
+        "after": "망상유희, ACT 6: IF"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302752",
+    "title": "하현상 콘서트: Funny Family",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "startDate",
+        "before": "2026-10-24",
+        "after": "2026-10-23"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302752_261007_152235.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302752_261019_154146.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286497",
+    "title": "김종욱 찾기 [대학로]",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-30"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF235879",
+    "title": "피노키오야 노올자~! [대학로]",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303405",
+    "title": "서울어텀페스타, 콰르텟",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303405_261015_105703.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303405_261019_152347.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303282",
+    "title": "강아솔의 안부인사",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303282_261014_114931.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303282_261019_124521.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301421",
+    "title": "WORK IN TRIBOWL X 천하제일탈공작소, 명품탈춤 천하제일탈",
+    "detectedAt": "2026-10-19T18:48:47+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "WORK IN TRIBOWL X 천하제일탈공작소, 명품탈출 천하제일탈",
+        "after": "WORK IN TRIBOWL X 천하제일탈공작소, 명품탈춤 천하제일탈"
       }
     ]
   }
