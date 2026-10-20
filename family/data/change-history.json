@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF296762",
-    "title": "바다의 윤슬 [대학로]",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF294064",
-    "title": "제119회 강남 심포니 오케스트라 정기 연주회",
-    "detectedAt": "2026-10-07T10:26:31+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF288063",
     "title": "오르간 시리즈 II. 올리비에 라트리 & 이신영: 포 핸즈",
     "detectedAt": "2026-10-07T10:26:31+09:00",
@@ -12051,6 +12027,35 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302340",
+    "title": "ANTARES: OCTOBER",
+    "detectedAt": "2026-10-20T18:21:46+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-17",
+        "after": "2026-10-30"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF175093",
+    "title": "뷰티풀라이프",
+    "detectedAt": "2026-10-20T18:21:46+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
       }
     ]
   }
