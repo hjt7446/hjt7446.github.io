@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300169",
-    "title": "여주세종문화관광재단 기획공연: 숨, 세종의 뜻이 머무는 길 [여주]",
-    "detectedAt": "2026-10-08T10:49:22+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF299714",
-    "title": "제5회 경기 심포닉 윈드오케스트라 정기연주회: SONGS OF OUR LIFE 음악, 추억 그리고 삶 [과천]",
-    "detectedAt": "2026-10-08T10:49:22+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298154",
     "title": "대한민국 피아노 페스티벌, 베토벤 피아노 트리오 [수원]",
     "detectedAt": "2026-10-08T10:49:22+09:00",
@@ -12056,6 +12032,30 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF284594",
+    "title": "장수탕 선녀님 [서울 광진]",
+    "detectedAt": "2026-10-21T18:18:28+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-01",
+        "after": "2026-11-29"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-10-21T18:18:28+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-12-31"
       }
     ]
   }

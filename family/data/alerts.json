@@ -1,32 +1,22 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF303845",
-    "title": "쌀롱드무지끄, The last story Ⅱ",
-    "detectedAt": "2026-10-21T09:32:52+09:00",
+    "performanceId": "kopis-PF284594",
+    "title": "장수탕 선녀님 [서울 광진]",
+    "detectedAt": "2026-10-21T18:18:28+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
+      "endDate"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF303754",
-    "title": "한양국악제",
-    "detectedAt": "2026-10-21T09:32:52+09:00",
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-10-21T18:18:28+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "sourceStatus"
-    ]
-  },
-  {
-    "type": "CHANGED",
-    "performanceId": "kopis-PF303539",
-    "title": "1, 2, 3 그로버스 코너스",
-    "detectedAt": "2026-10-21T09:32:52+09:00",
-    "message": "공연 정보가 변경되었습니다.",
-    "changes": [
-      "sourceStatus"
+      "endDate"
     ]
   }
 ]
