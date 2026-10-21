@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF301043",
-    "title": "밴드날다: 시흥, 날다 [시흥]",
-    "detectedAt": "2026-10-08T10:49:22+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300558",
-    "title": "라 트라비아타 [남양주]",
-    "detectedAt": "2026-10-08T10:49:22+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300551",
-    "title": "이지훈과 함께하는 음악여행: 프랑스 & 독일 [파주]",
-    "detectedAt": "2026-10-08T10:49:22+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300169",
     "title": "여주세종문화관광재단 기획공연: 숨, 세종의 뜻이 머무는 길 [여주]",
     "detectedAt": "2026-10-08T10:49:22+09:00",
@@ -12051,6 +12015,42 @@
     "performanceId": "kopis-PF297274",
     "title": "광명전통예술플랫폼 Vol.1 피리 & 댄스: 날좀보쑈!",
     "detectedAt": "2026-10-20T23:57:54+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303845",
+    "title": "쌀롱드무지끄, The last story Ⅱ",
+    "detectedAt": "2026-10-21T09:32:52+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303754",
+    "title": "한양국악제",
+    "detectedAt": "2026-10-21T09:32:52+09:00",
+    "changes": [
+      {
+        "field": "sourceStatus",
+        "before": "공연예정",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303539",
+    "title": "1, 2, 3 그로버스 코너스",
+    "detectedAt": "2026-10-21T09:32:52+09:00",
     "changes": [
       {
         "field": "sourceStatus",
