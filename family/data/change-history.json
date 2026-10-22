@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF302790",
-    "title": "아기돼지 삼형제 [의정부]",
-    "detectedAt": "2026-10-09T11:01:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302230",
-    "title": "마법같은 시간이 시작된다! 세르지오의 원더랜드: 환상의 마술 & 레이저 쇼 [화성]",
-    "detectedAt": "2026-10-09T11:01:45+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF302009",
     "title": "제3회 신아름 & 신이레 듀오콘서트: 우리가 만난 밤, 두 영혼의 라흐마니노프 [성남]",
     "detectedAt": "2026-10-09T11:01:45+09:00",
@@ -12036,6 +12012,30 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF254868",
+    "title": "급식왕: 급식이 사라졌다",
+    "detectedAt": "2026-10-22T18:21:06+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-07",
+        "after": "2026-12-12"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF233263",
+    "title": "인사이드 미",
+    "detectedAt": "2026-10-22T18:21:06+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
       }
     ]
   }
