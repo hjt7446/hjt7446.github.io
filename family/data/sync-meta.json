@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-23T18:16:52+09:00",
+  "updatedAt": "2026-10-23T23:56:29+09:00",
   "status": "ok",
   "source": "KOPIS official API",
   "performanceCount": 1723,
   "venueCount": 453,
-  "changedCount": 0,
+  "changedCount": 129,
   "failedCount": 0,
   "ageSkippedCount": 467,
   "maxAudienceAge": 8,
