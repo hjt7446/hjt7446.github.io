@@ -1,7 +1,67 @@
 {
-  "updatedAt": "2026-10-25T15:53:12+09:00",
-  "sourceStatus": "오류 · 모든 수집 경로 실패; HTTP=hotdeal.zip HTTP 403; browser=브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; search=검색엔진 fallback에서도 hotdeal.zip 상세 링크를 찾지 못했습니다",
+  "updatedAt": "2026-10-26T22:20:09+09:00",
+  "sourceStatus": "정상 · 14개 글 확인 · 신규 조건일치 5건",
   "matches": [
+    {
+      "id": "26bb",
+      "title": "스타벅스 캡슐 커피 6박스 + 멀티팩 (30캡슐) + 블랙 머그 325ml (증정) - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-6%EB%B0%95%EC%8A%A4-%EB%A9%80%ED%8B%B0%ED%8C%A930%EC%BA%A1%EC%8A%90-%EB%B8%94%EB%9E%99-%EB%A8%B8%EA%B7%B8-325ml%EC%A6%9D%EC%A0%95-26bb",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-26T22:20:09+09:00"
+    },
+    {
+      "id": "bb77",
+      "title": "스타벅스 캡슐 커피 9박스 90캡슐+원액키트 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-9%EB%B0%95%EC%8A%A4-90%EC%BA%A1%EC%8A%90-%EC%9B%90%EC%95%A1%ED%82%A4%ED%8A%B8-bb77",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-26T22:20:09+09:00"
+    },
+    {
+      "id": "b423",
+      "title": "스타벅스 캡슐 커피 9박스 (90캡슐) 골라담기 + 스벅 아이스 커피 글라스 증정 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-9%EB%B0%95%EC%8A%A4-90%EC%BA%A1%EC%8A%90-%EA%B3%A8%EB%9D%BC%EB%8B%B4%EA%B8%B0-%EC%8A%A4%EB%B2%85-%EC%95%84%EC%9D%B4%EC%8A%A4-%EC%BB%A4%ED%94%BC-%EA%B8%80%EB%9D%BC%EC%8A%A4-%EC%A6%9D%EC%A0%95-b423",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-26T22:20:09+09:00"
+    },
+    {
+      "id": "1246",
+      "title": "스타벅스 캡슐 커피 9박스 (90캡슐) by 네스프레소 5+4박스 골라담기 + 아이스 커피 글라스 320ml 증정",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-9%EB%B0%95%EC%8A%A4-90%EC%BA%A1%EC%8A%90-by-%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-5-4%EB%B0%95%EC%8A%A4-%EA%B3%A8%EB%9D%BC%EB%8B%B4%EA%B8%B0-%EC%95%84%EC%9D%B4%EC%8A%A4-%EC%BB%A4%ED%94%BC-%EA%B8%80%EB%9D%BC%EC%8A%A4-320ml-%EC%A6%9D%EC%A0%95-1246",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-26T22:20:09+09:00"
+    },
+    {
+      "id": "d0d7",
+      "title": "스타벅스 캡슐 커피 9박스 (90캡슐) - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-9%EB%B0%95%EC%8A%A4-90%EC%BA%A1%EC%8A%90-d0d7",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-10-26T22:20:09+09:00"
+    },
     {
       "id": "b574",
       "title": "네스프레소 스타벅스 캡슐커피 5+4박스+머그 증정 - 핫딜모음",
