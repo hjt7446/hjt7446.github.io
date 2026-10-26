@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF302298",
-    "title": "가을 합창제",
-    "detectedAt": "2026-10-15T23:53:40+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302267",
-    "title": "강주희 플루트 리사이틀 JUHEE KANG FLUTE RECITAL",
-    "detectedAt": "2026-10-15T23:53:40+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302203",
-    "title": "방구석 시리즈 07. 비브라토 방구석 라이브 콘서트: 따운의 작은 우주 속 깊은 일대기",
-    "detectedAt": "2026-10-15T23:53:40+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF302062",
     "title": "먼데이프로젝트 시즌9, 매기스가든 단독 콘서트: pouring love and letters",
     "detectedAt": "2026-10-15T23:53:40+09:00",
@@ -12006,6 +11970,47 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295917",
+    "title": "국립무용단, 안무가 프로젝트",
+    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "",
+        "after": "박수현, 박정민, 권대혁, 김나은, 김다나, 배지은, 신한서 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295917_260714_144127.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295917_261026_144902.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF244959",
+    "title": "아기돼지삼형제: 늑대숲 또옹돼지 원정대 [대학로]",
+    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303726",
+    "title": "하상희 피아노 독주회",
+    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 6세 이상",
+        "after": "만 7세 이상"
       }
     ]
   }
