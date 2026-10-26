@@ -1,33 +1,392 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF295917",
-    "title": "국립무용단, 안무가 프로젝트",
-    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "performanceId": "kopis-PF304417",
+    "title": "제8회 SC브라이트 I AM Winner 마티네 콘서트",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "cast",
-      "poster"
+      "sourceStatus"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF244959",
-    "title": "아기돼지삼형제: 늑대숲 또옹돼지 원정대 [대학로]",
-    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "performanceId": "kopis-PF304265",
+    "title": "제12회 SC브라이트 협연시리즈, Matinee Orchestra Concert with SC BRIGHT ORCHESTRA",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "endDate"
+      "sourceStatus"
     ]
   },
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF303726",
-    "title": "하상희 피아노 독주회",
-    "detectedAt": "2026-10-26T19:01:24+09:00",
+    "performanceId": "kopis-PF304247",
+    "title": "제57주년 기념 21세기악회 작품발표회: 21세기음악 with K-STORY",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "age"
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF304011",
+    "title": "제9회 보스턴 콘서바토리 동문음악회 (보스턴 음악원)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303936",
+    "title": "행복 총량의 법칙 [대학로]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303769",
+    "title": "토마소 벤치올리니 & 레오노라 아르멜리니 듀오 플루트 & 피아노 리사이틀",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303759",
+    "title": "천탈쌀롱: 탈춤은 어떻게 오늘이 되는가? (10월)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303474",
+    "title": "제24회 람파스콰이어 정기연주회",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303424",
+    "title": "CHONGA Piano AdventureⅠ: Did You Know These?",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303235",
+    "title": "라라라온 [라이브클럽 빵]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303201",
+    "title": "진짜 친구",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303132",
+    "title": "제57주년 기념 21세기악회 작품발표회: 21세기음악 with K-STORY",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303128",
+    "title": "제54회 범음악제, 콘서트 Ⅳ. C-Camerata Taipei 초청연주회",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303105",
+    "title": "첼로 두오 헤르츠 리사이틀",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303005",
+    "title": "이스라엘 & 뉴브리드 내한공연",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302731",
+    "title": "컬러풀 스테이지 #24: 동화, D.BLUE, 난파란",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302652",
+    "title": "제2회 앙상블 오브 (Ensemble Aube (Of) ) 정기연주회: Sound of (Aube) Germany",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302623",
+    "title": "미친마을",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302464",
+    "title": "라움 마티네 콘서트, 클래식으로 되살아나는 감동 (10월)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302367",
+    "title": "제1200회 하우스콘서트, 듀오 얌니크 Duo Jamník",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302251",
+    "title": "제36회 아주여성합창단 & 제24회 아주남성합창단 정기연주회: 지금 여기, 그대로 빛나",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302133",
+    "title": "제39회 소정성악회 정기연주회",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302109",
+    "title": "클래식 판타지아 (with Korea Coop Orchestra)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302034",
+    "title": "제2회 부암공연예술제, 유익액터스: 음모론자들",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301717",
+    "title": "클래식이 사랑을 말하는 법 출간기념 북콘서트",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301361",
+    "title": "필경사, 박들비 [대학로]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301077",
+    "title": "제3회 심야N연극제, 관객모심",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301065",
+    "title": "앙상블 공간 프로젝트 열 일곱 번째 이야기: 여행과 이방인",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300742",
+    "title": "피아니스트 한가야 추모 음악회 Ⅱ",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298872",
+    "title": "장사익소리판: 길",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298796",
+    "title": "김세준 비올라 리사이틀: 계보의 소리: 프랑코-벨지언 (Legacy in Sound: Franco-Belgian)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF295548",
+    "title": "제11회 M클래식 축제, 전수진의 피아니즘",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF293214",
+    "title": "더중앙플러스 클래식 시리즈: 손민수 피아노 리사이틀",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303400",
+    "title": "남양주시립합창단, 클래식 세계여행: 즐거운 낭만음악 (10월)",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301551",
+    "title": "경기리베라오케스트라 피날레콘서트: OUR SYMPHONY: 우리의 교향곡",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301095",
+    "title": "제3회 솔트 합창단 & 솔트 오페라단 아이들의 꿈을 응원하는 드림 콘서트: 우리가 노래하는 이유 [성남]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297578",
+    "title": "피터래빗 [성남]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF296524",
+    "title": "벤슨 분 내한공연",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF294690",
+    "title": "일리야 라쉬코프스키, 라흐마니노프 3개의 피아노 협주곡 [부천]",
+    "detectedAt": "2026-10-27T01:44:41+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
     ]
   }
 ]
