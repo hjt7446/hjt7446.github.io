@@ -1,9 +1,9 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF295172",
-    "title": "늦은 봄날",
-    "detectedAt": "2026-10-27T10:25:24+09:00",
+    "performanceId": "kopis-PF293705",
+    "title": "2호선 세입자 [JS아트홀]",
+    "detectedAt": "2026-10-27T18:45:15+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
       "endDate"
