@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300395",
-    "title": "제62회 인천 시민의 날 & IFEZ 개청 23주년 기념 음악회",
-    "detectedAt": "2026-10-15T23:53:40+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF303462",
     "title": "족두리가 돌아왔다: 의순공주와 북벌이야기 [의정부]",
     "detectedAt": "2026-10-15T23:53:40+09:00",
@@ -12011,6 +11999,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF295172",
+    "title": "늦은 봄날",
+    "detectedAt": "2026-10-27T10:25:24+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-01",
+        "after": "2026-11-29"
       }
     ]
   }
