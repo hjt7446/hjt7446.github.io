@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF301048",
-    "title": "신현필x고희안, 디어 모차르트 [안양]",
-    "detectedAt": "2026-10-16T23:45:12+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300540",
-    "title": "제18회 품앗이 공연예술축제, 오버코트 [화성]",
-    "detectedAt": "2026-10-16T23:45:12+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300538",
     "title": "제18회 품앗이 공연예술축제, Rauxa Cia: Paper Theater [화성]",
     "detectedAt": "2026-10-16T23:45:12+09:00",
@@ -12011,6 +11987,30 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF301361",
+    "title": "필경사, 박들비 [대학로]",
+    "detectedAt": "2026-10-28T19:31:06+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "이종윤, 유정하, 및채민, 조유리",
+        "after": "이종윤, 유정하, 민채민, 조유리"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299980",
+    "title": "금호영재콘서트, 김성온 바이올린 독주회",
+    "detectedAt": "2026-10-28T19:31:06+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299980_260902_165645.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299980_261028_145757.gif"
       }
     ]
   }

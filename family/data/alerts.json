@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301361",
+    "title": "필경사, 박들비 [대학로]",
+    "detectedAt": "2026-10-28T19:31:06+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "cast"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299980",
+    "title": "금호영재콘서트, 김성온 바이올린 독주회",
+    "detectedAt": "2026-10-28T19:31:06+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "poster"
+    ]
+  }
+]
