@@ -1,53 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF294371",
-    "title": "(사) 한국페스티발앙상블 기획 연주 2. 창단 40주년: 유혹, 마흔번째 악장: 나에게, 이 한곡",
-    "detectedAt": "2026-10-18T08:57:41+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF293483",
-    "title": "예술의전당 토요콘서트, 프리뷰 베토벤 (10월)",
-    "detectedAt": "2026-10-18T08:57:41+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF292556",
-    "title": "겨울왕국: 겨울이야기 [서울 서대문]",
-    "detectedAt": "2026-10-18T08:57:41+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF291325",
-    "title": "Omoinotake One Man Tour in Seoul",
-    "detectedAt": "2026-10-18T08:57:41+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF282930",
     "title": "다비드 바뱅 & 아드리앙 몽도의 피아노 피아노",
     "detectedAt": "2026-10-18T08:57:41+09:00",
@@ -12011,6 +11963,59 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF303488",
+    "title": "SJF at the Theater, 백예린 X 윤석철",
+    "detectedAt": "2026-10-30T19:49:04+09:00",
+    "changes": [
+      {
+        "field": "startDate",
+        "before": "2026-11-21",
+        "after": "2026-11-17"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303488_261015_145916.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303488_261030_113132.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302938",
+    "title": "박세연 가야금 독주회: 본연 Ⅶ. 복성: 다시 울리는 기록의 소리",
+    "detectedAt": "2026-10-30T19:49:04+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "박세연 가야금 독주회",
+        "after": "박세연 가야금 독주회: 본연 Ⅶ. 복성: 다시 울리는 기록의 소리"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286031",
+    "title": "한밤의 공연 산책 Ⅳ, 포스트맨+서커스클래식",
+    "detectedAt": "2026-10-30T19:49:04+09:00",
+    "changes": [
+      {
+        "field": "genre",
+        "before": "복합",
+        "after": "서커스/마술"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF257643",
+    "title": "마하랑 떠나요, 수도SONG 세계여행 [고양]",
+    "detectedAt": "2026-10-30T19:49:04+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2026-11-29"
       }
     ]
   }
