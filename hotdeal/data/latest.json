@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-27T11:29:16+09:00",
-  "sourceStatus": "오류 · 모든 수집 경로 실패; HTTP=hotdeal.zip HTTP 403; browser=브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; search=검색엔진 fallback에서도 hotdeal.zip 상세 링크를 찾지 못했습니다",
+  "updatedAt": "2026-11-02T11:47:13+09:00",
+  "sourceStatus": "정상 · 8개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "1950",
+      "title": "일리 캡슐커피 인텐소 18캡슐 외 82종 - 핫딜모음",
+      "url": "https://hotdeal.zip/%EC%9D%BC%EB%A6%AC-%EC%BA%A1%EC%8A%90%EC%BB%A4%ED%94%BC-%EC%9D%B8%ED%85%90%EC%86%8C-18%EC%BA%A1%EC%8A%90-%EC%99%B8-82%EC%A2%85-1950",
+      "price": null,
+      "category": "",
+      "store": "네이버",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-11-02T11:47:13+09:00"
+    },
     {
       "id": "26bb",
       "title": "스타벅스 캡슐 커피 6박스 + 멀티팩 (30캡슐) + 블랙 머그 325ml (증정) - 핫딜모음",
