@@ -1,41 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF281670",
-    "title": "인천시립교향악단 기획연주회, 과정음악회 Ⅲ",
-    "detectedAt": "2026-10-23T00:06:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF304222",
-    "title": "정석주 피아노 리사이틀 [고양]",
-    "detectedAt": "2026-10-23T00:06:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF304136",
-    "title": "제3회 서울쿤스트오케스트라와 함께하는 장애인 한마음 열린음악회 [용인]",
-    "detectedAt": "2026-10-23T00:06:25+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF302690",
     "title": "제31회 살롱음악회, 피아니스트 안민혁과 친구들 Series Ⅲ",
     "detectedAt": "2026-10-23T00:06:25+09:00",
@@ -12006,6 +11970,47 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304598",
+    "title": "제9회 2인전통음악축제: I AM YOU, 김강빈 X 이민서: 수면: 현대인의 꿈",
+    "detectedAt": "2026-11-02T21:16:02+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304598_261027_141229.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304598_261102_161046.jpg"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF285349",
+    "title": "불편한 편의점2",
+    "detectedAt": "2026-11-02T21:16:02+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-29",
+        "after": "2026-12-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF242666",
+    "title": "페인터즈 [서대문전용관]",
+    "detectedAt": "2026-11-02T21:16:02+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-10-31",
+        "after": "2027-01-31"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
       }
     ]
   }
