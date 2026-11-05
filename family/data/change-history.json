@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300693",
-    "title": "민들레 피리 [오산]",
-    "detectedAt": "2026-10-23T23:56:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300639",
     "title": "제17회 화성시 뮤지컬단 정기공연: 우리들의 온에어",
     "detectedAt": "2026-10-23T23:56:29+09:00",
@@ -12011,6 +11999,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304830",
+    "title": "빛과소금합창단 창단 20주년 기념음악회 [인천]",
+    "detectedAt": "2026-11-05T21:10:47+09:00",
+    "changes": [
+      {
+        "field": "runtime",
+        "before": "",
+        "after": "1시간 30분"
       }
     ]
   }
