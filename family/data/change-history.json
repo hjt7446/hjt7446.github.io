@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF301528",
-    "title": "티어드랍, 네 번째 단독공연: TEARDROP IV",
-    "detectedAt": "2026-10-25T09:15:09+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF301516",
     "title": "DKB FAN-CON, BF: Besties Forever",
     "detectedAt": "2026-10-25T09:15:09+09:00",
@@ -12011,6 +11999,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302626",
+    "title": "톡톡 라이브쇼, 헬로카봇: 카봇크루가 되어줘! [서울 마포]",
+    "detectedAt": "2026-11-06T20:59:43+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "헬로카봇: 카봇크루가 되어줘! [서울 마포]",
+        "after": "톡톡 라이브쇼, 헬로카봇: 카봇크루가 되어줘! [서울 마포]"
       }
     ]
   }
