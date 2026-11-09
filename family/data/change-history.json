@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF299643",
-    "title": "부평아트센터 브런치콘서트, 작가의 재즈 (10월)",
-    "detectedAt": "2026-10-29T10:44:06+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299240",
     "title": "제6회 인천국제고음악제 I. 베아트리스 마르탱 X 코리안 바로크 소사이어티: The Bach Family",
     "detectedAt": "2026-10-29T10:44:06+09:00",
@@ -12006,6 +11994,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF220426",
+    "title": "죽여주는 이야기",
+    "detectedAt": "2026-11-09T21:44:57+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-30",
+        "after": "2027-03-31"
       }
     ]
   }
