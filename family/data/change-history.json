@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF304450",
-    "title": "아가페미션코랄 32주년 정기연주회: 이 땅을 새롭게 하실 예수님을 찬양",
-    "detectedAt": "2026-10-30T10:52:58+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF304389",
     "title": "앙상블 API, UNO (아피 우노) , Harmony of Two Worlds (두 세계의 하모니)",
     "detectedAt": "2026-10-30T10:52:58+09:00",
@@ -12006,6 +11994,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293558",
+    "title": "타임 [대학로]",
+    "detectedAt": "2026-11-10T21:29:26+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-29",
+        "after": "2026-12-31"
       }
     ]
   }
