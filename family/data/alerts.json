@@ -1,12 +1,262 @@
 [
   {
     "type": "CHANGED",
-    "performanceId": "kopis-PF220426",
-    "title": "죽여주는 이야기",
-    "detectedAt": "2026-11-09T21:44:57+09:00",
+    "performanceId": "kopis-PF305698",
+    "title": "제6회 드로잉더뮤직 음악콩쿠르 대상전",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
     "message": "공연 정보가 변경되었습니다.",
     "changes": [
-      "endDate"
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305583",
+    "title": "제6회 ㅊㅊ하다 페스티벌",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305564",
+    "title": "베리타스 뮤지케 음악제, TVT와의 국제교류 작품발표회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305554",
+    "title": "서울시민 생활음악 심포니 페스티벌",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305489",
+    "title": "제27회 중구구립합창단 정기 연주회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305487",
+    "title": "오소라 피아노 독주회: 모차르트 탄생 270주년 기념, 모차르트 피아노 소나타 전곡 시리즈 Ⅰ",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305318",
+    "title": "MIKOME LAST LIVE: END",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF305138",
+    "title": "제7회 김정림 구민희 피아노 듀오 콘서트",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF304887",
+    "title": "제21회 예인교수앙상블 정기연주회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF304601",
+    "title": "라라라온 [스페이스 한강]",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303378",
+    "title": "서울바흐축제, 칸타타 시리즈",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303362",
+    "title": "제37회 여음목관5중주 정기연주회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303303",
+    "title": "서형민의 베토벤 칸타빌레 with 더 칼리오페 심포니 오케스트라",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303266",
+    "title": "국립발레단, 카멜리아 레이디",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF303248",
+    "title": "강초롱 플루트 독주회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302792",
+    "title": "Sounds of Autumn",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302723",
+    "title": "지금 정리할게요 [대학로]",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302691",
+    "title": "리트플레이 겨울나그네 렉처 콘서트 (베스티클럽)",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302457",
+    "title": "누구나 클래식 with 대전시립교향악단 (11월)",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302199",
+    "title": "Tiffany & Co.와 함께하는 필라델피아 오케스트라 & 마린 알솝 with 임윤찬",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302038",
+    "title": "제1201회 하우스콘서트, 제레드 레드몬드",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301176",
+    "title": "제7회 블루밍 트리오 정기연주회",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF298862",
+    "title": "디 오리지널 시리즈, 임동혁 X 오케스트라 디 오리지널, 리부트: 라흐마니노프",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF304586",
+    "title": "음악감독 송경하와 함께하는 이탈리아 바닷가 도시 음악 여행",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF301005",
+    "title": "사과가 쿵! [부천]",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299347",
+    "title": "SAC ON SCREEN, 보컬 마스터 시리즈 Ⅲ. 베이스 바리톤 사무엘 윤 [화성] (영상화)",
+    "detectedAt": "2026-11-10T13:04:05+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "sourceStatus"
     ]
   }
 ]
