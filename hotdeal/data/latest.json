@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-09T07:44:14+09:00",
-  "sourceStatus": "정상 · 7개 글 확인 · 신규 조건일치 1건",
+  "updatedAt": "2026-11-11T11:48:34+09:00",
+  "sourceStatus": "정상 · 6개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "57gi",
+      "title": "스타벅스 캡슐 커피 90캡슐 5+2+2 박스 by 네스프레소 + 글라스 머그 370ml 증정",
+      "url": "https://hotdeal.zip/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4-%EC%BA%A1%EC%8A%90-%EC%BB%A4%ED%94%BC-90%EC%BA%A1%EC%8A%90-522-%EB%B0%95%EC%8A%A4-by-%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%EA%B8%80%EB%9D%BC%EC%8A%A4-%EB%A8%B8%EA%B7%B8-370ml-%EC%A6%9D%EC%A0%95-57gi",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-11-11T11:48:34+09:00"
+    },
     {
       "id": "562y",
       "title": "스타벅스 캡슐커피 10캡슐 x 9박스+머그컵 - 핫딜모음",
