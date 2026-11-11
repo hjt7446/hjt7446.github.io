@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF298438",
-    "title": "종로 가족공연축제, 꼬마장승 가출기",
-    "detectedAt": "2026-10-30T10:52:58+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF298096",
     "title": "칸호 야쿠시지 첫 내한공연, 10주년 월드투어: Circle of Harmony",
     "detectedAt": "2026-10-30T10:52:58+09:00",
@@ -12006,6 +11994,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304887",
+    "title": "제21회 예인교수앙상블 정기연주회",
+    "detectedAt": "2026-11-11T20:48:30+09:00",
+    "changes": [
+      {
+        "field": "price",
+        "before": "전석 20,000원",
+        "after": "R석 50,000원, S석 30,000원"
       }
     ]
   }
