@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF302340",
-    "title": "ANTARES: OCTOBER",
-    "detectedAt": "2026-10-31T10:30:53+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF302178",
     "title": "통합예술교육프로그램: 별난 극장 놀이터",
     "detectedAt": "2026-10-31T10:30:53+09:00",
@@ -12001,6 +11989,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299172",
+    "title": "영등포아트홀 기획공연, 도란도란 클래식 시즌2. 베토벤",
+    "detectedAt": "2026-11-12T21:32:48+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299172_260824_115849.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299172_261112_140642.png"
       }
     ]
   }
