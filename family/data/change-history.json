@@ -1,29 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300828",
-    "title": "용궁에 간 토끼 [남양주]",
-    "detectedAt": "2026-10-31T10:30:53+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF300746",
-    "title": "해설이 있는 스트릿댄스, 카르페디엠 [수원]",
-    "detectedAt": "2026-10-31T10:30:53+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF300283",
     "title": "오즈의 마법사 [고양]",
     "detectedAt": "2026-10-31T10:30:53+09:00",
@@ -12001,6 +11977,30 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF293285",
+    "title": "최현우 30주년 기념 공연: LEGACY",
+    "detectedAt": "2026-11-13T21:04:39+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293285_260610_134852.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293285_261113_162123.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF252877",
+    "title": "드립소년단 [대학로]",
+    "detectedAt": "2026-11-13T21:04:39+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-14",
+        "after": "2027-01-03"
       }
     ]
   }
