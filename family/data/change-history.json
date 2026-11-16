@@ -1,77 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF303669",
-    "title": "망상유희, RE4CT.EXE",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303606",
-    "title": "VIVAROCCO 콘서트: 그때의 우린",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303536",
-    "title": "먼데이프로젝트 IN 라이브클럽, 뉴링크 단독 콘서트",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303521",
-    "title": "기프트 x O.O.O 교차점",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303511",
-    "title": "제26회 월드 2인극 페스티벌, 이방인의 뜰",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303510",
-    "title": "스카재즈유닛 2집 Make Smile Release Party",
-    "detectedAt": "2026-11-06T11:15:29+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF303433",
     "title": "숲세권 라이브, 한희 with 채화린 & 휘나: LILAC",
     "detectedAt": "2026-11-06T11:15:29+09:00",
@@ -12001,6 +11929,88 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304725",
+    "title": "이선영 피아노 독주회",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 7세 이상",
+        "after": "만 6세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304464",
+    "title": "이홍섭 피아노 독주회, 빛창 (光窓) : 빛이 보이는 그곳으로",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "이홍섭 피아노 독주회: 빛창 (光窓) : 빛이 보이는 그곳으로",
+        "after": "이홍섭 피아노 독주회, 빛창 (光窓) : 빛이 보이는 그곳으로"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF296265",
+    "title": "옹알스 [대학로]",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-08",
+        "after": "2026-12-27"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296265_260716_140211.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296265_261116_140111.jpg"
+      },
+      {
+        "field": "sourceStatus",
+        "before": "공연완료",
+        "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF280368",
+    "title": "보물찾기 [대학로]",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-30",
+        "after": "2027-01-02"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF266985",
+    "title": "진연 [서울]",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-12-31",
+        "after": "2027-12-31"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF286305",
+    "title": "ACI 키즈 콘서트, 클랩 그림책 콘서트 Ⅴ. 겨울이 지나고 남는 것은? [인천]",
+    "detectedAt": "2026-11-16T21:38:31+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "",
+        "after": "김민정, 폴 매튜스, 최지예, 김민정, 김무선, 권윤주, 윤석영 등"
       }
     ]
   }
