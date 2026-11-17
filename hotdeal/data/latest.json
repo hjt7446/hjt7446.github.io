@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-16T10:06:41+09:00",
-  "sourceStatus": "오류 · 모든 수집 경로 실패; HTTP=hotdeal.zip HTTP 403; browser=브라우저 렌더링 후에도 핫딜 링크를 찾지 못했습니다; search=검색엔진 fallback에서도 hotdeal.zip 상세 링크를 찾지 못했습니다",
+  "updatedAt": "2026-11-17T09:59:23+09:00",
+  "sourceStatus": "정상 · 4개 글 확인 · 신규 조건일치 1건",
   "matches": [
+    {
+      "id": "8d8f",
+      "title": "던킨블렌드 캡슐커피, 네스프레소 호환, 에스프레소, 20개입, 4개",
+      "url": "https://hotdeal.zip/%EB%8D%98%ED%82%A8%EB%B8%94%EB%A0%8C%EB%93%9C-%EC%BA%A1%EC%8A%90%EC%BB%A4%ED%94%BC-%EB%84%A4%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-%ED%98%B8%ED%99%98-%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-20%EA%B0%9C%EC%9E%85-4%EA%B0%9C-8d8f",
+      "price": null,
+      "category": "",
+      "store": "",
+      "community": "",
+      "ruleId": "wet_tissue",
+      "ruleName": "캡슐",
+      "detectedAt": "2026-11-17T09:59:23+09:00"
+    },
     {
       "id": "57gi",
       "title": "스타벅스 캡슐 커피 90캡슐 5+2+2 박스 by 네스프레소 + 글라스 머그 370ml 증정",
