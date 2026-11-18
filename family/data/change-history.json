@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF303263",
-    "title": "음악공방 피오레움, 윤피아노 클래스 초청 연주회: 이윤희",
-    "detectedAt": "2026-11-07T10:49:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF303249",
     "title": "돈 파스콸레",
     "detectedAt": "2026-11-07T10:49:00+09:00",
@@ -12011,6 +11999,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF306037",
+    "title": "조기숙의 고고하지 않은 발레",
+    "detectedAt": "2026-11-18T12:39:01+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306037_261111_105240.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306037_261118_090548.jpg"
       }
     ]
   }
