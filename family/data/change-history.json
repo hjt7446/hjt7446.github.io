@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF303342",
-    "title": "제10회 늠내 클래식 축제, 동화가 흐르는 호두까기 인형 [시흥]",
-    "detectedAt": "2026-11-07T10:49:00+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF303233",
     "title": "수's PICK, 명성황후 [연천]",
     "detectedAt": "2026-11-07T10:49:00+09:00",
@@ -12011,6 +11999,23 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF175093",
+    "title": "뷰티풀라이프",
+    "detectedAt": "2026-11-19T21:52:02+09:00",
+    "changes": [
+      {
+        "field": "cast",
+        "before": "김원진, 김진호, 정경식, 신정윤, 김호창, 김종훈, 유인 등",
+        "after": "윤다훈, 김원진, 김진호, 정경식, 신정윤, 김종훈, 오진영 등"
+      },
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF175093_241218_105921.jpg",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF175093_261119_155035.gif"
       }
     ]
   }
