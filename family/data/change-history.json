@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF301325",
-    "title": "카운터테너 최성훈 리사이틀 Avec: The Baroque",
-    "detectedAt": "2026-11-08T10:18:42+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF301284",
     "title": "정동환의 어쿠스틱 룸",
     "detectedAt": "2026-11-08T10:18:42+09:00",
@@ -12016,6 +12004,18 @@
         "field": "sourceStatus",
         "before": "공연중",
         "after": "공연완료"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF260200",
+    "title": "알사탕",
+    "detectedAt": "2026-11-20T21:44:12+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-11-29",
+        "after": "2027-01-03"
       }
     ]
   }
