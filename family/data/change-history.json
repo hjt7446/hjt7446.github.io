@@ -1,17 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF300141",
-    "title": "오페라 정원, 라 보엠 [성남]",
-    "detectedAt": "2026-11-14T11:16:36+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF299975",
     "title": "이은미 콘서트 with 오케스트라: 추억이 핀다 [평택]",
     "detectedAt": "2026-11-14T11:16:36+09:00",
@@ -12021,6 +12009,18 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF306011",
+    "title": "고양월드클래식, 콘서트 오페라 비제: 카르멘 [고양]",
+    "detectedAt": "2026-11-25T13:51:45+09:00",
+    "changes": [
+      {
+        "field": "title",
+        "before": "고양월드클래식, 콘서트 오페라: 비제 카르멘 [고양]",
+        "after": "고양월드클래식, 콘서트 오페라 비제: 카르멘 [고양]"
       }
     ]
   }
