@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF304181",
+    "title": "국립정동극장 예술단, 아리랑",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "age"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF302516",
+    "title": "레베카 [서울]",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "age"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF300790",
+    "title": "쇼 머스트 고 온 in 대학로",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "poster"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF299855",
+    "title": "이끼숲",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "age"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF297912",
+    "title": "곤 투모로우 [대학로]",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "age"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  },
+  {
+    "type": "CHANGED",
+    "performanceId": "kopis-PF138268",
+    "title": "시간을 파는 상점",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "message": "공연 정보가 변경되었습니다.",
+    "changes": [
+      "endDate"
+    ]
+  }
+]

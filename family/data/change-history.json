@@ -1,89 +1,5 @@
 [
   {
-    "performanceId": "kopis-PF303360",
-    "title": "라 필하모니카 첫 내한공연 [서울]",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303254",
-    "title": "piknic 무성영화극장, 전함 포템킨",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303126",
-    "title": "인디애나대학교 동문 갈라 콘서트",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF303073",
-    "title": "린 (LYn) 콘서트: HOME",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302971",
-    "title": "윤유정 귀국 피아노 독주회 [서울]",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연예정",
-        "after": "공연중"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302928",
-    "title": "카디 단독공연: V",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
-    "performanceId": "kopis-PF302878",
-    "title": "제191회 한국독일가곡연구회 정기연주회: 연가곡 시리즈 Ⅳ",
-    "detectedAt": "2026-11-15T10:46:38+09:00",
-    "changes": [
-      {
-        "field": "sourceStatus",
-        "before": "공연중",
-        "after": "공연완료"
-      }
-    ]
-  },
-  {
     "performanceId": "kopis-PF302875",
     "title": "피아니스트 고연경의 해설이 있는 독주회: Key Words",
     "detectedAt": "2026-11-15T10:46:38+09:00",
@@ -12021,6 +11937,90 @@
         "field": "sourceStatus",
         "before": "공연예정",
         "after": "공연중"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF304181",
+    "title": "국립정동극장 예술단, 아리랑",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 4세 이상",
+        "after": "5세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF302516",
+    "title": "레베카 [서울]",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 7세 이상",
+        "after": "8세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF300790",
+    "title": "쇼 머스트 고 온 in 대학로",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "poster",
+        "before": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300790_260914_121206.gif",
+        "after": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300790_261126_173918.gif"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF299855",
+    "title": "이끼숲",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 7세 이상",
+        "after": "8세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF297912",
+    "title": "곤 투모로우 [대학로]",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "age",
+        "before": "만 7세 이상",
+        "after": "8세 이상"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF247938",
+    "title": "점프 JUMP",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-12-31",
+        "after": "2027-02-28"
+      }
+    ]
+  },
+  {
+    "performanceId": "kopis-PF138268",
+    "title": "시간을 파는 상점",
+    "detectedAt": "2026-11-26T22:47:03+09:00",
+    "changes": [
+      {
+        "field": "endDate",
+        "before": "2026-12-20",
+        "after": "2026-12-27"
       }
     ]
   }
